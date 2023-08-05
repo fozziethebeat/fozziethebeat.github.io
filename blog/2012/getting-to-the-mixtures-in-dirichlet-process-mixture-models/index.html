@@ -11,7 +11,7 @@
   FozzieTheBeat
 
 
-  | blog
+  | Getting to the Mixtures in Dirichlet Process Mixture Models
 
 </title>
 <meta name="description" content="A simple blog tracking my journey back into Open Source.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2012/getting-to-the-mixtures-in-dirichlet-process-mixture-models/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -105,15 +105,11 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
 
           <!-- Other pages -->
-          
-          
           
           
           
@@ -181,62 +177,104 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Fozzie the Blog</h1>
-    <h2>Simple notes and ideas</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Getting to the Mixtures in Dirichlet Process Mixture Models</h1>
+    <p class="post-meta">May 4, 2012</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/50-questions-for-co-founders/">Answers to 50 Questions for Co-Founders</a></h3>
-        <p class="post-meta">July 14, 2022</p>
-        <p>How appealing am I as a co-founder? Let's find out</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/committing-to-open-source-incentives/">Committing to Open Source Incentives</a></h3>
-        <p class="post-meta">December 7, 2021</p>
-        <p>Why secret job ladders do more harm than algorithms</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/">Hypothetical Organizational Values: Build Beyond Ourselves</a></h3>
-        <p class="post-meta">December 5, 2021</p>
-        <p>Where I draft hypothetical team values from Buddhism</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>The <a href="https://en.wikipedia.org/wiki/Dirichlet_process">Dirichlet Process</a> is pretty sweet as <a href="http://blog.echen.me/2012/03/20/infinite-mixture-models-with-nonparametric-bayes-and-the-dirichlet-process/">Edwin Chen</a> and numerous others have
+pointed out. When combined with a mixture of Bayesian models, it’s really
+effective for finding an accurate number of models needed to represent your
+bundle of data, especially useful when you have no idea how many bundles of
+related words you may have. Edwin Chen does a really great job of explaining
+how the Dirichlet Process works, how to implement it, and how it can break down
+the McDonald’s menu, but he leaves out details on how to combine it with
+mixture models, which is by far the coolest part.</p>
+
+<p>The short description for how to merge the Dirichlet Process with
+<a href="https://en.wikipedia.org/wiki/Mixture_model">Nonparametric Mixture Modeling</a>
+(and infer the model) looks like this:</p>
+
+<ol>
+  <li>Define probability distributions for your mixture model</li>
+  <li>Rewrite your distributions with Bayes rule so that parameters depend on
+data and hyper parameters</li>
+  <li>Repeat step 2 for hyper parameters as desired (it’s turtles all the way
+down, as Kevin Knight said)</li>
+  <li>For each data point
+    1.  Forget about the current data point
+    1.  Compute the likelihood that each mixture made this data point
+    1.  Sampling a new label for this data point using these likelihoods
+    1.  Jot down this new label
+    1.  Remember this data point</li>
+  <li>After seeing all the data, re-estimate all your parameters based on the
+new assignments</li>
+  <li>Repeat steps 4 and 5 ad nausea.</li>
+</ol>
+
+<p>In short, this is the Gibbs Sampling approach. If you already know what your distributions look like, and this paltry description made perfect sense, Hurray! Please go bake a cake for everyone that feels a little underwhelmed with this description.</p>
+
+<p>In short, this is the Gibbs Sampling approach. If you already know what your
+distributions look like, and this paltry description made perfect sense,
+Hurray! Please go bake a cake for everyone that feels a little underwhelmed
+with this description.</p>
+
+<p>Now that someone is off baking us cake, let’s dive down into what the
+distributions look like. Taking a look at a number of papers describing
+variations of the Dirichlet Process Mixture Model, like The <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.9111">Infinite Gaussian
+Mixture Model</a>
+and <a href="https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-1/Variational-inference-for-Dirichlet-process-mixtures/10.1214/06-BA104.full">Variational Inference for Dirichlet Process Mixture
+Models</a>,
+they first make things seem pretty straightforward. To start, they generally
+throw down this simple equation:</p>
+
+<p>Simple, no? If you want mixtures of Gaussian models, then has a mean and a
+variance, we’ll call these and . The next step is then to rewrite this equation
+in a couple of ways so that you define the parameters, i.e. in terms of the
+data and other parameters. One example: looks like this:</p>
+
+<p>Not too bad after reading through the definition for all the parameters; the
+first bundle describes the mean of the mixture and the second bundle describes
+the variance of the mixture. You may have noticed that our means for each
+mixture come from a Gaussian distribution themselves (I did say it was turtles
+all the way down). If you’re using a nice math coding environment, like
+<a href="https://github.com/scalala/Scalala">Scalala</a> and
+<a href="http://www.scalanlp.org/">Scalanlp</a>, you can easily sample from this
+distribution like this</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">val</span> <span class="nv">theta_j</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">Gamma</span><span class="o">((</span><span class="n">y_mean</span><span class="o">*</span><span class="n">n_j</span><span class="o">*</span><span class="n">s_j</span> <span class="o">+</span> <span class="n">lambda</span><span class="o">*</span><span class="n">r</span><span class="o">)/(</span><span class="n">n_j</span><span class="o">*</span><span class="n">s_j</span><span class="o">+</span><span class="n">r</span><span class="o">),</span> <span class="mf">1d</span><span class="o">/(</span><span class="n">n_j</span><span class="o">*</span><span class="n">s_j</span> <span class="o">+</span><span class="n">r</span><span class="o">)).</span><span class="py">sample</span>
+</code></pre></div></div>
+
+<p>This goes on for most of the parameters for the model until you get to one of
+the core tear inducing rewrites. This lovely gem describes the probably
+distribution function for one of the hyper parameters in the Infinite Gaussian
+Mixture Model:</p>
+
+<p>This is not easy to sample from especially if you’re new to sophisticated
+sampling methods. And sadly, just about every academic publication describing
+these kinds of models gets to a point where they assume you know what they’re
+talking about and can throw down Monte Carlo Markov Chain sampling procedures
+like they’re rice at a wedding.</p>
+
+<p>So what’s a lowly non-statistician data modeller to do? Start with a well
+written description of a similar, but significantly simpler model. In this
+case, <a href="http://users.umiacs.umd.edu/~resnik/pubs/gibbs.pdf">Gibbs Sampling for the
+Uninitiated</a>, which
+describes how to apply Gibbs to the Naive Bayes model. I’ll summarize this
+awesome paper in the next part of this series and then tweak it a little to
+make a <a href="https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model">Finite Gaussian Mixture
+Model</a>.
+After that’s said and done, I’ll show how to extend the finite version into the
+Dirichlet Process Mixture Model (with some simplifications).</p>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/5/index.html" title="blog - page 5">5</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 

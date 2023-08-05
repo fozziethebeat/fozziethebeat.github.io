@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  FozzieTheBeat
+
+
+  | Building Visualizations to Test Summarizations
+
+</title>
+<meta name="description" content="A simple blog tracking my journey back into Open Source.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/blog/2012/building-visualizations-to-test-summarizations/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://fozziethebeat.com/">
+       FozzieTheBeat
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Building Visualizations to Test Summarizations</h1>
+    <p class="post-meta">August 3, 2012</p>
+  </header>
+
+  <article class="post-content">
+    <p>I’m currently working on interesting on-line methods for summarizing streams of
+documents. The basic idea is that documents come hurtling into your inbox at a
+startling rate and you’d like a quick, easy, online method to summarize that
+they’re about. A lot of approaches to text summarization use an offline
+approach, meaning that those methods inspect all the documents. That’s not
+practical, especially if you want to, oh say, do this thing on all the tweets
+about the ongoing 2012 Olympics in London. So my goal is to work up a good
+enough algorithm for doing this process completely online. Even though it sadly
+won’t be working well enough to actually run online while the Olympics is going
+on (I’m still working on said algorithm), it could be pretty cool.</p>
+
+<p>However, figuring out if you’re doing something right or wrong on many million
+tweets about 50 different sports is kind of challenging. So while i’m gathering
+ton of data to process, and then processing it all, I figured I should design a
+night UI for exploring the results. Being a terrible UI guy I thought I could
+never pull it off, but thanks to the magicians behind Crossfilter and
+<a href="https://d3js.org/">D3.js</a>, it turned out to be pretty easy. The result of my
+UI wizardry is currently here.  And while there’s quite a lot more to add, such
+a way to select other sports or other summarization methods, it does the bulk
+of what I want:</p>
+
+<ol>
+  <li>It builds histograms of tweet’s based on three dimensions: the date, the
+hour, and the “cluster” of the tweet.</li>
+  <li>It lets you select sub-regions of these dimensions and automatically
+updates the histograms for other selection files. So if you put a range
+on the day, you can see the histograms according to hour and cluster for that
+date range.</li>
+  <li>Given a range, you can also see the most representative, or summary,
+tweets for the most frequent clusters in that range. There’s still a
+little bit missing, I should really be ordering the summaries by their time,
+but that’ll come later.</li>
+</ol>
+
+<p>As complicated as all that initially sounds, I barely had to write any
+JavaScript on my own, which is truly fortunate since I barely know JavaScript.</p>
+
+<h2 id="the-joy-of-making-that-ui">The joy of making that UI.</h2>
+
+<p>Since I know next to nothing about JavaScript, D3.js, and Crossfire, I did a
+lot of hacking, console debugging, and total guessing to make this beast work.
+So here’s a quick rundown on what these three things are doing together and how
+they synergize into my current app. There’s still quite a bit I don’t know, so
+i’ll mostly focus on what I figured out in my hackings.</p>
+
+<h3 id="loading-that-dataset">Loading that dataset</h3>
+
+<p>Cross filter arrays of key-valye javascript objects, which can be easily pulled
+out of Comma Separated Files. However, those initial object arrays are totally
+untyped, so you need to do some processing to shuffle values out of raw strings
+into something more usable. I’m currently using two styles of data: 1) one
+format that simple records the time of a tweet and it’s cluster identifier and
+2) one that records the cluster identifier, the time of the first tweet in that
+cluster, the time of the average tweet in that cluster, and the summary tweet.
+They’re pretty simple and look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Date,Time,Group
+07272344,1343400289,1
+07272351,1343400698,2
+07272351,1343400706,3
+</code></pre></div></div>
+
+<p>and</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>StartTime,MeanTime,Group,Summary
+1343458794,1343400289,1,I cannot wait for the swimming diving and gymnastics #London2012
+1343458793,1343400698,2,Hey @mdoolittle #olympics day today. I hope we'll have comments from you esp. 4 #gymnastics parts! ;) I'm an EX-gymnast too(it shows!lol)
+1343458791,1343400706,3,looking forward to the opening ceremony tonight just disappointed that SABC wont be showing much gymnastics #Olympics2012
+</code></pre></div></div>
+
+<p>D3 makes this super easy to handle. All you do is call <code class="language-plaintext highlighter-rouge">d3.csv(fileName,
+callback)</code>. In my example, this turns out to be:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="code"><pre><span class="nx">d3</span><span class="p">.</span><span class="nx">csv</span><span class="p">(</span><span class="dl">"</span><span class="s2">/crossfilter/tweet.gymnastics.particle.mean.all.splits.json</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">summaries</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Add in types to the summaries.</span>
+    <span class="nx">summaries</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
+       <span class="nx">d</span><span class="p">.</span><span class="nx">index</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>
+       <span class="nx">d</span><span class="p">.</span><span class="nx">group</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">Group</span><span class="p">);</span>
+       <span class="nx">d</span><span class="p">.</span><span class="nx">startTime</span> <span class="o">=</span> <span class="nx">parseTime</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">StartTime</span><span class="p">);</span>
+       <span class="nx">d</span><span class="p">.</span><span class="nx">meanTime</span> <span class="o">=</span> <span class="nx">parseTime</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">MeanTime</span><span class="p">);</span>
+    <span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>and</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="code"><pre><span class="nx">d3</span><span class="p">.</span><span class="nx">csv</span><span class="p">(</span><span class="dl">"</span><span class="s2">/crossfilter/tweet.gymnastics.particle.mean.all.groups.json</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">tweets</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Add in types to the tweets.</span>
+    <span class="nx">tweets</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">index</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">group</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">Group</span><span class="p">);</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">time</span> <span class="o">=</span> <span class="nx">parseDate</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nb">Date</span><span class="p">);</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">date</span> <span class="o">=</span> <span class="nx">parseTime</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">Time</span><span class="p">);</span>
+    <span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="crossing-the-filters-on-that-data">Crossing the filters on that data</h3>
+
+<p>Once you’ve got data loaded, you gotta do something with it, no? Crossfilter
+lets you do some super powerful things with very little work. The primary job
+of cross filter is to take your array of objects and let you select different
+dimensions to act as keys in that array. Initially your key is just the index
+of the array. But after calling dimension on a crossfiltered object, you can
+select any variable in your object to be a key. Since I wanted three charts,
+that means I need three keys: 1) a key on the day, 2) a key on the hour, and 3)
+a key on the cluster id. I also want counts for the number of tweets in the
+bins corresponding to each dimension. That sounds like a lot of work, but it’s
+as easy as this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="code"><pre><span class="c1">// Create the crossfilter over the tweets.</span>
+<span class="kd">var</span> <span class="nx">tweet</span> <span class="o">=</span> <span class="nx">crossfilter</span><span class="p">(</span><span class="nx">tweets</span><span class="p">),</span>
+    <span class="c1">// This groups all tweets together.</span>
+    <span class="nx">all</span> <span class="o">=</span> <span class="nx">tweet</span><span class="p">.</span><span class="nx">groupAll</span><span class="p">(),</span>
+    <span class="c1">// Select the day of the tweet as a dimension and compute the counts.</span>
+    <span class="nx">date</span> <span class="o">=</span> <span class="nx">tweet</span><span class="p">.</span><span class="nx">dimension</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">time</span><span class="p">.</span><span class="nx">day</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">date</span><span class="p">);</span> <span class="p">}),</span>
+    <span class="nx">dates</span> <span class="o">=</span> <span class="nx">date</span><span class="p">.</span><span class="nx">group</span><span class="p">(),</span>
+    <span class="c1">// Select the hour of the tweet as a dimension and compute the counts.</span>
+    <span class="nx">hour</span> <span class="o">=</span> <span class="nx">tweet</span><span class="p">.</span><span class="nx">dimension</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">date</span><span class="p">.</span><span class="nx">getHours</span><span class="p">()</span> <span class="o">+</span> <span class="nx">d</span><span class="p">.</span><span class="nx">date</span><span class="p">.</span><span class="nx">getMinutes</span><span class="p">()</span> <span class="o">/</span> <span class="mi">60</span><span class="p">;</span> <span class="p">}),</span>
+    <span class="nx">hours</span> <span class="o">=</span> <span class="nx">hour</span><span class="p">.</span><span class="nx">group</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">),</span>
+    <span class="c1">// Select the cluster id of the tweet as a dimension and compute the counts.</span>
+    <span class="nx">cluster</span> <span class="o">=</span> <span class="nx">tweet</span><span class="p">.</span><span class="nx">dimension</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">group</span><span class="p">;</span> <span class="p">}),</span>
+    <span class="nx">clusters</span> <span class="o">=</span> <span class="nx">cluster</span><span class="p">.</span><span class="nx">group</span><span class="p">();</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>That’s it! All you need is two lines to select a dimension for your chart and
+compute the data for the histogram. Easy Breezy.</p>
+
+<h3 id="charting-those-groups">Charting those groups</h3>
+
+<p>Now that you’ve got some dimensions set up and some counts to go along with
+them, it’s time to plot those fine numbers. For each chart you want, all you
+have to do is note what dimension you want to use, provide the summary counts,
+put some limits on the plots, then apply all that to some plotting object like
+a bar graph. I’m just using bar charts, but this other crossfilter example
+gives some sweet alternatives you can re-use.</p>
+
+<figure class="highlight"><pre><code class="language-scala" data-lang="scala"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="c1">// The first chart tracks the hours of each tweet.  It has the</span>
+<span class="c1">// standard 24 hour time range and uses a 24 hour clock.</span>
+<span class="nf">barChart</span><span class="o">().</span><span class="py">dimension</span><span class="o">(</span><span class="n">hour</span><span class="o">)</span>
+          <span class="o">.</span><span class="py">group</span><span class="o">(</span><span class="n">hours</span><span class="o">)</span>
+          <span class="c1">// Setup the type of dimension you want and the range of values that</span>
+          <span class="c1">// are valid.  Note that I'm still a little fuzzy on this part.</span>
+          <span class="o">.</span><span class="py">x</span><span class="o">(</span><span class="nv">d3</span><span class="o">.</span><span class="py">scale</span><span class="o">.</span><span class="py">linear</span><span class="o">()</span>
+                     <span class="o">.</span><span class="py">domain</span><span class="o">([</span><span class="err">0</span>, <span class="err">24</span><span class="o">])</span>
+                     <span class="o">.</span><span class="py">rangeRound</span><span class="o">([</span><span class="err">0</span>, <span class="err">10</span> <span class="kt">*</span> <span class="err">24</span><span class="o">])),</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="printing-the-tweet-summaries">Printing the tweet summaries</h3>
+
+<p>The fun part is printing all the summaries for the tweets that have been
+selected. The original Crossfilter example was pretty simple, it just printout
+out the actual rows being selected in the histograms. But I wanted to do
+something more complicated. I wanted to figure out which clusters existed in
+the selection, get the summaries attached to each cluster (and only one copy of
+the summary per cluster), and then organize the summaries by date. Not knowing
+javascript, that sounded kinda hard. In my candy land language, [Scala][7],
+it’s pretty easy to do with some groupBys and maps, but does javascript have
+all this? YES! Turns out the clusters object` computed to print the histogram
+has nearly everything I want, the collection of cluster identifiers found in
+the current filter selection. And since all arrays in JavaScript have a map
+operator, I can get the array of summaries I so desperately desired.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="code"><pre><span class="c1">// Map each of the top clusters to their corresponding summaries.</span>
+<span class="c1">// Note that the entries in clusters use group identifiers starting at 1, so we</span>
+<span class="c1">// have to subtract by 1 to make them valid indices.</span>
+<span class="kd">var</span> <span class="nx">clusterSummaries</span> <span class="o">=</span> <span class="nx">clusters</span><span class="p">.</span><span class="nx">top</span><span class="p">(</span><span class="mi">40</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">summaries</span><span class="p">[</span><span class="nx">d</span><span class="p">.</span><span class="nx">key</span><span class="o">-</span><span class="mi">1</span><span class="p">];</span>
+<span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Next comes the cool part, creating a hierarchy on the cluster summaries based
+on the date. These two lines together do that magic:j</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">nestByDate</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">nest</span><span class="p">().</span><span class="nx">key</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">time</span><span class="p">.</span><span class="nx">day</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">startTime</span><span class="p">);</span> <span class="p">});</span>
+<span class="c1">// Group the summaries by their date.</span>
+<span class="kd">var</span> <span class="nx">tweetsByGroup</span> <span class="o">=</span> <span class="nx">nestByDate</span><span class="p">.</span><span class="nx">entries</span><span class="p">(</span><span class="nx">clusterSummaries</span><span class="p">);</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>The first line creates an object that will nest any array of items with a
+startTime attribute according to their day and the second line runs that nester
+over the cluster summaries to get a mapping from days to arrays of summaries
+occuring on each day. Using that nested object, you can build a table of tweet
+summaries for each day by attaching the data object to the list div holding
+those tables:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+</pre></td><td class="code"><pre><span class="c1">// For each day's summaries, add them as a table with the date as</span>
+<span class="c1">// the header.</span>
+<span class="nx">div</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// This binds the date nested group of tweet summaries to the `.date` element</span>
+  <span class="c1">// of the `summary-list div.</span>
+  <span class="kd">var</span> <span class="nx">date</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
+               <span class="p">.</span><span class="nx">selectAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">.date</span><span class="dl">"</span><span class="p">)</span>
+               <span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="nx">tweetsByGroup</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">key</span><span class="p">;</span> <span class="p">});</span>
+
+  <span class="c1">// This appends a new `.date` and `.day` div for each item in the nested list</span>
+  <span class="c1">// the summary's start time as the title for the list.</span>
+  <span class="nx">date</span><span class="p">.</span><span class="nx">enter</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="dl">"</span><span class="s2">class</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">date</span><span class="dl">"</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="dl">"</span><span class="s2">class</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">day</span><span class="dl">"</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">text</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">formatDate</span><span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">values</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">startTime</span><span class="p">);</span> <span class="p">});</span>
+
+  <span class="nx">date</span><span class="p">.</span><span class="nx">exit</span><span class="p">().</span><span class="nx">remove</span><span class="p">();</span>
+
+  <span class="c1">// This binds each entry in the nested list, i.e. the list of summaries for</span>
+  <span class="c1">// each day, to the divs created above.  This way each div, titled with a</span>
+  <span class="c1">// particular day, has the array of summaries found on that day.</span>
+  <span class="kd">var</span> <span class="nx">summary</span> <span class="o">=</span> <span class="nx">date</span><span class="p">.</span><span class="nx">order</span><span class="p">()</span>
+                    <span class="p">.</span><span class="nx">selectAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">.summarylist</span><span class="dl">"</span><span class="p">)</span>
+                    <span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">values</span><span class="p">;</span> <span class="p">},</span>
+                         <span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">index</span><span class="p">;</span> <span class="p">});</span>
+
+  <span class="c1">// This creates a new `.summarylist` div to surround the summaries.</span>
+  <span class="kd">var</span> <span class="nx">summaryEnter</span> <span class="o">=</span> <span class="nx">summary</span><span class="p">.</span><span class="nx">enter</span><span class="p">()</span>
+                            <span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">)</span>
+                            <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="dl">"</span><span class="s2">class</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">summarylist</span><span class="dl">"</span><span class="p">);</span>
+
+  <span class="c1">// This creates a new '.summary' div for each summary to place in the list.</span>
+  <span class="nx">summaryEnter</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="dl">"</span><span class="s2">div</span><span class="dl">"</span><span class="p">)</span>
+              <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="dl">"</span><span class="s2">class</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">summary</span><span class="dl">"</span><span class="p">)</span>
+              <span class="p">.</span><span class="nx">text</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">d</span><span class="p">.</span><span class="nx">Summary</span><span class="p">;</span> <span class="p">});</span>
+
+  <span class="nx">summary</span><span class="p">.</span><span class="nx">exit</span><span class="p">().</span><span class="nx">remove</span><span class="p">();</span>
+
+  <span class="nx">summary</span><span class="p">.</span><span class="nx">order</span><span class="p">();</span>
+<span class="p">});</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>And that’s it! Again, easy breazy.</p>
+
+<h2 id="setting-up-the-divs-for-the-stuff-you-want">Setting up the divs for the stuff you want</h2>
+
+<p>The last thing you need whenever you’re going to be mashing data into a website
+via D3 is some divs to host that data. For my application, I need just two
+types of divs: charts to hold the histograms and tables to hold the summaries.
+These look like:</p>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"charts"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"hour-chart"</span> <span class="na">class=</span><span class="s">"chart"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Time of Day<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"cluster-chart"</span> <span class="na">class=</span><span class="s">"chart"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Cluster<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"date-chart"</span> <span class="na">class=</span><span class="s">"chart"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"title"</span><span class="nt">&gt;</span>Date<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"lists"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"summary-list"</span> <span class="na">class=</span><span class="s">"list"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>They’re pretty dead simple. One chart for each histogram I’m plotting and a
+general div for the lists. The lists will get populated with more divs
+dynamically based on how many dates fall into a selected range.</p>
+
+<h2 id="creating-the-data-to-put-in-this-app">Creating the data to put in this app</h2>
+
+<p>o how did I get all these tweets? And how did I split them up into different
+clusters? That’s secret for now, but if my current research project is looking
+good, that’ll be come the topic of a new research paper, and if not, i’ll be
+the topic of a blog post describing what failed! So stay tuned!</p>
+
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License"
+           style="border-width:0"
+           src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    This
+    work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International License
+    </a>.
+
+    <br />
+
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>

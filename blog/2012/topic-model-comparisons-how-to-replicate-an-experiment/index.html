@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  FozzieTheBeat
+
+
+  | Topic Model Comparisons: How to Replicate an Experiment
+
+</title>
+<meta name="description" content="A simple blog tracking my journey back into Open Source.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/blog/2012/topic-model-comparisons-how-to-replicate-an-experiment/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://fozziethebeat.com/">
+       FozzieTheBeat
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Topic Model Comparisons: How to Replicate an Experiment</h1>
+    <p class="post-meta">June 4, 2012</p>
+  </header>
+
+  <article class="post-content">
+    <p>We (Keith Stevens, Philip Kegelmeyer, David Andrzejewski, and David Buttler)
+published the paper <a href="https://github.com/fozziethebeat/TopicModelComparison">Exploring Topic Coherence over many models and many
+topics</a> which compares
+several topic models using a variety of measures in an attempt to determine
+which model should be used in which application. This evaluation secondly
+compares automatic coherence measures as a quick, task free method for
+comparing a variety of models. Below is a detailed series of steps on how to
+replicate the results from the paper.</p>
+
+<p>The evaluation setup breaks down into the following steps:</p>
+
+<ol>
+  <li>Select a corpus and pre-process.</li>
+  <li>Remove stop words, infrequent words, and format the corpus.</li>
+  <li>Perform topic modelling on all documents</li>
+  <li>Compute topic coherence measures for induced topics</li>
+  <li>Compute word similarities using semantic pairing tests</li>
+  <li>Compute Classifier accuracy using induced topics</li>
+</ol>
+
+<p>Each of these steps are automated in the bash scripts provided in this
+repository. To run those scripts read the last section for downloading the
+needed components, setting parameters, and then watching the scripts blaze
+through the setup.</p>
+
+<p>The rest of this writeup explains each step in more detail than was permitted
+in the published paper.</p>
+
+<h2 id="selecting-the-corpus">Selecting the corpus</h2>
+
+<p>The evaluation requires the use of a semantically labeled corpus that has a
+relatively cohesive focus. The original paper used all articles from 2003 of
+the <a href="https://catalog.ldc.upenn.edu/LDC2008T19">New York Times Annotated Corpus</a>
+provided by the <a href="https://www.ldc.upenn.edu/">Linguistics Data Consortium</a> Any
+similarly structured corpus should
+work.</p>
+
+<p>The New York Times corpus requires some pre-processing before it can be easily
+used in the evaluation. The original corpus comes in a series of tarballed xml
+files where each file looks something like this:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;nitf</span> <span class="na">change.date=</span><span class="s">"month day, year"</span> <span class="na">change.time=</span><span class="s">"HH:MM"</span> <span class="na">version=</span><span class="s">"-//IPTC//DTD NITF 3.3//EN"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Article Title<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">content=</span><span class="s">"Section Name"</span> <span class="na">name=</span><span class="s">"online_sections"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;body.contents&gt;</span>
+    <span class="nt">&lt;block</span> <span class="na">class=</span><span class="s">"full_text"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Article text<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/block&gt;</span>
+  <span class="nt">&lt;/body.contents&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/nitf&gt;</span>
+</code></pre></div></div>
+
+<p>This leaves out a lot of details, but it covers the key items we will need: (1)
+the full text of the article and (2) all online_sections for the article.
+Extracting this can be kinda hairy. The following snippet gives a gist of how
+to extract and format the necessary data:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nn">scala.xml.XML</span>
+
+<span class="k">val</span> <span class="nv">doc</span> <span class="k">=</span> <span class="nv">XML</span><span class="o">.</span><span class="py">loadFile</span><span class="o">(</span><span class="n">file</span><span class="o">)</span>
+<span class="k">val</span> <span class="nv">sections</span> <span class="k">=</span> <span class="o">(</span><span class="n">doc</span> <span class="o">\\</span> <span class="s">"meta"</span><span class="o">).</span><span class="py">filter</span><span class="o">(</span><span class="n">node</span> <span class="k">=&gt;</span> <span class="o">(</span><span class="n">node</span> <span class="o">\</span> <span class="s">"@name"</span><span class="o">).</span><span class="py">text</span> <span class="o">==</span> <span class="s">"online_sections"</span><span class="o">)</span>
+                              <span class="o">.</span><span class="py">map</span><span class="o">(</span><span class="n">node</span> <span class="k">=&gt;</span> <span class="o">(</span><span class="n">node</span> <span class="o">\</span> <span class="s">"@content"</span><span class="o">).</span><span class="py">text</span><span class="o">)</span>
+                              <span class="o">.</span><span class="py">mkString</span><span class="o">(</span><span class="s">";"</span><span class="o">)</span>
+<span class="k">val</span> <span class="nv">text</span> <span class="k">=</span> <span class="o">(</span><span class="n">doc</span> <span class="o">\\</span> <span class="s">"block"</span><span class="o">).</span><span class="py">filter</span><span class="o">(</span><span class="n">node</span> <span class="k">=&gt;</span> <span class="o">(</span><span class="n">node</span> <span class="o">\</span> <span class="s">"@class"</span><span class="o">).</span><span class="py">text</span> <span class="o">==</span> <span class="s">"full_text"</span><span class="o">)</span>
+                           <span class="o">.</span><span class="py">flatMap</span><span class="o">(</span><span class="n">node</span> <span class="k">=&gt;</span> <span class="o">(</span><span class="n">node</span> <span class="o">\</span> <span class="s">"p"</span><span class="o">).</span><span class="py">map</span><span class="o">(</span><span class="nv">_</span><span class="o">.</span><span class="py">text</span><span class="o">.</span><span class="py">replace</span><span class="o">(</span><span class="s">"\n"</span><span class="o">,</span> <span class="s">" "</span><span class="o">).</span><span class="py">trim</span><span class="o">))</span>
+                           <span class="o">.</span><span class="py">mkString</span><span class="o">(</span><span class="s">" "</span><span class="o">)</span>
+</code></pre></div></div>
+
+<p>Before printing the data, we also need to tokenize everything. We used the Open
+NLP MaxEnt tokenizers. First download the english MaxEnt tokenizer model
+<a href="opennlp.sourceforge.net/models-1.5/en-token.bin">here</a> then do the following
+before processing each document</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">val</span> <span class="nv">tokenizerModel</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">TokenizerModel</span><span class="o">(</span><span class="k">new</span> <span class="nc">FileInputStream</span><span class="o">(</span><span class="n">modelFileName</span><span class="o">))</span>
+<span class="k">val</span> <span class="nv">tokenizer</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">TokenizerME</span><span class="o">(</span><span class="n">tokenizerModel</span><span class="o">)</span>
+<span class="k">val</span> <span class="nv">stopWords</span> <span class="k">=</span> <span class="nv">Source</span><span class="o">.</span><span class="py">fromFile</span><span class="o">(</span><span class="nf">args</span><span class="o">(</span><span class="mi">1</span><span class="o">)).</span><span class="py">getLines</span><span class="o">.</span><span class="py">toSet</span>
+<span class="k">def</span> <span class="nf">acceptToken</span><span class="o">(</span><span class="n">token</span><span class="k">:</span> <span class="kt">String</span><span class="o">)</span> <span class="k">=</span> <span class="o">!</span><span class="nv">stopWords</span><span class="o">.</span><span class="py">contains</span><span class="o">(</span><span class="n">token</span><span class="o">)</span>
+</code></pre></div></div>
+
+<p>And then do the following to each piece of text extracted:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">val</span> <span class="nv">tokenizedText</span> <span class="k">=</span> <span class="nv">tokenizer</span><span class="o">.</span><span class="py">toLowerCase</span><span class="o">.</span><span class="py">tokenize</span><span class="o">(</span><span class="n">text</span><span class="o">).</span><span class="py">filter</span><span class="o">(</span><span class="n">acceptToken</span><span class="o">).</span><span class="py">mkString</span><span class="o">(</span><span class="s">" "</span><span class="o">)</span>
+<span class="nf">printf</span><span class="o">(</span><span class="s">"%s\t%s\n"</span><span class="o">,</span> <span class="n">sections</span><span class="o">,</span> <span class="n">tokenizedText</span><span class="o">)</span>
+</code></pre></div></div>
+
+<p>This should generate one line per document in the format</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">section_1</span><span class="o">(;</span><span class="n">section_n</span><span class="o">)+&lt;</span><span class="nc">TAB</span><span class="o">&gt;</span><span class="n">doc_text</span>
+</code></pre></div></div>
+
+<p>With properly tokenized text and a series of stop words removed..</p>
+
+<h2 id="filtering-tokens">Filtering tokens</h2>
+
+<p>In order to limit the memory requirements of our processing steps, we discard any word that is not in the list of word similarity pairs or the top 100k most frequent tokens in the corpus. The following bash lines will accomplish this:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="nv">$oneDocFile</span> | <span class="nb">cut</span> <span class="nt">-f</span> 2 | <span class="nb">tr</span> <span class="s2">" "</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> | <span class="nb">sort</span> | <span class="nb">uniq</span> <span class="nt">-c</span> | <span class="se">\</span>
+                  <span class="nb">sort</span> <span class="nt">-n</span> <span class="nt">-k</span> 1 <span class="nt">-r</span> | <span class="nb">head</span> <span class="nt">-n</span> 100000 | <span class="se">\</span>
+                  <span class="nb">awk</span> <span class="s1">'{ print $2 }'</span> <span class="o">&gt;</span> <span class="nv">$topTokens</span>
+<span class="nb">cat </span>wordsim<span class="k">*</span>.terms.txt <span class="nv">$topTokens</span> | <span class="nb">uniq</span> <span class="o">&gt;</span> .temp.txt
+<span class="nb">mv</span> .temp.txt <span class="nv">$topTokens</span>
+</code></pre></div></div>
+
+<p>Once we’ve gotten the top tokens that’ll be used during processing, we do one
+more filtering of the corpus to reduce each document down to only the accepted
+words and discard any documents that contain no useful content words. Running
+<a href="http://opennlp.sourceforge.net/models-1.5/en-token.bin">FilterCorpus</a> with the top
+tokens file and the corpus file will return a properly filtered corpus.</p>
+
+<h2 id="topic-modeling">Topic Modeling</h2>
+
+<p>With all the pre-processing completed, we can now generate topics for the
+corpus. We do this using two different methods (1) Latent Dirichlet Allocation
+and (2) Latent Semantic Analysis. Unless otherwise stated, we we performed
+topic modeling using each method for 1 to 100 topics, and for 110 to 500 topics
+with steps of 10.</p>
+
+<h3 id="processing-for-latent-dirichlet-allocation">Processing for Latent Dirichlet Allocation</h3>
+
+<p>We use <a href="http://mallet.cs.umass.edu/">Mallet’s</a> fast parallel implementaiton of
+Latent Dirichlet Allocation to do the topic modelling. Since Mallet’s interface
+does not let us easily limit the set of tokens or set the indices we want each
+token to have, we provide a class to do this: <code class="language-plaintext highlighter-rouge">TopicModelNewYorkTimes</code>. This
+takes five arguments</p>
+
+<ol>
+  <li>The set of content words to represent</li>
+  <li>Number of top words to report for each topic</li>
+  <li>The documents to represent</li>
+  <li>The number of topics</li>
+  <li>A name for the output data.</li>
+</ol>
+
+<p>And we run this with the following command.</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.TopicModelNewYorkTimes <span class="nv">$topTokens</span> 10 <span class="nv">$oneDocFile</span> <span class="nv">$nTopics</span> nyt03_LDA_<span class="nv">$nTopics</span>
+</code></pre></div></div>
+
+<p>for the specified range of topics. The command will then perform LDA and store
+the term by topic matrix in <code class="language-plaintext highlighter-rouge">nyt03_LDA_$nTopics-ws.dat</code>, the document by topic
+matrix in <code class="language-plaintext highlighter-rouge">nyt03_LDA_$nTopics-ds.dat</code>, and the top 10 words for each topic in
+<code class="language-plaintext highlighter-rouge">nyt03_LDA_$nTopics.top10</code>.</p>
+
+<h2 id="processing-for-latent-semantic-analysis">Processing for Latent Semantic Analysis</h2>
+
+<p>Latent Semantic Analysis at it’s core decomposes a term by document matrix into
+two smaller latent matrices using one of two methods: (1) <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition">Singular Value
+Decomposition</a> and
+(2) <a href="https://en.wikipedia.org/wiki/Non-negative_matrix_factorization">Non-negative Matrix
+Factorization</a>.
+We do this in two steps:</p>
+
+<ol>
+  <li>Build a weighted term document matrix.</li>
+  <li>Factorize the matrix using either SVD or NMF.</li>
+</ol>
+
+<p>We use the
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/BuildTermDocMatrix.scala">BuildTermDocMatrix</a>
+class to perform the first step. It takes four arguments:</p>
+
+<ol>
+  <li>A list of words to represent</li>
+  <li>A feature transformation method, valid options are tfidf, logentropy, and
+none</li>
+  <li>The corpus to represent</li>
+  <li>An output filename</li>
+</ol>
+
+<p>We run this once on our properly formatted corpus using the top set of tokens
+using this command</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.BuildTermDocMatrix <span class="nv">$topTokens</span> logentropy <span class="nv">$oneDocFile</span> <span class="nv">$oneDocFile</span>.mat
+</code></pre></div></div>
+
+<p>With the term document matrix, we then decompose it using the
+<code class="language-plaintext highlighter-rouge">MatrixFactorNewYorkTimes</code> method, which uses either SVD or NMF to decompose
+the matrix and stores a term by latent factor matrix and a document by latent
+factor matrix to disk. A sample run of this looks like:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.MatrixFactorNewYorkTimes <span class="nv">$oneDocFile</span>.mat nmf 10 nyt03_NMF_10-ws.dat nyt03_NMF_10-ds.dat
+</code></pre></div></div>
+
+<p>Which will decompose the term doc matrix using 10 latent features, or topics,
+and store the term by topic matrix in <code class="language-plaintext highlighter-rouge">nyt03_NMF_10-ws.dat</code> and the document by
+topic matrix in <code class="language-plaintext highlighter-rouge">nyt03_NMF_10-ds.dat</code>. Because the SVD is deterministic and the
+result for 500 topics includes the results for all smaller topics, we do this
+just once for the SVD with 500 topics and use the appropriate number of
+SVD-based topics later on.</p>
+
+<p>After producing all the decompositions, we extract the top terms for each model
+using <code class="language-plaintext highlighter-rouge">ExtractTopTerms</code>. A run of this looks like</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.ExtractTopTerms <span class="nv">$topTokens</span> <span class="nv">$nTopics</span> nyt03_NMF_<span class="nv">$nTopics</span><span class="nt">-ws</span>.dat <span class="o">&gt;</span> nyt03_NMF_10.top10
+</code></pre></div></div>
+
+<h2 id="computing-topic-coherence-for-all-topics">Computing Topic Coherence for all topics</h2>
+
+<p>omputing the topic coherence depends critically on computing some similarity
+value between two words that appear in the same topic. We do this in a
+multi-step process:</p>
+
+<ol>
+  <li>Compute the list of all words appearing in any topic</li>
+  <li>Compute the Pointwise Mutual Information scores between all listed words
+within an external corpus (for the UCI metric)</li>
+  <li>Compute document Co-Occurence scores for all listed words in the New York
+Times corpus (for the UMass metric)</li>
+  <li>Start a server for each set of scores and query the server for the
+coherence of each topic</li>
+</ol>
+
+<p>To compute the set of all words appearing in any topic, we just use this bash
+command:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="k">*</span>.top10 | <span class="nb">tr</span> <span class="s2">" "</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> | <span class="nb">sort</span> <span class="nt">-u</span> <span class="o">&gt;</span> <span class="nv">$allTopicTerms</span>
+</code></pre></div></div>
+
+<p>The <a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/ExtractUCIStats.scala"><code class="language-plaintext highlighter-rouge">ExtractUCIStats</code></a> class will do just as it says, extract the raw scores
+needed for the UCI metric, i.e. Pointwise Mutual Information scores between
+each topic word as they appear within a sliding window of K words in an
+external corpus. We use a sliding window of 20 words and we use the
+<a href="https://wacky.sslmit.unibo.it/doku.php?id=corpora">Wackypedia</a> corpus as our
+external dataset. Similarly,
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/ExtractUMassStats.scala">ExtractUMass</a>
+will extract the raw scores needed for the UMass metric, i.e. document
+co-occurence counts for topic words as they appear in the New York Times
+corpus. These two commands will run theses classes as desired:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.ExtractUCIStats <span class="nv">$allTopicTerms</span> <span class="nv">$uciStatsMatrix</span> <span class="nv">$externalCorpusFile</span>
+scala edu.ucla.sspace.ExtractUMassStats <span class="nv">$allTopicTerms</span> <span class="nv">$umassStatsMatrix</span> <span class="nv">$oneDocFile</span>
+</code></pre></div></div>
+
+<p>Then, for each metric, we startup an <a href="https://avro.apache.org/">Avro</a> based
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/CoherenceServer.scala">CoherenceServer</a>
+that will compute the coherence of a topic using the raw scores computed
+between individual words. This server works the same with both sets of scores
+computed above, the only change is the input matrix. We then query the server
+for each topic and record the computed coherence. A key argument for computing
+the coherence is the epsilon value used to smooth the coherence scores such
+that they remain real valued. These two commands will start the server and
+query the server for a set of topics:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace.CoherenceServer <span class="nv">$uciStatsMatrix</span> <span class="nv">$allTopicTerms</span> <span class="nv">$port</span> &amp;
+scala edu.ucla.sspace.SenseCoherence <span class="nv">$port</span> <span class="nv">$top10File</span> <span class="nv">$epsilon</span> <span class="s2">"</span><span class="nv">$model</span><span class="s2"> </span><span class="nv">$numTopics</span><span class="s2"> </span><span class="nv">$metricName</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<p>The port value needs to be the same for both commands and you must wait for the
+server to full start before running the second command. $top10File corresponds
+to the list of top 10 words per topic computed in the previous section, the
+third argument is a set of values to be printed for each coherence score
+reported, and lastly $epsilon is some positive non-zero number. After running
+SenseCoherence as above, it should report lines with this format:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>LDA 10 UCI 1 &lt;score&gt;
+LDA 10 UCI 2 &lt;score&gt;
+LDA 10 UCI 3 &lt;score&gt;
+</code></pre></div></div>
+
+<p>With each line corresponding to a topic with a given id computed by LDA using
+10 topics and evaluated by the UCI measure. For our experiments, we considered
+using 1.0 and 1E-12 for epsilon.</p>
+
+<h2 id="comparing-word-similarities-with-semantic-judgements">Comparing Word Similarities with Semantic Judgements</h2>
+
+<p>We compared the reduced word representations against two standard sets of
+semantic similarity judgements as our second experiment. We’re including the
+sets of semantic similarity judgements with this repository since they are both
+publicly available. The processing steps remains the same for both sets of
+judgements and each topic model.</p>
+
+<p>We use the <a href="https://en.wikipedia.org/wiki/Spearman's_rank_correlation_coefficient">Spearman Rank Correlation</a> between humans semantic judgements and the
+cosine similarity between latent word representations as the key metric. A
+higher rank correlation, or any other correlation measure, indicates that the
+latent feature space better captures relations observed by humans judges. The
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/ComputeCorrelation.scala">ComputeCorrelation</a>
+class will perform these calculations for a single set of semantic judgments
+and a term by topic matrix. We run this with</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scala edu.ucla.sspace <span class="nv">$topTokens</span> nyt03_LDA_10-ws.dat data/wordSim65pairs.tab <span class="s2">"LDA 10"</span>
+</code></pre></div></div>
+
+<p>Which computes the correlation between a LDA based topic model using 10 topics
+and the Rubenstein and Goodenough dataset and again reports some tag
+information when printing the correlation value. We do this for all topic
+models computed and the <code class="language-plaintext highlighter-rouge">data/wordSim65pairs.tab</code> and <code class="language-plaintext highlighter-rouge">data/combined.tab</code>
+semantic judgements files which correspond to the <a href="https://dl.acm.org/doi/10.1145/365628.365657">Rubenstein and
+Goodenough</a> dataset and the
+WordSim 353 dataset, repsectively.</p>
+
+<h2 id="computing-classifier-accuracy-using-latent-feature-spaces">Computing Classifier accuracy using latent feature spaces</h2>
+
+<p>As our last experiment, we test the each topic model’s ability to distinguish
+different documents. Since each represented New York Times document has a broad
+semantic label, the section of the paper it was printed in, we evaluate the
+representations by training and testing a classifier using the document by
+topic features learned by each model. This evaluation requires just two steps:</p>
+
+<ol>
+  <li>Forming a training/testing split.</li>
+  <li>Learning a classifier on the training data and testing it with the test
+data.</li>
+</ol>
+
+<p>We used 10 fold stratified cross fold validation, which insoles splitting the
+document by topic space into 10 evenly sized portions which each contain the
+same proportion of each New York Times section, for example each fold should
+have 60% Opinion documents and 40% World News documents.</p>
+
+<p>The
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/FormFolds.scala">FormFolds</a>
+command will produce these even stratified folds and simultaneously drop any
+documents that have more than 1 section label or a
+section label that is applied to fewer than 2000 documents. We drop these
+documents to limit the classification task to well represented and unambiguous
+section labellings. We run this command once with</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="nv">$oneDocFile</span> | <span class="nb">cut</span> <span class="nt">-f</span> 1 <span class="o">&gt;</span> <span class="nv">$docLabels</span>
+scala edu.ucla.sspace.FormFolds <span class="nv">$docLabels</span> <span class="nv">$numFolds</span> <span class="nv">$minLabelCount</span> <span class="o">&gt;</span> <span class="nv">$classifierFolds</span>
+</code></pre></div></div>
+
+<p>With the folds pre-computed, we then build a classifier for each topic model
+over all the folds and compute the average accuracy for the topic model across
+all folds.
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/src/main/scala/edu/ucla/sspace/StratifiedSchiselClassify.scala">StratifiedSchiselClassify</a>
+will do this for a classifier type and a topic model. We run this with:</p>
+
+<p><code class="language-plaintext highlighter-rouge">$classifier</code> can be nb, c45, dt, or me, corresponding to a Naive Bayes, C4.5
+tree, ID3 Decision tree, or Maximum Entropy classifier as provided by Mallet.
+Note that in our original experiments, we used the Avatar project. A writeup on
+how to use this will be forth coming.</p>
+
+<h2 id="using-the-automated-script">Using the automated script</h2>
+
+<p>The writeup so far has described the steps we used to compute each experiment
+in more detail than provided in the original paper. However, to make this even
+easier to replicate, we’ve provided a
+<a href="https://github.com/fozziethebeat/TopicModelComparison/blob/master/run.sh">run</a>
+script that automates the process as much as possible. This section describes
+the minimum number of steps needed to setup the script and do the processing.
+However, since many of the computations are embarrassingly parallel, we didn’t
+use this exact script to do our processing. Where noted, we used the same scala
+class files and inputs, but parallelized the large number of runs using <a href="https://cwiki.apache.org/confluence/display/hadoop/HadoopStreaming">Hadoop
+Streaming</a>.
+Since Hadoop Streaming can be highly frustrating and finicky, we leave that
+parallelizing up to you.</p>
+
+<p>Before using the script, you need to download and prepare a few key files that
+we cannot distribute:</p>
+
+<ol>
+  <li>The New York Times Annotated Corpus for the Linguistics Data Consortium.</li>
+  <li>After downloading this, unzip the 2003 portion of the corpus. Then set the
+<code class="language-plaintext highlighter-rouge">nytCorpusDir</code> variable to point to that directory. If you’ve set it up
+properly it should have a subdirectory for each month, each of which has
+subdirectories for each day of that month which holds the articles written in
+that month.</li>
+  <li>Download a
+<a href="http://opennlp.sourceforge.net/models-1.5/">OpenNlp Maximum Entropy</a> tokenize
+model from here. Set the tokenizerModel variable to the location of this file.</li>
+  <li>Download a stop word file. We used the
+<a href="https://github.com/fozziethebeat/S-Space/blob/dev-wordsi/data/english-stop-words-large.txt"><code class="language-plaintext highlighter-rouge">english-stop-words-large.txt</code></a>
+file provided by the <a href="https://github.com/fozziethebeat/S-Space">S-Space
+package</a>. Set the stopWords variable
+to the location
+of this file.</li>
+  <li>Download the Wackypedia corpus and set the externalCorpusDir variable to
+it’s location.</li>
+</ol>
+
+<p>Once those variables have been set and the data has been downloaded, the script should run using the same parameters we used in our experiments. It will eventually produce a large number of word by topic matrices, document by topic matrices, list of top words per topic files, and a series of data files for each experiment that can easily be plotted using R.</p>
+
+<p>If you wish to change some variables, here’s the meaning of each one:</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">numTopTokens</code>: The number of words in the corpus to represent (not
+including words in the semantic similarity judgements).</li>
+  <li><code class="language-plaintext highlighter-rouge">numTopWordsPerTopic</code>: The number of top words to report for each topic</li>
+  <li><code class="language-plaintext highlighter-rouge">transform</code>: The transformation type used for building the Term Document
+Matrix used by LSA.</li>
+  <li><code class="language-plaintext highlighter-rouge">topicSequence</code>: A sequence of numbers indicating how many topics to learn
+for each model</li>
+  <li><code class="language-plaintext highlighter-rouge">lastTopic</code>: The largest number of topics requested</li>
+  <li><code class="language-plaintext highlighter-rouge">exponents</code>: A sequence of numbers indicating the exponent corresponding to
+each value of epsilon used by the coherence metrics.</li>
+  <li><code class="language-plaintext highlighter-rouge">numFolds</code>: The number of stratified folds to compute for the classifier
+evaluation</li>
+  <li><code class="language-plaintext highlighter-rouge">minLabelCount</code>: The minimum number of times each section label should
+occur port: The port number for the coherence server.</li>
+</ol>
+
+<p>All other variables used indicate location and names of files generated by the
+run script. If space is a concern, set topicDir to a location with a large
+amount of disk space, most of the generated results will be stored in that
+location. All other location parameters can be similarly changed as needed
+without affecting the run script (please notify us by filing an issue if this
+statement turns out to be wrong).</p>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License"
+           style="border-width:0"
+           src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    This
+    work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International License
+    </a>.
+
+    <br />
+
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>

@@ -11,7 +11,7 @@
   FozzieTheBeat
 
 
-  | blog
+  | Papers I've Really Enjoyed Reading
 
 </title>
 <meta name="description" content="A simple blog tracking my journey back into Open Source.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2012/papers-ive-really-enjoyed-reading/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -105,15 +105,11 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
 
           <!-- Other pages -->
-          
-          
           
           
           
@@ -181,62 +177,97 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Fozzie the Blog</h1>
-    <h2>Simple notes and ideas</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Papers I've Really Enjoyed Reading</h1>
+    <p class="post-meta">September 12, 2012</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/50-questions-for-co-founders/">Answers to 50 Questions for Co-Founders</a></h3>
-        <p class="post-meta">July 14, 2022</p>
-        <p>How appealing am I as a co-founder? Let's find out</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/committing-to-open-source-incentives/">Committing to Open Source Incentives</a></h3>
-        <p class="post-meta">December 7, 2021</p>
-        <p>Why secret job ladders do more harm than algorithms</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/">Hypothetical Organizational Values: Build Beyond Ourselves</a></h3>
-        <p class="post-meta">December 5, 2021</p>
-        <p>Where I draft hypothetical team values from Buddhism</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>As any good grad student would, I’ve read a lot of research papers. And my reading interest have swayed far and wide across the Natural Language Processing spectrum and even expanded into more general Machine Learning methods and Bayesian modelling. Now that i’m transitioning from a full time grad student focused on research to being a full time software developer at Google, I want to just briefly jot down a list of papers that have stuck out the most for me this last week as I transition. So in no particular order, and in no way totally inclusive, here they are:</p>
+
+<ul>
+  <li><a href="https://people.eecs.berkeley.edu/~jordan/papers/hdp.pdf">Hierarchical Dirichlet
+Processes</a>: This
+paper really helped me figure out both how Dirichlet Processes worked, the
+multiple interpretations of these models, and inference procedures. On top of
+that, it introduced an even cooler hierarchical extension to Dirichlet
+Processes. A must read for non-parametric Bayesian models.</li>
+  <li><a href="https://projecteuclid.org/journals/bayesian-analysis/volume-5/issue-4/Particle-learning-for-general-mixtures/10.1214/10-BA525.full">Particle Learning for General
+Mixtures</a>:
+I still don’t fully understand how to design good particle filters, but this
+paper pushed my mind in a lot of ways and got me excited about Sequential
+Markov Models quite a while ago. It’s event got a cool surprise: It’s written
+by people in Business schools!</li>
+  <li><a href="https://www.researchgate.net/publication/227630765_The_Curious_Case_of_Behavioral_Backlash_Why_Brands_Produce_Priming_Effects_and_Slogans_Produce_Reverse_Priming_Effects">The Curious Case of Behavioral
+Backlash</a>:
+Why Brands Produce Priming Effects and Slogans Produce Reverse Priming Effects:
+I in generally love anything to do with psychical priming, so this paper caught
+my attention when I came across it. And the horribly long title says what it’s
+all about. They go through a battery of experiments testing the impact upon
+people created by both branding and slogans. Their results are kinda surprising
+between</li>
+  <li><a href="https://aclanthology.org/D11-1130">Cross-Cutting Models of Lexical
+Semantics</a>: This paper is both really
+simple and really complicated at the same time. They glue together two really
+great ideas: Latent Dirichlet Allocation and Dirichlet Process Mixture Models
+to build a nicely thought out Cross Cutting, or multiple clustering under
+multiple views, model for processing text documents. I only wish I’d thought of
+this idea first.</li>
+  <li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.7133">An Introduction to MCMC for Machine
+Learning</a>:
+If you love topic models, Dirichlet Process Mixture Models, or any other
+sophisticated Bayesian model, then this paper is a must read. Written by some
+of the big hitters in MCMC learning, they cover all the major Monte Carlo
+Markov Chain approaches in sweet sweet detail.</li>
+  <li><a href="http://www.gatsby.ucl.ac.uk/~edward/pub/inf.mix.nips.99.pdf">The Infinite Gaussian Mixture
+Model</a>: Yet
+another paper based on Dirichlet Process Mixture Models. It’s a totally
+non-parametric Bayesian clustering model with deep layers of hierarchy to
+smooth out the mixtures nicely.</li>
+  <li><a href="http://www.gatsby.ucl.ac.uk/~edward/pub/inf.mix.nips.99.pdf">A Nonparametric Bayesian Model for Multiple Clusterings with Overlapping
+Feature Views</a>:
+This was my first introduction to cross cutting clustering models. They take a
+totally different approach than the original multi-clustering approach and but
+as complicated as it looks at first, it makes a nice amount of sense after a
+while.</li>
+  <li><a href="https://ai.stanford.edu/~rion/papers/semtax_acl06.pdf">Semantic Taxonomy Induction from Heterogeneous
+Evidence</a>: Yet
+another paper I wish I’d though of first. How do you extend an ontology
+automatically? You just use the knowledge you already have encoded to train a
+classifier for the kind of relationships you want to add and let it fly over
+new data. Final product? A bigger and better taxonomy with oodles of new
+information.</li>
+  <li><a href="https://aclanthology.org/E09-1005.pdf">Personalizing PageRank for Word Sense
+Disambiguation</a>: This is one of the
+earlier really great graph based and fully unsupervised Word Sense
+Disambiguation papers. It glues together the magic of PageRank and intuitions
+about word senses to get a general model that’s pretty hard to beat event
+today.</li>
+  <li><a href="https://homepages.inf.ed.ac.uk/mlap/Papers/PAMI_2010_Navigli_Lapata-1.pdf">An Experimental Study of Graph Connectivity for Unsupervised Word Sense
+Disambiguation</a>:
+Another really good paper covering all the ways you can build fully
+unsupervised Word Sense Disambiguation models using graphs of word senses. The
+best of the models used still get used pretty often in WSD.</li>
+  <li><a href="https://aclanthology.org/P12-1092.pdf">Improving Word Representations via Global Context and Multiple Word
+Prototypes</a>: Andrew Socher is a
+badass. Simple as that. I never though I’d see a totally legitimate and awesome
+lexical semantics model use a neural network, but hey made it work beautifully.
+It’s a good competitor to the Cross-Cutting model of semantics too.</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/21377146/">A probabilistic model of
+cross-categorization</a>: Probably
+the best starting point for learning about cross categorization (cross-cutting)
+models. It gives a good bit of theory of how they work, how to build them, and
+a huge swath of examples of how they can be applied to approximate human
+decision making. Really impressive stuff.</li>
+</ul>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/5/index.html" title="blog - page 5">5</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 

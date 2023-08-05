@@ -11,7 +11,7 @@
   FozzieTheBeat
 
 
-  | blog
+  | What is going on here
 
 </title>
 <meta name="description" content="A simple blog tracking my journey back into Open Source.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/what-is-going-on-here/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -105,15 +105,11 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
 
           <!-- Other pages -->
-          
-          
           
           
           
@@ -181,62 +177,59 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Fozzie the Blog</h1>
-    <h2>Simple notes and ideas</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">What is going on here</h1>
+    <p class="post-meta">August 8, 2021</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/50-questions-for-co-founders/">Answers to 50 Questions for Co-Founders</a></h3>
-        <p class="post-meta">July 14, 2022</p>
-        <p>How appealing am I as a co-founder? Let's find out</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/committing-to-open-source-incentives/">Committing to Open Source Incentives</a></h3>
-        <p class="post-meta">December 7, 2021</p>
-        <p>Why secret job ladders do more harm than algorithms</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/">Hypothetical Organizational Values: Build Beyond Ourselves</a></h3>
-        <p class="post-meta">December 5, 2021</p>
-        <p>Where I draft hypothetical team values from Buddhism</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p><img src="/assets/img/surface.png" alt="Surface Logo" /></p>
+
+<p>As I do every few years, I am restarting my blog and doing it the hard way.
+About a decade ago I used Octopress and GithubPages to do a blog.  A year or so
+ago I used Ghost to do a blog.  Intermitently I’ve tried Medium and even
+Substack.  But like always, i’m here again with a really rough blog platform
+with few bells or whistles.</p>
+
+<p>So why do this all over again?  The key reason is that in the very near future
+I will be leaving Google after over 9 years of full employment and I need to
+get back into the flow of both blogging and using open source tools.  Further,
+I always prefer platforms where I fully own the content that gets made.  Ghost
+is great but it requires a bit too much to maintain.  So rough again we go.</p>
+
+<p>For the last few months of employment I’ll be making a simple project of
+updating the New York Times <a href="https://github.com/nytlabs/hive">Hive</a> projects
+into the modern era.  I found this project many years ago when I started a
+crowdsourcing project and thought it was pretty cool.  The sad story however
+was that the project was poorly documented and it ended up going stale pretty
+quickly.  Go was always a weird language to use that had a small community and
+ElasticSearch advanced too fast for New York Times to keep up with.  So that
+old package got pretty crusty pretty fast.</p>
+
+<p>That’s why project number one is just to take an existing well intentioned
+project and make it work with a slightly more long lasting stack.  That’ll mean
+getting it to work with the latest Elastic Search APIs (7.x as of now) and to
+get it working with a slightly more trendy and persistent server stack.  For me
+that looks like something that works smoothly with the serverless trend and is
+based solidly on node.js.  After poking a lot at frameworks Next JS feels like the easiest to use and has the fewest oddities backed into it.</p>
+
+<p>If this all works well I will likely checkin with Professor Paul Eggert at UCLA
+to pitch a CS 130 project to extend the effort to do a few cool things.
+Probably have a good solid user interface that wraps the REST APIS.  Maybe
+generalize the framework to use more than just ElasticSearch, such as SOLR or
+some other option.  And to do something about authentication.  The original
+library seemed to assume authentication was just…done…for you….and that’s
+never the case.  Again, Next JS seems to have handled that pretty well.</p>
+
+<p>So, like all my blogging efforts, this might die out, but hopefully not.  At least this time around there’s a cool and very custom logo.</p>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/5/index.html" title="blog - page 5">5</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 

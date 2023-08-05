@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  FozzieTheBeat
+
+
+  | Stepping Into the Mixtures With Gibbs Sampling
+
+</title>
+<meta name="description" content="A simple blog tracking my journey back into Open Source.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/blog/2012/stepping-into-the-mixtures-with-gibbs-sampling/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://fozziethebeat.com/">
+       FozzieTheBeat
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Stepping Into the Mixtures With Gibbs Sampling</h1>
+    <p class="post-meta">May 17, 2012</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="refresher">Refresher</h2>
+
+<p>As stated
+<a href="http://blog.echen.me/2012/03/20/infinite-mixture-models-with-nonparametric-bayes-and-the-dirichlet-process/">before</a>,
+mixture models are pretty cool. But rather than diving head first into a
+complicated mixture model like the <a href="https://en.wikipedia.org/wiki/Dirichlet_process">Dirichlet Process Mixture
+Model</a> or the <a href="https://en.wikipedia.org/wiki/Hierarchical_Dirichlet_process">Hierarchical
+Dirichlet
+Process</a>, we’re
+going to ease our way into these models, just like you’d learn to accept the
+horrors of a pool of water before you try deep sea diving. First, we’ll figure
+out how to apply the <a href="https://en.wikipedia.org/wiki/Gibbs_sampling">Gibbs Sampling
+Method</a> with the Linked List of
+machine learning methods, <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive
+Bayes</a>. Then, after Gibbs
+Sampling feels comfy, we’ll tackle a <a href="https://en.wikipedia.org/wiki/Mixture_model">Finite Mixture
+Model</a> with
+<a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Gaussian</a>
+components. And with the magic of <a href="https://github.com/scalala/Scalala">Scalala</a>
+and <a href="http://www.scalanlp.org/">Scalanlp</a> the code’ll be short, sweet, and easy
+to understand.</p>
+
+<h2 id="the-toy-of-machine-learning-methods">The Toy of Machine Learning Methods</h2>
+
+<p>Simple but instructive data structures like a Linked List work well as an
+instructive tool. Good libraries provide solid and efficient implementations,
+but it’s straightforward enough for beginners to implement in a variety of
+manners. For our goals, Naive Bayes will serve the same purpose. As simple as
+the model is, it’s reasonably powerful.</p>
+
+<p>So what is the Naive Bayes model? Let’s say we want to group a bundle of emails
+into two groups: spam and not spam. And all you have to go on are the contents
+of the emails. In this situation, we’d like to just use the words in a single
+email to decide whether or not it’s spamtastic or spamfree. Naive Bayes assumes
+that you can make this decision based on each word in the email individually
+and then combine these decisions. It’s
+<a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayesian</a> because it’s a
+simple <a href="https://en.wikipedia.org/wiki/Bayesian_network">Bayesian Model</a> and
+it’s Naive because this approach assumes the words are totally independent and
+have no statistical relation whatsoever.</p>
+
+<h2 id="model-representations">Model Representations</h2>
+
+<p>Due to it’s simplicity, and that naive assumption, Naive Bayes makes for an
+easy model to understand and describe using a variety of models. here’s some of
+the most frequent descriptions:</p>
+
+<p>These two views of Naive Bayes describe the same model, but different ways of
+computing it. For the model on the right, if we work backwards, it says that a
+data point comes from some multinomial distribution . is a latent variable that
+encode which group, i.e. spam or not spam, the data point came from, and that
+itself comes from a multinomial . The two distributions describe our knowledge
+about spam and non-spam emails, respectively. And finally, all three
+multinomial distributions come from Dirichlet distributions. The added magic of
+the <a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distrubtion</a> is that it generates multinomial distributions, this
+relationship is more formally known as a <a href="https://en.wikipedia.org/wiki/Conjugate_prior">Conjugate
+Prior</a>. The plate diagram on the
+left says nearly the same story except it collapses out the distribution
+and links directly to the compnent labels. We could also in theory collapse the
+distrubtions, but we’ll not do that for the moment.</p>
+
+<h3 id="a-graphical-model">A Graphical Model</h3>
+
+<p>This graphical view tells an alternative story. Instead of probability
+distrubutions making other distributions and then finally making data points.
+this says that the class of a data point, generates the features of the data
+point, . This is where the naive part comes from, each “feature”, i.e. word in
+the email, is completely disconnected from the other words and only depends on
+the class of the email.</p>
+
+<h3 id="a-probability-distribution">A Probability Distribution</h3>
+
+<p>Finally, there’s the written way to understand Naive Bayes, as a conditional
+probability distrubtion. Let’s write out the distribution for just the spam
+class:</p>
+
+<p>This looks pretty much the same for non-spam. Simple, no? If we combine
+together the different views above with this written form, then we can think of
+the class as a <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial
+distribution</a> over
+words and the probability of a word given the class spam is really just the
+probability of picking the word based on how many times it’s shown up in spammy
+emails. Similarly, the probability of seeing spam is just the number of times
+you’ve seen a delcious piece of spam, be it on your phone, at home, or in the
+frying pan. Using that intuition and some Bayesian math, the above definition
+gets boild down to:</p>
+
+<p>Let’s get some definitions out of the way.</p>
+
+<p>Let’s tease this appart into two pieces, and . The first part is:</p>
+
+<p>This basically says that the probability of spam is the number of time’s we’ve
+seen it, plus some smoothing factors so that both span and non-spam have some
+positive possibility of existing. Amazingly! this is also equivalent to the
+collapsed distribution we mentioned in the bayesian description of Naive Bayes,
+by doing just a little bit of math and realizing that the Dirichlet is a
+conjugate prior of a multinomial, we get the above distribution for each class.</p>
+
+<p>Next,</p>
+
+<p>If describes the probability of each word occuring in a spammy email, then
+becomes the likelihood of seeing that word as many times as observed in the
+email. By computing the product of all these words, we naively get the
+probability of the full email. Slam the two distributions together and we get
+the full likelihood of the email given the class spam.</p>
+
+<h2 id="dont-forget-gibbs">Don’t forget Gibbs!</h2>
+
+<p>Now that Naive Bayes makes some more sense in a variety of descriptive flavours
+and we’ve defined our distrubutions and hyper parameters, it’s time to throw in
+gibbs sampling. To quickly refresh our memories, the recipe for gibbs at this
+stage is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    for each data point
+        Forget about
+        Compute the likelihood that each component, , generated
+        Sample and jot down a new component, , for
+        Remember
+    Restimate our component parameters,
+    Repeat
+</code></pre></div></div>
+
+<p>You might be wondering “why forget about the current data point?” The reason is
+that we’re trying to decide what to do with a new data point. Gibbs sampling
+only really works because the distrubtions we’re working with are
+<a href="http://en.wikipedia.org/wiki/Exchangeable_random_variables">exchangeable</a>,
+i.e. the ordering of our data doesn’t matter. So we can just pretend any data
+point is new by just forgetting it ever existed, Note, this is why has a in the
+denominator, that count has been “forgotten”. Other than that tidbit, we just
+pretend everything else is the same.</p>
+
+<h2 id="writing-out-the-code">Writing out the code</h2>
+
+<p>With Gibbs sampling fresh in our minds, and our probability distributions
+clear, let’s see what some real code looks like. To do this, I’m going to use
+Scalala and Scalanlp, which take care of the linear algebra and probability
+distrubtions for us really concisely. And while it may not be the fastest
+library around, it’s super easy to read and understand. For faster
+implementations, you can just translate this code into whatever beast you
+desire and optimize away.</p>
+
+<h3 id="setting-up-before-sampling">Setting up before sampling</h3>
+
+<p>Before we go on a spam sampling binge, we gotta setup our initial groupings.
+Gibbs sampling works pretty well with a random starting point, so let’s go with
+that:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sampleThetas</span><span class="o">(</span><span class="n">labelStats</span><span class="k">:</span> <span class="kt">Array</span><span class="o">[</span><span class="kt">DenseVectorRow</span><span class="o">[</span><span class="kt">Double</span><span class="o">]])</span> <span class="k">=</span>
+    <span class="nv">labelStats</span><span class="o">.</span><span class="py">map</span><span class="o">(</span><span class="n">n_c</span> <span class="k">=&gt;</span> <span class="k">new</span> <span class="nc">Dirichlet</span><span class="o">(</span><span class="n">n_c</span><span class="o">+</span><span class="n">gamma</span><span class="o">).</span><span class="py">sample</span><span class="o">)</span>
+
+<span class="k">val</span> <span class="nv">k</span> <span class="k">=</span> <span class="n">numComponents</span>
+<span class="k">val</span> <span class="nv">v</span> <span class="k">=</span> <span class="n">numFeatures</span>
+<span class="k">val</span> <span class="nv">n</span> <span class="k">=</span> <span class="n">numDataPoints</span>
+<span class="k">var</span> <span class="n">labelStats</span> <span class="k">=</span> <span class="nv">Array</span><span class="o">.</span><span class="py">fill</span><span class="o">(</span><span class="n">k</span><span class="o">)(</span><span class="k">new</span> <span class="nc">DenseVectorRow</span><span class="o">[</span><span class="kt">Double</span><span class="o">](</span>
+    <span class="nv">Array</span><span class="o">.</span><span class="py">fill</span><span class="o">(</span><span class="n">v</span><span class="o">)(</span><span class="mf">0d</span><span class="o">)))</span>
+<span class="k">var</span> <span class="n">thetas</span> <span class="k">=</span> <span class="nf">sampleThetas</span><span class="o">(</span><span class="n">labelStats</span><span class="o">)</span>
+
+<span class="k">val</span> <span class="nv">labels</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">Multinomial</span><span class="o">(</span><span class="k">new</span> <span class="nc">Dirichlet</span><span class="o">(</span><span class="n">alpha</span><span class="o">).</span><span class="py">sample</span><span class="o">.</span><span class="py">data</span><span class="o">).</span><span class="py">sample</span><span class="o">(</span><span class="n">n</span><span class="o">).</span><span class="py">toArray</span>
+<span class="k">var</span> <span class="n">labelCounts</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">DenseVectorRow</span><span class="o">[</span><span class="kt">Double</span><span class="o">](</span><span class="nv">Array</span><span class="o">.</span><span class="py">fill</span><span class="o">(</span><span class="n">k</span><span class="o">)(</span><span class="mf">0d</span><span class="o">))</span>
+<span class="nv">data</span><span class="o">.</span><span class="py">zip</span><span class="o">(</span><span class="n">labels</span><span class="o">).</span><span class="py">foreach</span><span class="o">{</span>
+    <span class="nf">case</span> <span class="o">(</span><span class="n">x_j</span><span class="o">,</span> <span class="n">j</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="o">{</span><span class="nf">labelStats</span><span class="o">(</span><span class="n">j</span><span class="o">)</span> <span class="o">+=</span> <span class="n">x_j</span><span class="o">;</span> <span class="nf">labelCounts</span><span class="o">(</span><span class="n">j</span><span class="o">)</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">}</span> <span class="o">}</span>
+</code></pre></div></div>
+
+<p>So what’s going on here? Well, first, we just get some basic stats about our
+data such as the size, the number of features and the number of components we
+want, in this case, 2. Then we make a data structure that will hold the number
+of times we see each feature within each component, labelStats; the number of
+times we’ve seen each component overall labelCounts; and the parameters for
+each compnent, thetas. Finally, randomly assign each point to a random
+component and update the labelStats and labelCounts. Note that we get the
+thetas from a Dirichlet distribution that uses the labelStats and a smoothing
+parameter gamma, just like we noted in the Bayesian Plate diagram above.</p>
+
+<p>Now for the real sampling meat:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">for</span> <span class="o">(</span><span class="n">i</span> <span class="k">&lt;-</span> <span class="mi">0</span> <span class="n">until</span> <span class="n">numIterations</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nf">for</span> <span class="o">(</span> <span class="o">(</span><span class="n">x_j</span><span class="o">,</span> <span class="n">j</span><span class="o">)</span> <span class="k">&lt;-</span> <span class="nv">data</span><span class="o">.</span><span class="py">zipWithIndex</span> <span class="o">)</span> <span class="o">{</span>
+        <span class="k">val</span> <span class="nv">label</span> <span class="k">=</span> <span class="nf">labels</span><span class="o">(</span><span class="n">j</span><span class="o">)</span>
+        <span class="nf">labelStats</span><span class="o">(</span><span class="n">label</span><span class="o">)</span> <span class="o">-=</span> <span class="n">x_j</span>
+        <span class="nf">labelCounts</span><span class="o">(</span><span class="n">label</span><span class="o">)</span> <span class="o">-=</span> <span class="mi">1</span>
+
+        <span class="k">val</span> <span class="nv">prior</span> <span class="k">=</span> <span class="n">labelCounts</span> <span class="o">+</span> <span class="n">alpha</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">/</span> <span class="o">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="o">+</span><span class="nv">alpha</span><span class="o">.</span><span class="py">sum</span><span class="o">)</span>
+        <span class="k">val</span> <span class="nv">likelihood</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">DenseVectorRow</span><span class="o">[</span><span class="kt">Double</span><span class="o">](</span><span class="nv">thetas</span><span class="o">.</span><span class="py">map</span><span class="o">(</span> <span class="n">theta</span> <span class="k">=&gt;</span>
+            <span class="o">(</span><span class="n">theta</span> <span class="o">:^</span> <span class="n">x_j</span><span class="o">).</span><span class="py">iterator</span><span class="o">.</span><span class="py">product</span><span class="o">).</span><span class="py">toArray</span><span class="o">)</span>
+
+        <span class="k">val</span> <span class="nv">probs</span> <span class="k">=</span> <span class="n">prior</span> <span class="o">:*</span> <span class="n">likelihood</span>
+        <span class="k">val</span> <span class="nv">new_label</span><span class="k">=</span> <span class="k">new</span> <span class="nc">Multinomial</span><span class="o">(</span><span class="n">probs</span> <span class="o">/</span> <span class="nv">probs</span><span class="o">.</span><span class="py">sum</span><span class="o">).</span><span class="py">sample</span>
+
+        <span class="nf">labelCounts</span><span class="o">(</span><span class="n">new_label</span><span class="o">)</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="nf">labelStats</span><span class="o">(</span><span class="n">new_label</span><span class="o">)</span> <span class="o">+=</span> <span class="n">x_j</span>
+        <span class="nf">labels</span><span class="o">(</span><span class="n">j</span><span class="o">)</span> <span class="k">=</span> <span class="n">new_label</span>
+    <span class="o">}</span>
+    <span class="n">thetas</span> <span class="k">=</span> <span class="nf">sampleThetas</span><span class="o">(</span><span class="n">labelStats</span><span class="o">)</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>The first three lines in the loop get the current label for <code class="language-plaintext highlighter-rouge">x_j</code> and then
+forget about it’s data. prior represents the likelihood of selecting each
+component just based on it’s frequency, i.e. . likelihood represents the
+likelihood of each component generating <code class="language-plaintext highlighter-rouge">x_j</code>, i.e. . To finish off the
+sampling procedure, we sample a new label by turning these likelihoods into a
+multinomial distrubtion and sample from it. With the new label we then add in
+the data for <code class="language-plaintext highlighter-rouge">x_j</code> to the that component’s stats. Once we’ve made a full sweep
+through the data set, we update our parmeters for each component by resampling
+from a Dirichlet distribution by using the our <code class="language-plaintext highlighter-rouge">labelStats</code>.</p>
+
+<p>And Voila! We have a simple gibbs sampler for Naive Bayes.</p>
+
+<h2 id="running-it-on-some-data">Running it on some data</h2>
+
+<p>Let’s see how this unsupervised version of Naive Bayes handles a really generic
+looking dataset: globs of data points from three different Gaussian
+distributions, each with a different mean and variance. And let’s start off
+with just trying to find 2 groups, as we’ve been working along with so far.</p>
+
+<p><img src="/assets/img/2012/test.nb.groups.png" alt="2 groups" /></p>
+
+<p>Looks pretty neat huh? Even with a terrible and completely random starting
+point, our learner manages to split up the data in a sensible way by finding a
+dividing plane between two groups. What’s even cooler, is that notice how after
+iteration 1 completes, nearly all the data is assigned to one class. By somehow
+by iteration 10, we’ve managed to finagle our way out of that terrible solution
+and into a significantly better solution. And by the 100th iteration, we’ve
+stayed there in a stable state.</p>
+
+<p>Now what happens if we try finding 3 components in the data set?</p>
+
+<p><img src="/assets/img/2012/test.nb.3.groups.png" alt="3 groups" /></p>
+
+<p>Here we get a similar split, but not what we’re looking for. Our mixture model gets all befuddled with the group on the bottom left and tries to flailingly split into two smaller groups. If you run this a couple times, you’ll see that it does the same thing with the two green groups, it can’t split them evenly as you’d expect.</p>
+
+<h2 id="the-secret-no-one-mentions">The Secret no one mentions</h2>
+
+<p>This simple model i’ve walked through is the unsupervised equivalent to the
+supervised Naive Bayes model. It does a pretty reasonable job of splitting
+apart some groups of data, but there are clearly datasets it has some issues
+dealing with. But what’s not been said so far is that this model is actually
+not just Naive Bayes, it’s a Finite Mixture Model with Multionomial components.
+The code, probabilities, and graphs i’ve layed out all work for more than two
+components. So next, i’ll show two cool ways to extend this model:</p>
+
+<ol>
+  <li>With Gaussian components, which can better handle this toy data set</li>
+  <li>With an infinite number of components, which figure out that paramter for
+you like a magician.</li>
+</ol>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License"
+           style="border-width:0"
+           src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    This
+    work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International License
+    </a>.
+
+    <br />
+
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>

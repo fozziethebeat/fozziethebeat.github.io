@@ -11,7 +11,7 @@
   FozzieTheBeat
 
 
-  | blog
+  | Making NFTs into the Commons
 
 </title>
 <meta name="description" content="A simple blog tracking my journey back into Open Source.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/making-nfts-into-the-commons/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -105,15 +105,11 @@
             <a class="nav-link" href="/blog/">
               blog
               
-              <span class="sr-only">(current)</span>
-              
             </a>
           </li>
           
 
           <!-- Other pages -->
-          
-          
           
           
           
@@ -181,62 +177,116 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Fozzie the Blog</h1>
-    <h2>Simple notes and ideas</h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Making NFTs into the Commons</h1>
+    <p class="post-meta">November 29, 2021</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/50-questions-for-co-founders/">Answers to 50 Questions for Co-Founders</a></h3>
-        <p class="post-meta">July 14, 2022</p>
-        <p>How appealing am I as a co-founder? Let's find out</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/committing-to-open-source-incentives/">Committing to Open Source Incentives</a></h3>
-        <p class="post-meta">December 7, 2021</p>
-        <p>Why secret job ladders do more harm than algorithms</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/">Hypothetical Organizational Values: Build Beyond Ourselves</a></h3>
-        <p class="post-meta">December 5, 2021</p>
-        <p>Where I draft hypothetical team values from Buddhism</p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>Okay so, NFTs (Non-Fungible Tokens) are technically some piece of digital art
+that exist somewhere.  Maybe on a personal web server.  Maybe on an AWS S3
+Bucket.  Maybe on some other Big Tech platform.  Maybe even could be living on
+IPFS.  The NFT isn’t exactly the piece of digital art (since one could make
+NFTs for off-chain arts) nor is it the rights to the digital art (NFTs in
+general don’t need to specify or detail any kind of license).  The NFT is more
+like a badge of honor, or a proof of provenance, for supporting the creator,
+either directly or indirectly through a secondary market.</p>
+
+<p>For the digital art backing the NFT, what are it’s rights and permissions and
+how does the NFT-ness interact with those rights and permissions?  And how
+could (or should) those aspects change over time as the NFT develops?  If the
+piece of art exists off chain it could already have a form of license and
+rights attached to it that limit it’s re-use, for example with a restrictive
+Copyright.  Same even if the NFT lives fully on Chain, the creator could only
+permit the right to read and observe the thing and trade the access rights.
+In those settings, NFTs don’t really do anything radical.  Intellectual
+Property still exists as we’ve been familiar with it and now we just have a
+new ownership system that does a better job of paying trailing royalties to
+creators even in secondary markets.</p>
+
+<p>But let’s get silly.</p>
+
+<p>I’ve always felt that cultural icons like Mickey Mouse should have entered the
+commons (or properly the Public Domain) long ago.  With a positive framing,
+Mickey Mouse is famous not because Walt Disney made a really cool and
+creative mouse but because Mickey Mouse participated in a series stories and
+challenges that reflected problems and difficulties we all face.  And at a
+certain point, Mickey Mouse began to reflect the life situations for a growing
+subset of society.  Mickey even went international.   It’s only due to
+Copyright law that the Disney Corporation was the central manager for these
+stories.  Had Mickey Mouse entered public domain, which should have happened
+some number of years after Walt Disney’s death, an even larger number could
+have told stories with Mickey that captured even more of our life stories.</p>
+
+<p>Copyright has an approach for this.  In some countries, 70 years after a
+creators death a work of art enters into the Public Domain and it’s officially
+part of The Commons, the thing we all steward into the future.  But Mickey
+Mouse and plenty of other creations outlive this deadline and have managed to
+remain under Copyright for “reasons”.</p>
+
+<p>But could this be done and enforced more naturally with the blockchain such
+that there’s no wiggle room?  A totally blockchain native NFT could evolve its
+license over time based on some pre-defined schema and schedule.  At a
+technical level, this is pretty easy as it would just be some attribute that
+changes in a smart contract much like levels for Crypto Zombies.  This
+attribute would just be the particular license attached to the NFT.</p>
+
+<p>A creator could use a range of schemas and schedules in fun combinations.  One
+could for example make license transitions according to the total net worth of
+the NFT according to DAI.  Or one could make license transitions following the
+number and size of secondary sales such that the n-th secondary sale triggers
+a change.  Or transitions could be triggered by the number of derivatives,
+follow on pieces of work or financial derivatives.</p>
+
+<p>The transition schedules in an ideal scenario would go from restrictive rights
+to ultimately the Public Domain.  Here, a creator could select the Creative
+Commons Non-Commercial Share-Alike license and thereby ensure no one can
+commercially compete with them using the work of art for some period of time.
+Once the work has supported the creator sufficiently, the work could drop the
+Non-Commercial clause and become a simple Creative Commons Share-Alike
+license.  And once the work really hits critical mass it explicitly goes into
+the Public Domains with an explicit Creative Commons 0 license.</p>
+
+<p>And all of this would be self managed and self enforced by the smart contract
+wrapping the NFT itself.  We wouldn’t be beholden to a corporation making
+these changes or Copyright lawyers negotiating these changes.</p>
+
+<p>At the end of the day this would be transitioning more works of art to The
+Commons, a resource we all steward and all benefit from.  By that point
+ideally creators would have moved on to create other follow on works that
+support them and made enough from any royalties on secondary sales.  One the
+final transition to Public Domain happens the NFT itself could be burned or
+could automatically route a growing share of royalties to public goods
+funding.</p>
+
+<p>The really fun stage would be when whole libraries of works change as a bulk,
+essentially working as a Common Pool Resource.  Even if some of the works
+don’t hit the milestones for transitions, the pool as a whole might be
+culturally significant that all entries in the pool should change in tandem.
+Perhaps these transitions could also bake into them an expansion of who owns
+or governs them. For example, the Song a Day library is currently owned fully
+by the Song A Day DAO.  But at some point, perhaps the library’s contract
+could require additional DAOs to be brought on as owners.  Each transition
+would bring on more and more governors until finally it’s in The Commons and
+somehow everyone governs and benefits from the library.</p>
+
+<p>A key part to making this all work is likely the works living entirely
+on-chain so that smart contracts can manage these attributes and enforce the
+transitions.  You can’t really change the licenses for off chain works of art
+like the Mona Lisa as no one would realistically respect that declaration.
+But a fully on chain entity would exist as both the entity and the license and
+the transition rules.  At that point, I suspect, there’d be less room for
+untrustworthy actors to develop workarounds.</p>
+
+<p>Even with that challenge and a lot of open details, this could be pretty rad.</p>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/5/index.html" title="blog - page 5">5</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 

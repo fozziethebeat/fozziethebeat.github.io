@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  FozzieTheBeat
+
+
+  | Making Agglomerative Clustering Run in N^2 Time
+
+</title>
+<meta name="description" content="A simple blog tracking my journey back into Open Source.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/blog/2012/making-agglomerative-clustering-run-in-n-2-time/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://fozziethebeat.com/">
+       FozzieTheBeat
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class = "toggle-container">
+              <a id = "light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Making Agglomerative Clustering Run in N^2 Time</h1>
+    <p class="post-meta">March 16, 2012</p>
+  </header>
+
+  <article class="post-content">
+    <p>Let’s say you’re an amateur zoologist and you’ve got a bunch of data describing
+<a href="https://en.wikipedia.org/wiki/Owl">parliaments of owls</a>, <a href="https://en.wikipedia.org/wiki/Goose">gaggles of geese</a>, <a href="https://en.wikipedia.org/wiki/Chicken">peeps of chickens</a>, and a <a href="https://en.wikipedia.org/wiki/Western_jackdaw">train of
+jackdaws</a> but you don’t really
+know that you have these bird types. All you really have are descriptive
+features describing each bird like feature type, beak type, conservation
+status, feeding preferences, etc. Using just this data, you’d like to find out
+how many bird species you have and how similar each group is to the others in a
+nice graphical fashion like down below. How would you do it?</p>
+
+<p>The classic solution to the problem would be to use <a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">Hierarchical Agglomerative
+Clustering</a>. In this case, Agglomerative Clustering would group together birds
+that have similar features into hopefully distinct species of birds. And
+there’s a lot of packages out there that kind of do this for you like <a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a>,
+<a href="https://scikit-learn.org/stable/">Scikit-Learn</a>, or plain old
+<a href="https://www.statmethods.net/advstats/cluster.html">R</a>. However, you’ve got a
+lot of birds to deal with and these standard packages are just taking way too
+long. Why are they taking way too long? Because they’re doing agglomerative
+clustering the slow ways.</p>
+
+<p>So what do they slow ways look like? Well, pretty much all ways of doing
+agglomerative clustering start by building an Affinity Matrix that simply
+measures how similar two birds are to each other:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">val</span> <span class="nv">m</span> <span class="k">=</span> <span class="nv">Array</span><span class="o">.</span><span class="py">fill</span><span class="o">(</span><span class="n">numBirds</span><span class="o">,</span> <span class="n">numBirds</span><span class="o">)(</span><span class="mi">0</span><span class="o">)</span>
+<span class="nf">for</span> <span class="o">((</span><span class="n">bird1</span><span class="o">,</span> <span class="n">i</span><span class="o">)</span> <span class="k">&lt;-</span> <span class="nv">birds</span><span class="o">.</span><span class="py">zipWithIndex</span><span class="o">;</span>
+     <span class="o">(</span><span class="n">bird2</span><span class="o">,</span> <span class="n">j</span><span class="o">)</span> <span class="k">&lt;-</span> <span class="nv">birds</span><span class="o">.</span><span class="py">zipWithIndex</span><span class="o">)</span>
+    <span class="nf">m</span><span class="o">(</span><span class="n">i</span><span class="o">)(</span><span class="n">j</span><span class="o">)</span> <span class="k">=</span> <span class="nf">similarityBetween</span><span class="o">(</span><span class="n">bird1</span><span class="o">,</span> <span class="n">bird2</span><span class="o">)</span>
+</code></pre></div></div>
+
+<p>This little snippet just compares each bird against all other birds and stores how “similar” they are to each other in terms of their descriptive features. What next? Well, you need another data structure to keep track of your bird groups. We’ll do this with just a map from group identifiers to sets of bird identifiers. And since this algorithm is named “agglomerative”, we gotta agglomerate things, so we’ll start by putting every bird in their own bird group:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// First get each bird and it's id, then create a tuple holding the bird id</span>
+    <span class="c1">// and a set with the bird as the only element.  Then turn this list of</span>
+    <span class="c1">// tuples into a map.</span>
+    <span class="k">var</span> <span class="n">groupMap</span> <span class="k">=</span> <span class="nv">birds</span><span class="o">.</span><span class="py">zipWithIndex</span><span class="o">.</span><span class="py">map</span><span class="o">(</span> <span class="n">birdIndex</span> <span class="k">=&gt;</span> <span class="o">(</span><span class="nv">birdIndex</span><span class="o">.</span><span class="py">_2</span><span class="o">,</span> <span class="nc">Set</span><span class="o">(</span><span class="nv">birdIndex</span><span class="o">.</span><span class="py">_1</span><span class="o">))).</span><span class="py">toMap</span>
+</code></pre></div></div>
+
+<p>So that was simple. Now comes the complicated bits that either lead you to a
+slow version, a fairly slow version, or a super slow version of agglomerative
+clustering. Before we do either of these options, let’s make two
+simplifications: let’s assume we just want the final groups that our bird show
+up in and we know how many bird groups we want to find. Agglomerative
+Clustering can give you not only this information, but a whole tree showing how
+birds are linked together, but the book-keeping for doing this is tricky and
+doesn’t really affect the issues we’re focusing on here. With that out of the
+way, what does the super slow method look like?</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">while</span> <span class="o">(</span><span class="nv">groupMap</span><span class="o">.</span><span class="py">size</span> <span class="o">&gt;</span> <span class="n">numClusters</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">val</span> <span class="nv">groupSet</span> <span class="k">=</span> <span class="nv">groupMap</span><span class="o">.</span><span class="py">toSet</span>
+    <span class="c1">// Find the two most similar groups in our map.</span>
+    <span class="k">var</span> <span class="n">bestSim</span> <span class="k">=</span> <span class="mf">0.0</span>
+    <span class="k">var</span> <span class="n">bestGroups</span> <span class="k">=</span> <span class="o">(-</span><span class="mi">1</span><span class="o">,</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span>
+    <span class="nf">for</span> <span class="o">(</span><span class="nc">Array</span><span class="o">((</span><span class="n">id1</span><span class="o">,</span> <span class="n">birds1</span><span class="o">),</span> <span class="o">(</span><span class="n">id2</span><span class="o">,</span> <span class="n">birds2</span><span class="o">))</span> <span class="k">&lt;-</span> <span class="nv">groupSet</span><span class="o">.</span><span class="py">subsets</span><span class="o">(</span><span class="mi">2</span><span class="o">).</span><span class="py">map</span><span class="o">(</span><span class="nv">_</span><span class="o">.</span><span class="py">toArray</span><span class="o">))</span> <span class="o">{</span>
+        <span class="c1">// Get the similarity between the two bird groups using the raw</span>
+        <span class="c1">// values in m.</span>
+        <span class="k">val</span> <span class="nv">sim</span> <span class="k">=</span> <span class="nf">groupSim</span><span class="o">(</span><span class="n">id1</span><span class="o">,</span> <span class="n">birds1</span><span class="o">,</span> <span class="n">id2</span><span class="o">,</span> <span class="n">birds2</span><span class="o">,</span> <span class="n">m</span><span class="o">)</span>
+        <span class="nf">if</span> <span class="o">(</span><span class="n">sim</span> <span class="o">&gt;</span> <span class="n">bestSim</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">bestSim</span> <span class="k">=</span> <span class="n">sim</span>
+            <span class="n">bestGroups</span> <span class="k">=</span> <span class="o">(</span><span class="n">id1</span><span class="o">,</span> <span class="n">id2</span><span class="o">)</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+
+    <span class="c1">// Now merge the two groups together into a new group</span>
+    <span class="k">val</span> <span class="nv">newGroup</span> <span class="k">=</span> <span class="nf">groupMap</span><span class="o">(</span><span class="nv">bestGroups</span><span class="o">.</span><span class="py">_1</span><span class="o">)</span> <span class="o">++</span> <span class="nf">groupMap</span><span class="o">(</span><span class="nv">bestGroups</span><span class="o">.</span><span class="py">_2</span><span class="o">)</span>
+    <span class="c1">// Now remove the two groups from the map</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">-</span> <span class="nv">bestGroups</span><span class="o">.</span><span class="py">_1</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">-</span> <span class="nv">bestGroups</span><span class="o">.</span><span class="py">_2</span>
+    <span class="c1">// Update the map to store the new group.  Since the old id's are</span>
+    <span class="c1">// removed, we can just re-use one of them without any change.</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">++</span> <span class="nc">Map</span><span class="o">((</span><span class="nv">bestGroups</span><span class="o">.</span><span class="py">_1</span> <span class="o">-&gt;</span> <span class="n">newGroup</span><span class="o">))</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>That’s it! It’s super simple and super slow. Why is it so slow? Well, in
+general, you’ll do the big while loop O(N) times, where N is your number of
+birds. Then the next block of code compares each possible pairing of bird
+groups. Since in general the number of groups is proportional to the number of
+birds, this will be O(N^2) comparisons. Throw these two bits together and you
+get a runtime of O(N3)! When you have 100,000 birds, that’s super slow.</p>
+
+<p>So what can you do to hasten that up? Well, the main goal of the big loop
+through pairs of groups is to find the most similar pair of bird groups, so an
+obvious choice would be to create a priority queue, so let’s see how that
+looks:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create a new priority queue that tracks the similarity of two groups and</span>
+<span class="c1">// their id's</span>
+<span class="k">val</span> <span class="nv">groupQueue</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">PriorityQueue</span><span class="o">[(</span><span class="kt">double</span>, <span class="kt">int</span>, <span class="kt">int</span><span class="o">)]()</span>
+<span class="k">val</span> <span class="nv">groupSet</span> <span class="k">=</span> <span class="nv">groupMap</span><span class="o">.</span><span class="py">toSet</span>
+<span class="nf">for</span> <span class="o">(</span><span class="nc">Array</span><span class="o">((</span><span class="n">id1</span><span class="o">,</span> <span class="n">birds1</span><span class="o">),</span> <span class="o">(</span><span class="n">id2</span><span class="o">,</span> <span class="n">birds2</span><span class="o">))</span> <span class="k">&lt;-</span> <span class="nv">groupMap</span><span class="o">.</span><span class="py">subsets</span><span class="o">(</span><span class="mi">2</span><span class="o">).</span><span class="py">map</span><span class="o">(</span><span class="nv">_</span><span class="o">.</span><span class="py">toArray</span><span class="o">))</span> <span class="o">{</span>
+    <span class="c1">// Get the similarity between the two bird groups using the raw</span>
+    <span class="c1">// values in m.</span>
+    <span class="k">val</span> <span class="nv">sim</span> <span class="k">=</span> <span class="nf">groupSim</span><span class="o">(</span><span class="n">id1</span><span class="o">,</span> <span class="n">birds1</span><span class="o">,</span> <span class="n">id2</span><span class="o">,</span> <span class="n">birds2</span><span class="o">,</span> <span class="n">m</span><span class="o">)</span>
+    <span class="nv">groupQueue</span><span class="o">.</span><span class="py">enque</span><span class="o">((</span><span class="n">sim</span><span class="o">,</span> <span class="n">id1</span><span class="o">,</span> <span class="n">id2</span><span class="o">))</span>
+<span class="o">}</span>
+
+<span class="k">var</span> <span class="n">nextId</span> <span class="k">=</span> <span class="nv">groupMap</span><span class="o">.</span><span class="py">size</span>
+<span class="nf">while</span> <span class="o">(</span><span class="nv">groupMap</span><span class="o">.</span><span class="py">size</span> <span class="o">&gt;</span> <span class="n">numClusters</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">var</span> <span class="n">best</span> <span class="k">=</span> <span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="o">-</span><span class="mi">1</span><span class="o">,</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span>
+    <span class="k">do</span> <span class="o">{</span>
+        <span class="n">best</span> <span class="k">=</span> <span class="nv">p</span><span class="o">.</span><span class="py">dequeue</span>
+    <span class="o">}</span> <span class="nf">while</span> <span class="o">(</span><span class="nv">groupMap</span><span class="o">.</span><span class="py">contains</span><span class="o">(</span><span class="nv">best</span><span class="o">.</span><span class="py">_2</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="nv">groupMap</span><span class="o">.</span><span class="py">contains</span><span class="o">(</span><span class="nv">best</span><span class="o">.</span><span class="py">_3</span><span class="o">))</span>
+
+    <span class="c1">// Now merge the two groups together into a new group</span>
+    <span class="k">val</span> <span class="nv">newGroup</span> <span class="k">=</span> <span class="nf">groupMap</span><span class="o">(</span><span class="nv">best</span><span class="o">.</span><span class="py">_1</span><span class="o">)</span> <span class="o">++</span> <span class="nf">groupMap</span><span class="o">(</span><span class="nv">best</span><span class="o">.</span><span class="py">_2</span><span class="o">)</span>
+    <span class="c1">// Now remove the two groups from the map</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">-</span> <span class="nv">best</span><span class="o">.</span><span class="py">_1</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">-</span> <span class="nv">best</span><span class="o">.</span><span class="py">_2</span>
+
+    <span class="c1">// Create a new id for this group.</span>
+    <span class="k">val</span> <span class="nv">newId</span> <span class="k">=</span> <span class="n">nextId</span>
+
+    <span class="c1">// Next, add in the similarity between the new group and all existing</span>
+    <span class="c1">// groups to the queue.</span>
+    <span class="nf">for</span> <span class="o">(</span> <span class="o">(</span><span class="n">id</span><span class="o">,</span> <span class="n">group</span><span class="o">)</span> <span class="k">&lt;-</span> <span class="n">groupMap</span> <span class="o">)</span>
+        <span class="nv">groupQueue</span><span class="o">.</span><span class="py">enqueue</span><span class="o">((</span><span class="nf">groupSim</span><span class="o">(</span><span class="n">newId</span><span class="o">,</span> <span class="n">newGroup</span><span class="o">,</span> <span class="n">id</span><span class="o">,</span> <span class="n">group</span><span class="o">,</span> <span class="n">m</span><span class="o">),</span>
+                            <span class="n">newId</span><span class="o">,</span> <span class="n">id</span><span class="o">))</span>
+
+    <span class="c1">// Finally, update the map to store the new group.</span>
+    <span class="n">nextId</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">groupMap</span> <span class="k">=</span> <span class="n">groupMap</span> <span class="o">++</span> <span class="o">(</span><span class="n">newId</span><span class="o">-&gt;</span> <span class="n">newGroup</span><span class="o">)</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Now this approach is definitely faster but it’s also horribly memory
+inefficient. Even if you have an array based priority queue that doesn’t
+allocate any extra memory for each entry other than the tuple being stored,
+this approach has one major problem: after every merge step O(N) elements
+immediately become invalidated. Since the two merged groups no longer exist,
+any comparison between them and other groups is moot. However the priority
+queue doesn’t easily permit removing them so they just float around. This is
+precisely why lines 14-16 are in a do while loop that ensures the returned
+groups exist. It’s highly likely that they wont. I think we can do better, both
+in terms of speed and in terms of memory. So let’s blaze through a faster
+method in couple of steps.</p>
+
+<p>First, we need to change the setup of the algorithm. The previous two method
+just depended on some simple data structures. This approach requires two
+additional structures for bookkeeping: a way to track chains of nearest
+neighbors and a way to track the set of clusters not already a part of the
+chain.</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// A mapping from cluster id's to their point sets.</span>
+<span class="k">val</span> <span class="nv">clusterMap</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">[</span><span class="kt">Int</span>, <span class="kt">HashSet</span><span class="o">[</span><span class="kt">Int</span><span class="o">]]()</span>
+
+<span class="c1">// A set of clusters to be considered for merging.</span>
+<span class="k">val</span> <span class="nv">remaining</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">HashSet</span><span class="o">[</span><span class="kt">Int</span><span class="o">]()</span>
+
+<span class="c1">// Create a cluster for every data point and add it to the cluster map</span>
+<span class="c1">// and to the examine set.</span>
+<span class="nf">for</span> <span class="o">(</span><span class="n">r</span> <span class="k">&lt;-</span> <span class="mi">0</span> <span class="n">until</span> <span class="nv">adj</span><span class="o">.</span><span class="py">size</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nv">remaining</span><span class="o">.</span><span class="py">add</span><span class="o">(</span><span class="n">r</span><span class="o">)</span>
+    <span class="nf">clusterMap</span><span class="o">(</span><span class="n">r</span><span class="o">)</span> <span class="k">=</span> <span class="nc">HashSet</span><span class="o">(</span><span class="n">r</span><span class="o">)</span>
+<span class="o">}</span>
+
+<span class="c1">// Create a stack to represent the nearest neighbor.  The real source of</span>
+<span class="c1">// matic</span>
+<span class="k">val</span> <span class="nv">chain</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">Stack</span><span class="o">[(</span><span class="kt">Double</span>, <span class="kt">Int</span><span class="o">)]()</span>
+
+<span class="c1">// Add in a random node from remaining to start the neighbor chain.</span>
+<span class="nf">initializeChain</span><span class="o">(</span><span class="n">chain</span><span class="o">,</span> <span class="n">remaining</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>The clusterMap structure replaces our birdMap but does the same thing, but the
+remaining set and the chain stack hold the crux of this approach. Instead of
+trying to find the best link between two clusters, we’re going to depend on
+chains of nearest neighbors, so the first node in the chain could be anything,
+but the second node is simply the nearest neighbor to the first node. To add
+the third node, we find the nearest neighbor out of any nodes not in the chain.
+We’ll keep doing this until two nodes in the chain represent reciprocal nearest
+neighbors, that is two nodes that are most similar to each other, and no other
+nodes in or outside of the chain. Upon finding these two nodes, we merge them,
+immediately. Then we just repeat the process until we have the desired number
+of clusters. In scala, this turns out to be pretty simple to do:</p>
+
+<div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Find the nearest neighbors and merge as soon as recursive nearest</span>
+<span class="c1">// neighbors are found.</span>
+<span class="nf">while</span> <span class="o">(</span><span class="nv">clusterMap</span><span class="o">.</span><span class="py">size</span> <span class="o">&gt;</span> <span class="n">numClusters</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// Get the last link in the chain.</span>
+    <span class="nf">val</span> <span class="o">(</span><span class="n">parentSim</span><span class="o">,</span> <span class="n">current</span><span class="o">)</span> <span class="k">=</span> <span class="nv">chain</span><span class="o">.</span><span class="py">top</span>
+
+    <span class="c1">// Find the nearest neighbor using the clusters not in the chain</span>
+    <span class="c1">// already.</span>
+    <span class="nf">val</span> <span class="o">(</span><span class="n">linkSim</span><span class="o">,</span> <span class="n">next</span><span class="o">)</span> <span class="k">=</span> <span class="nf">findBest</span><span class="o">(</span><span class="n">remaining</span><span class="o">,</span> <span class="n">adj</span><span class="o">,</span> <span class="n">current</span><span class="o">)</span>
+
+    <span class="c1">// Check the similarity for the best neighbor and compare it to that of</span>
+    <span class="c1">// the current node in the chain.  If the neighbor sim is larger, then</span>
+    <span class="c1">// the current node and it's parent aren't RNNs.  Otherwise, the current</span>
+    <span class="c1">// node is RNNs with it's parent.</span>
+    <span class="nf">if</span> <span class="o">(</span><span class="n">linkSim</span> <span class="o">&gt;</span> <span class="n">parentSim</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// The current node to push is more similar to the last node in the</span>
+        <span class="c1">// chain, so the last node and the next to last nodes can't be</span>
+        <span class="c1">// reciprocal nearest neighbors.</span>
+        <span class="nv">chain</span><span class="o">.</span><span class="py">push</span><span class="o">((</span><span class="n">linkSim</span><span class="o">,</span> <span class="n">next</span><span class="o">))</span>
+        <span class="nv">remaining</span><span class="o">.</span><span class="py">remove</span><span class="o">(</span><span class="n">next</span><span class="o">)</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="c1">// The current node is less similar to the last node than the last</span>
+        <span class="c1">// node is to it's predecesor in the chain, so the last two nodes in</span>
+        <span class="c1">// the chain are just the kind of nodes we're looking to merge.</span>
+
+        <span class="c1">// Pop the current node from the top. </span>
+        <span class="nv">chain</span><span class="o">.</span><span class="py">pop</span>
+        <span class="c1">// Pop the parent of the best node.</span>
+        <span class="nf">val</span> <span class="o">(</span><span class="k">_</span><span class="o">,</span> <span class="n">parent</span><span class="o">)</span> <span class="k">=</span> <span class="nv">chain</span><span class="o">.</span><span class="py">pop</span>
+
+        <span class="c1">// These are the two nodes we'll be merging.  The node we</span>
+        <span class="c1">// found above is left in the remaining set and is essentially</span>
+        <span class="c1">// forgotten.</span>
+
+        <span class="c1">// Remove the current and parent clusters from the cluster map</span>
+        <span class="c1">// and extract the sizes.</span>
+        <span class="nf">val</span> <span class="o">(</span><span class="n">c1Points</span><span class="o">,</span> <span class="n">c1Size</span><span class="o">)</span> <span class="k">=</span> <span class="nf">removeCluster</span><span class="o">(</span><span class="n">clusterMap</span><span class="o">,</span> <span class="n">current</span><span class="o">)</span>
+        <span class="nf">val</span> <span class="o">(</span><span class="n">c2Points</span><span class="o">,</span> <span class="n">c2Size</span><span class="o">)</span> <span class="k">=</span> <span class="nf">removeCluster</span><span class="o">(</span><span class="n">clusterMap</span><span class="o">,</span> <span class="n">parent</span><span class="o">)</span>
+        <span class="k">val</span> <span class="nv">total</span> <span class="k">=</span> <span class="n">c1Size</span> <span class="o">+</span> <span class="n">c2Size</span>
+
+        <span class="c1">// Update the similarity between the new merged cluster and all</span>
+        <span class="c1">// other existing clusters.  </span>
+        <span class="nf">for</span> <span class="o">(</span><span class="n">key</span> <span class="k">&lt;-</span> <span class="nv">clusterMap</span><span class="o">.</span><span class="py">keys</span><span class="o">)</span>
+            <span class="nf">adj</span><span class="o">(</span><span class="n">current</span><span class="o">)(</span><span class="n">key</span><span class="o">)</span> <span class="k">=</span> <span class="nf">updatedSimilarity</span><span class="o">(</span>
+                <span class="n">adj</span><span class="o">,</span> <span class="n">current</span><span class="o">,</span> <span class="n">c1Size</span><span class="o">,</span> <span class="n">parent</span><span class="o">,</span> <span class="n">c2Size</span><span class="o">,</span> <span class="n">key</span><span class="o">)</span>
+
+        <span class="c1">// Replace the mapping from current to now point to the merged</span>
+        <span class="c1">// cluster and add current back into the set of remaining</span>
+        <span class="c1">// clusters so that it's compared to nodes in the chain.</span>
+        <span class="nf">clusterMap</span><span class="o">(</span><span class="n">current</span><span class="o">)</span> <span class="k">=</span> <span class="n">c1Points</span> <span class="o">++</span> <span class="n">c2Points</span>
+        <span class="nv">remaining</span><span class="o">.</span><span class="py">add</span><span class="o">(</span><span class="n">current</span><span class="o">)</span>
+
+        <span class="c1">// If the chain is now empty, re-initialize it.</span>
+        <span class="nf">if</span> <span class="o">(</span><span class="nv">chain</span><span class="o">.</span><span class="py">size</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span>
+            <span class="nf">initializeChain</span><span class="o">(</span><span class="n">chain</span><span class="o">,</span> <span class="n">remaining</span><span class="o">)</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>And that’s it! By focusing on reciprocal nearest neighbors, the algorithm
+merges together clusters that will always be merged, no matter how you find
+them. Furthermore, it’s remarkably easy and fast to find these nodes. By
+building the chain, the number of things that can go on the chain gets smaller
+and smaller.</p>
+
+<p>Oh, but there’s one other magic trick to making this super fast, and it depends
+on how you compute updateSimilarity. The silly way to do it would be to
+traverse all the pairings between nodes in the new cluster and the each other
+remaining cluster, but that in itself gets really slow as the clusters grow.
+But rather than doing that, <a href="https://wires.onlinelibrary.wiley.com/doi/full/10.1002/widm.53">these
+folks</a> suggest
+some recurrence relations that can be computed in constant time, for any of the
+existing agglomerative criteria methods. Crazy right? But just crazy enough to
+work correctly and be too fast to believe.</p>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      <img alt="Creative Commons License"
+           style="border-width:0"
+           src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    </a>
+    This
+    work is licensed under a
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International License
+    </a>.
+
+    <br />
+
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>

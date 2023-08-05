@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://fozziethebeat.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fozziethebeat.com/" rel="alternate" type="text/html" /><updated>2023-08-05T11:52:24+09:00</updated><id>https://fozziethebeat.com/feed.xml</id><title type="html">FozzieTheBeat</title><subtitle>A simple blog tracking my journey back into Open Source.
+</subtitle><entry><title type="html">Answers to 50 Questions for Co-Founders</title><link href="https://fozziethebeat.com/blog/2022/50-questions-for-co-founders/" rel="alternate" type="text/html" title="Answers to 50 Questions for Co-Founders" /><published>2022-07-14T00:00:00+09:00</published><updated>2022-07-14T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2022/50-questions-for-co-founders</id><content type="html" xml:base="https://fozziethebeat.com/blog/2022/50-questions-for-co-founders/">&lt;p&gt;Here’s some answers &lt;a href=&quot;https://proof-assets.s3.amazonaws.com/firstround/50%20Questions%20for%20Co-Founders.pdf&quot;&gt;50 questions to explore with a potential co-founder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Strength and superpower: I’m generally quite calm in difficult and
+  stressful situations.  I have a pretty high tolerance for things going
+wrong so I’m usually able to look at a situation, take a deep breath, and then
+figure out someway of moving forward.&lt;/li&gt;
+  &lt;li&gt;Weaknesses: Because I’m generally calm and unbothered by things, I can
+  periodically underevaluate risks or ways a situation could go badly.  For
+example, I often throw out paperwork I think is unimportant only to discover
+that it’s actually pretty important.  I fix this by partnering with people that
+prevent me from overlooking complications.&lt;/li&gt;
+  &lt;li&gt;How do co-workers describe me? Often they’ve described me as pretty
+  idealistic, I’d like to make a world or environment much better than
+currently exists.  Past reports thought I was generally inspiring and very
+active in community development.  Several co-workers mentioned that I take
+really clear and concise notes during meetings.&lt;/li&gt;
+  &lt;li&gt;Conflict: One work conflict that I didn’t deal with effectively was when
+  I wanted to collaborate with a sibling team but one of the leads was
+generally uninterested.  I was hoping to figuring out a plan that would benefit
+us both but the lead refused to share their ideas or plans, nor did they give
+much feedback.  This culminated in an arbitration session involving our joint
+manager and led to us overall deciding to ignore each other.  A conflict that
+worked out pretty well was when I once criticized a team’s work for being hard
+to use.  Unintentionally I insulted a friend and colleagues work when I was
+intending to push the team’s manager to prioritize the work my friend was
+doing.  After realizing the harm I did I took the time to listen to how they
+interpreted my email and what they were hoping to accomplish.  I apologized and
+shared my primary motivations and how they align with my friend’s goals and we
+figured out a different strategy to get their work prioritized.&lt;/li&gt;
+  &lt;li&gt;Worst interpersonal conflict: That clearly happened with my dad.  He
+  spent a weekend visiting my Mom and me and on the final day he told my
+mom, directly to her face, that she was ruining my life and that by being in my
+life I’d never get married.  I, as calmly as I could, tried to calm my mom down
+and assure her that his words didn’t reflect how I felt.  I then immediately
+told my dad to stop talking, prepare his things and silently drove him to the
+airport.  I was exceptionally mad and decided it was better to not yet or argue
+with him given that he would only insist he was right.  The best option given
+the situation was to send him on his way before I said anything that might
+become hurtful.&lt;/li&gt;
+  &lt;li&gt;Stress:  I don’t stress out very easily. I do encounter depression but
+   that mostly derives from being isolated too long or feeling left out.
+But with stress I tend to enjoy fixing challenging situations and honestly
+after several family incidents in my past and being nearly homeless a few
+times, work stress isn’t that challenging.&lt;/li&gt;
+  &lt;li&gt;Convictions: My only real convictions stem from Buddhism, which
+   ultimately just say that everything changes and we define how we deal
+with that change.  everything else is more of a lightly held idea of how the
+future could turn out.  I like to follow my intuitions of solving problems for
+other people as that’s generally made my life better.  Doing that right
+requires a lot of listening to ensure I’ve really understood someone else’s
+experience.&lt;/li&gt;
+  &lt;li&gt;Work style: My work style is fairly adapted to my living environment,
+  which has changed multiple times.  Right now my partner and I live in the
+mountains far from most people so I’ve kept myself to fairly routine and
+regular working hours to maintain a rhythm.  Depending on what needs doing I
+switch between writing ideas on paper, reading sources that might create some
+inspiration, talking through ideas with others, and just building things.  One
+key part: I’m a kinesthetic learner so to fully get an idea I need to write it
+down, repeat it out loud , or build it.&lt;/li&gt;
+  &lt;li&gt;Right now I’m pretty flexible on how much time I can work.  However, I’m
+  at an age where I want to make sure I preserve plenty of time for hobbies
+and personal time with my partner and friends.  So something like 40 to 50
+hours sounds pretty good.  In the next few years I hope to have baby and to be
+the primary care giver so my partner can reach some of her career goals so that
+will reduce my capacity to work long hours.&lt;/li&gt;
+  &lt;li&gt;Roles: I enjoy facilitating ideation to figure out both what situation
+we’re currently in and what ideas are feasible with the resources
+available.  As a technical person I also assume I’d be heavily responsible for
+ensuring technical projects get build and meet whatever criteria we setup.  I
+also enjoy governance discussions to ensure we’re meeting the needs of who
+we’re creating for and that we’re following general ethics.&lt;/li&gt;
+  &lt;li&gt;Growth: I don’t want to actively write code forever.  At previous stages
+ of life I enjoyed mentoring and so I’d very much like to help others join
+the organization and be the ones that actively build technical solutions while
+I help coach, mentor, or train.  This would also entail being heavily involved
+in hiring and ensuring it’s not moving too quickly.&lt;/li&gt;
+  &lt;li&gt;Different Roles: That’s a good question I’d have to think about.  If
+ targeting a rapid growth trajectory I’d probably want to focus on
+ensuring we’re following ethical guidelines and that we’re actively developing
+new ideas to solve harder problems we’ve discovered.&lt;/li&gt;
+  &lt;li&gt;AoR:
+    &lt;ul&gt;
+      &lt;li&gt;Sales: 1&lt;/li&gt;
+      &lt;li&gt;Marketing: 2&lt;/li&gt;
+      &lt;li&gt;Product Strategy: 5&lt;/li&gt;
+      &lt;li&gt;Design: 3&lt;/li&gt;
+      &lt;li&gt;Engineering: 10&lt;/li&gt;
+      &lt;li&gt;Operations: 5&lt;/li&gt;
+      &lt;li&gt;Fundraising: 3&lt;/li&gt;
+      &lt;li&gt;Leadership: 5&lt;/li&gt;
+      &lt;li&gt;Company Building: 4&lt;/li&gt;
+      &lt;li&gt;Recruiting: 6&lt;/li&gt;
+      &lt;li&gt;Legal: 3&lt;/li&gt;
+      &lt;li&gt;Specific (Machine Learning): 8&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The startup should probably be legally formed in the United States.  But
+  given that I live in the Japan Alps I’d prefer a remote first strategy
+with planned team bonding time centered in California.&lt;/li&gt;
+  &lt;li&gt;My only major limitation is that I plan to have a baby and want to ensure
+ I have time to do the primary care giving for the first few years of the
+child’s life.  I currently have permanent residency in Japan so no requirements
+to continue working in the country I live in.&lt;/li&gt;
+  &lt;li&gt;I like distributed ownership so a significant chunk of ownership rights
+should be pooled for future owners (workers, consumer members if this
+becomes a multi-stakeholder cooperative).  Less than 50% should be distributed
+to founders.  I also generally think that ownership should be based on how long
+we’re planning to be dedicated to the effort rather than whatever
+“foundational” work we do early on in creation of the company.  Making
+something works requires execution much more than it requires ideation.&lt;/li&gt;
+  &lt;li&gt;In a dream land the business would be partially a worker-cooperative
+whereby workers have equal governance rights.  Financially they should
+get a goot salary and a share of the profits that are developed.  That is maybe
+long term equity or revenue sharing.  It probably depends on who we hire.&lt;/li&gt;
+  &lt;li&gt;Right now, given what i’ve heard about fundraising, I prefer to take
+little to no money and figure out a path to bootstrapping to some
+revenue based cash flow.  Once a really good idea is settled and we have some
+idea on how to scale it we can debate taking large sums of investments to scale
+it to an appropriate growth.  I don’t personally aspire to be a Unicorn, I’d
+much rather raise just the right amount of funding to hit a happy size and then
+see how long that can last.&lt;/li&gt;
+  &lt;li&gt;I’d like to ensure a funder agrees with our governance structure (if
+we’re a multi-stakeholder cooperative, they have to agree to those
+terms).  They also have to agree with our overall mission and commit to
+evaluating our performance on the goals we jointly consent too.&lt;/li&gt;
+  &lt;li&gt;I think it’d be pretty cool to &lt;a href=&quot;https://e2c.how/&quot;&gt;exit to community&lt;/a&gt; and
+distribute ownership to workers and customers.  Financially I’m pretty
+happy so as long as I have some way of making a decent income (around 200k USD
+would be rad) I’m doing great.&lt;/li&gt;
+  &lt;li&gt;I’d like to get to revenue as quickly as possible as I believe free cash
+flow is a strong sign there’s a viable business.  However, I’m willing
+to take a long time growing to being a larger company.  Right now I want to
+test what I can accomplish and haven’t set any precise timelines to do it.  If
+I can pull off something cool that I’m proud of, even if it takes decades, I’ll
+be pretty satisfied.&lt;/li&gt;
+  &lt;li&gt;I have never thought about selling a company.  I’d want to sell only if
+a buyer was dedicated to providing better services to our customers
+than we can offer in the long term.&lt;/li&gt;
+  &lt;li&gt;If founders aren’t excited about the product, it’s not right for the
+team.  We would not be able to lead and guide it with the necessary 
+motivation.  So  in that case selling the idea and part of the organization is
+probably the best solution to meeting the needs of the market we discovered.&lt;/li&gt;
+  &lt;li&gt;Co founders should always talk with each other and ensure they’re
+following the needs of the customers.  It should be the boards decision
+on who to fire (or a decision made by workers if there are any workers).  A
+radical view I have is that workers should be able to fire a founder if the
+founder is really goign against the aims and motivations of the organization.
+For example, SpaceX should probably consider firing Elon Musk for making it
+hard for them to operate.&lt;/li&gt;
+  &lt;li&gt;I’m personally intersted in creating something new and seeing if
+there’s a way to structure it so that all impacted stakeholders have a
+say in how the organization is goverend.  I’d like to test the common practices
+of corporate structure to see if a more ideal structure can be discovered.&lt;/li&gt;
+  &lt;li&gt;Success is simply solving someone elses problem enough that they find
+value in paying for a service or a product.  At a personal level I
+consider myself successful to the extent that I reduce the suffering of those
+around me and in the world in general.&lt;/li&gt;
+  &lt;li&gt;Practicing a new form of capitalism would be pretty radical.  If we’re
+able to find a way that more people can decide what’s important in a
+company, and ensure all ethical considerations are considered, then that’s a
+huge win.&lt;/li&gt;
+  &lt;li&gt;When i was about 20 I slept behind a couch in my friends living room
+for about 18 months.  At the same time I stocked shelves in a nearby
+Target between 11pm to 6am so that I could afford jr. college.  That made me
+pretty gritty.&lt;/li&gt;
+  &lt;li&gt;Within my family, my great grandmother Luise managed to accumulate a
+lot of property that she managed.  That eventually helped support much
+of my family and helped me buying a house for my Mom.  What she managed to
+accomplish while being an immigrant in America was amazing and I hope to do
+something supportive like that.  Beyond my family, I have really admired
+several monks I’ve spent time with while studying Buddhism.  They’re broad
+minded approach to life and readiness to feel the world around them has helped
+me a lot.&lt;/li&gt;
+  &lt;li&gt;I’m most proud of the people I’ve mentored that have found success that
+they’re proud of.  I used to mentor a group of students at a Buddhist
+temple and many of them have found lives they love.  I’ve also recently helped
+mentor a group of girls finding their place in the tech world and it’s great
+seeing their excitement to try out ideas of their making.&lt;/li&gt;
+  &lt;li&gt;During the pandemic my partner and I very quickly decided we should try
+living in the mountains.  Our friends were sort of thinking about it
+but not taking action.  We came up with the idea and within about 4 months we
+made it happen and had fully moved our lives.  There were a lot of unknowns,
+such as if we’d like living so far away from people, but it turns out to have
+been a great choice for us personally and we’re sticking with it.&lt;/li&gt;
+  &lt;li&gt;I used to admire Basecamp but then they imploded and I saw how they
+really operate.  So that’s too bad.  There’s a lot of aspects of Google
+that I like and still admire but there’s also a lot that I don’t want to
+replicate, such as the focus on quarterly earnings and the efficiency decisions
+made without worker input.  I do really love what Hugging Face is doing in the machine learning space and hope they stick to their ideas.&lt;/li&gt;
+  &lt;li&gt;It’s probably not possible to make a unicorn earning a bajillion
+dollars without sacrificing a personal life.  But in my more narrow
+definition of success whereby customers are happy and ownership is more broadly
+shared, I think it’s totally possible to find wild success and a good personal
+life.&lt;/li&gt;
+  &lt;li&gt;Yes, this effort will be my primary activity until I have a baby.  In
+the winter I hope to spend a few hours a day skiing.&lt;/li&gt;
+  &lt;li&gt;Right now I can dedicate my full time and I expect that to remain true
+for at least a year.  Within 2 years my time will decrease due to said
+parenting expectations.&lt;/li&gt;
+  &lt;li&gt;I have enough personal runway to live out my current expenses for about
+2 years.  I plan to take on some consulting to help extend that runway.
+If i had to invest my own money my runway would shrink a bit but with a good
+idea i’d of course invest some, primarily by paying the most essential bills.&lt;/li&gt;
+  &lt;li&gt;As of next year when I’ve help ensure my Mom can cover her expenses, I
+think I can survive on $3k a month.  I’ve really made it if I can make
+$10k a month (my previous Google total compensation amounted to about $41K a
+month).&lt;/li&gt;
+  &lt;li&gt;I’m not entirely sure I understand the question.  Let’s talk.&lt;/li&gt;
+  &lt;li&gt;It would make me proud to hear people describe the company’s culture as
+democratic and ethical.&lt;/li&gt;
+  &lt;li&gt;I think great people aspire to solve the same problem that the company
+has set out.  When I tried to hire new grads at Google it was easy to
+find engineers that were &lt;em&gt;great&lt;/em&gt; at writing code but we’re more excited to
+solve technical puzzles than figure out how to solve other peoples challenges.
+I always picked candidates that loved our team’s mission and wanted to grow
+into solving the problems we were facing.  I’m confident many skills can be
+trained and developed but commitment to the problem can’t be trained.  So the make it happen, we first have to really define the problem being solved, then make sure &lt;em&gt;everyone&lt;/em&gt; knows what we’re solving.&lt;/li&gt;
+  &lt;li&gt;I’m still figuring out how to make teams the most successful but I
+stick to the policy of making sure everyone fully agrees on the problem
+we’re solving.  Then, once our motivations fully agree, it takes listening to
+figure out what might be limiting success and then figuring out what
+development is needed.&lt;/li&gt;
+  &lt;li&gt;When the team is small I expect most of the time will be spent talking
+to potential customers and the founding team when we’re not actively
+building a thing.  Once the team is growing I expect at least 50% of my time to
+be dedicated to communicating with people.&lt;/li&gt;
+  &lt;li&gt;Within Google I was a part of several DEI efforts and have continued
+that once out of Google.  I believe that most everyone can be inspired
+to solve some socially important problem and with the right amount of support,
+coaching, and self development time, they can be effective at solving the
+problems they find motivating.  I think that happens by ensuring the youth
+(teenagers) of all economic backgrounds see that they can solve problems they
+care about and that they have opportunities to learn from others.  I do that
+right now through Technovation Girls in Japan given that tech has left women
+out within Japan (more dramatically than most other countries) but how it looks
+in other environments will end up being context dependent.&lt;/li&gt;
+  &lt;li&gt;How to prioritize co-founder relationships, that’s a hard one.
+Quarterly meet ups will be essential since some time in the same space
+can be really important. When I sent to meditation retreats this was always an
+impactful way to better bond with people I saw only very rarely.&lt;/li&gt;
+  &lt;li&gt;I think personal conflicts can always be solved by first asking
+ourselves what we’re feeling in the situation, what prior (or
+externally influenced) feelings or motivations we’re introducing, and what
+we’re ignoring about the other person’s perspective.  Then we can better listen
+to what the other is truly saying and figure out a compromise.  As long as we
+fully agree on the problem we’re aiming to solve, everything else comes down
+our ability to negotiate a compromise.&lt;/li&gt;
+  &lt;li&gt;In a startup divorce, ownership should go in the direction of whomever
+is most dedicated to follow the mission of the startup.  I’d hope that
+we’re each emotionally mature enough to be honest about our dedication to the
+challenge even if it means stepping back.&lt;/li&gt;
+  &lt;li&gt;Is this question about personal growth or business growth? Let’s assume
+it’s business growth.  I’m going to further assume we’re not growing
+for one of a few reasons: a) we’re building a product no one wants and we’ve
+been ignoring our customers, b) we’re not charging the right price and can’t
+sustain ourselves, c) we’re afraid of taking a risk due to some concern we
+haven’t communicated.  For each of these, we’d have to figure out who we have
+to better communicate with and start that process.&lt;/li&gt;
+  &lt;li&gt;I think the best way to handle resentments is to always be discussing
+what we’re expecting out of the partnership and be open about our
+dissatisfactions.  Non Violent Communication is great at this by clearly saying
+“I Feel (upset, worried, mad, insulted, etc) when (specific situation
+happened)”  With this we can each share to ensure no dissatisfactions sit
+around and ferment.&lt;/li&gt;
+  &lt;li&gt;Shared ownership is the goal so this is inevitable.  We’d of course have to discuss what roles they want to take on.&lt;/li&gt;
+  &lt;li&gt;This one I can’t answer until it’s a two way conversation :)&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="values" /><summary type="html">Here’s some answers 50 questions to explore with a potential co-founder.</summary></entry><entry><title type="html">Committing to Open Source Incentives</title><link href="https://fozziethebeat.com/blog/2021/committing-to-open-source-incentives/" rel="alternate" type="text/html" title="Committing to Open Source Incentives" /><published>2021-12-07T00:00:00+09:00</published><updated>2021-12-07T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2021/committing-to-open-source-incentives</id><content type="html" xml:base="https://fozziethebeat.com/blog/2021/committing-to-open-source-incentives/">&lt;p&gt;The &lt;a href=&quot;https://untangled.substack.com/p/-some-unsatisfying-solutions-for&quot;&gt;Untangled
+Newsletter&lt;/a&gt;
+recently walked through the many reasons Facebook will remain a dominant
+internet player even with an increase in scrutiny and regulation.  The
+key takeaway was a lack of true accountability or really any form of
+leverage to change the structures within Facebook which produce social
+harms.&lt;/p&gt;
+
+&lt;p&gt;The other big tech corporations, or big corporations in general, have the
+same malady.  They have incentive structures and behavioral patterns that
+live deep within their organizations.  Structures as deep and fundamental
+as bones.  Also about as visible as bones typically are.  But like bones,
+they support the overall structure and enable repeated behaviors and
+foster a continuous mindset.  Those behaviors and mindsets then
+repeatedly produce mistaken decisions, bad products, or unintentional
+harm.&lt;/p&gt;
+
+&lt;p&gt;One key layer to the incentive skeleton system is the performance review
+and all that backs those reviews.  Job codes, or job roles, detail an
+employees key responsibilities.  It also details what an employee can
+safely ignore.  For example, a job code allows any employee to look at a
+problem and readily say “that’s not my problem, talk to this other
+person”.  It permits endless punting.&lt;/p&gt;
+
+&lt;p&gt;But more than a role description we find the job ladder.  A job ladder
+helps an individual self manage their performance at their current level
+and set their sights on doing “next level” work.  It makes clear what’s
+rewarded, what’s incentivized, what’s measured, and what’s not.  The
+contents of the job ladder provide a very clear and mostly well defined
+incentive environment.  Every word in that job ladder carries heavy
+consequences.&lt;/p&gt;
+
+&lt;p&gt;Take for example community building.  A wide range of activities build up
+an organizations culture like planning team socials, bringing team
+members together with ice breakers, or celebrations such as holiday
+parties.  One job ladder may reward these activities and thus encourage 
+anyone in that ladder to help out and contribute to the culture.  Another
+job ladder may leave this detail out and thus anyone under said job
+ladder would be fully rational in ignoring all forms of cultural
+development.  When pressure develops a good culture will die due to
+neglect when the job ladder forgets to mention it.&lt;/p&gt;
+
+&lt;p&gt;What’s more, job ladders are built not just for employees but also for
+managers.  Managers help assess and rate how well an employee is doing.
+A manager gauges if the employees is on target, living up to the job
+ladder’s description.  If they are over-performing and doing “next level”
+work.  And given that managers have a lot to do, they prefer ladders with
+very measurable outcomes.  Sales targets are optimal.  Features launched
+are pretty good.  Concrete efficiency numbers are excellent.  Capacity to
+make ethical decisions are a burden to evaluate.  So you’ll find job
+ladders orienting towards bullet points that can be well explained and
+well defended with evidence so that a manager can rationalize their
+rating decisions.&lt;/p&gt;
+
+&lt;p&gt;That tendency to improve measurement has a cost. A clear cost of failing
+to incentivize the really hard work that reduces disasters.  The critical
+work of debating ethical options and opting not to do something.  The
+messy work of bringing in critical and negative feedback.  This is
+sometimes solved by a dedicated role, but shouldn’t the hard ethical work
+be part of the culture? Something everyone does all the time?&lt;/p&gt;
+
+&lt;p&gt;So how does a company do better? Sharing job ladders openly is a start.
+But ultimately that is just a form of transparency without
+accountability.  External observers can read the ladder and make
+critiques but have no real leverage to influence the ladders development.
+So what about going further and adopting open source practices.&lt;/p&gt;
+
+&lt;p&gt;Imagine a job ladder that is out in the open and which anyone can change
+it, with some amount of review and revision.  The public, at any time,
+could make a git pull request and update some portion of a company’s job
+ladder with the public’s incentives baked in.  They could for example
+demand that ethical work be made part of all job ladders.&lt;/p&gt;
+
+&lt;p&gt;It’d be hell for managers as they would be bound to measuring and gauging
+success along a completely unpredictable set of requirements.  But should
+we really stress about making a manager’s life more difficult when the
+cost disincentivizes ethical decision making?&lt;/p&gt;</content><author><name></name></author><category term="values" /><summary type="html">The Untangled Newsletter recently walked through the many reasons Facebook will remain a dominant internet player even with an increase in scrutiny and regulation. The key takeaway was a lack of true accountability or really any form of leverage to change the structures within Facebook which produce social harms.</summary></entry><entry><title type="html">Hypothetical Organizational Values: Build Beyond Ourselves</title><link href="https://fozziethebeat.com/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/" rel="alternate" type="text/html" title="Hypothetical Organizational Values: Build Beyond Ourselves" /><published>2021-12-05T00:00:00+09:00</published><updated>2021-12-05T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2021/hypothetical-organizational-values-build-beyond-ourselves</id><content type="html" xml:base="https://fozziethebeat.com/blog/2021/hypothetical-organizational-values-build-beyond-ourselves/">&lt;p&gt;Why did Buddhism survive for so long? And then grow to have so many very
+distinct sects? To me, the answer hides in the key message of the Buddha
+(Siddhartha Gautama) and how he spread the practice. First and foremost, the
+Dharma, what Buddhists aspire to fully understand, is all around us.  It
+can be found in a pile of leaves, in a lotus flower, or in a salad.  The
+dharma is for all sentient beings.  Not just Brahmins of ancient India, not
+people in India, not just human beings on earth, not even just beings with
+corporeal form.  The Dharma is for all sentient beings from the lowest realm
+to the highest realm.  Its beyond any one of us and beyond any one time
+period.&lt;/p&gt;
+
+&lt;p&gt;Second, how we understand the Dharma must live beyond anyone person.  The
+Buddha was never the gatekeeper to the Dharma.  Never the sole person to
+truly understand the Dharma.  Nor did the Buddha name a successor.
+Instead, the Buddha was one who began the Dharma wheel, the one to informed
+others that the Dharma exists all around us and that each of us must
+discover the lessons on our own.  And ultimately, the practice or
+understanding was mandated or funneled through any individual, the practice
+lives through an entire group of practitioners , the sangha.  Each of us must
+learn lessons and wisdom from the Dharma and even if the Buddha never
+existed in history, the Dharma would still exist and it is co-existent with
+our lived experiences.&lt;/p&gt;
+
+&lt;p&gt;From that, I see a lesson for any organization meant to last 2500 years and
+which aims to benefit others beyond the organization (ideally everyone or
+thing on earth).&lt;/p&gt;
+
+&lt;p&gt;Every action must be done for more than ourselves.  And those actions must be done with a means that will continue far beyond ourselves.&lt;/p&gt;
+
+&lt;p&gt;This is what Build Beyond Ourselves tries to convey.  Even thought it may
+seem impossible, any great product or service must exist for the causes and
+conditions of people we may never meet and may never know.  They may be
+forever distant from us linguistically, physically, or even temporally.  But
+what is made now may one day impact that unknown person (or non-human
+sentient being). and with skillful means applied now, that impact can be a
+positive impact.&lt;/p&gt;
+
+&lt;p&gt;But further, how we build must never be centered around any one of us.  It
+cannot be guided purely by our desires or goals or missions.  It can never
+be limited our lifetimes or time availabilities.  If our skilful
+organizational means or our vision falters when one person leaves then we
+have only built a practice and a set of habits that center around ourselves.
+Like a sangha, we must steward our knowledge and habits for when we
+eventually depart so that others may continue the practice.&lt;/p&gt;
+
+&lt;p&gt;As we learn to build beyond ourselves, we steward a true commons far into
+the future.&lt;/p&gt;</content><author><name></name></author><category term="Buddhism," /><category term="values" /><summary type="html">Why did Buddhism survive for so long? And then grow to have so many very distinct sects? To me, the answer hides in the key message of the Buddha (Siddhartha Gautama) and how he spread the practice. First and foremost, the Dharma, what Buddhists aspire to fully understand, is all around us. It can be found in a pile of leaves, in a lotus flower, or in a salad. The dharma is for all sentient beings. Not just Brahmins of ancient India, not people in India, not just human beings on earth, not even just beings with corporeal form. The Dharma is for all sentient beings from the lowest realm to the highest realm. Its beyond any one of us and beyond any one time period.</summary></entry><entry><title type="html">Making NFTs into the Commons</title><link href="https://fozziethebeat.com/blog/2021/making-nfts-into-the-commons/" rel="alternate" type="text/html" title="Making NFTs into the Commons" /><published>2021-11-29T00:00:00+09:00</published><updated>2021-11-29T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2021/making-nfts-into-the-commons</id><content type="html" xml:base="https://fozziethebeat.com/blog/2021/making-nfts-into-the-commons/">&lt;p&gt;Okay so, NFTs (Non-Fungible Tokens) are technically some piece of digital art
+that exist somewhere.  Maybe on a personal web server.  Maybe on an AWS S3
+Bucket.  Maybe on some other Big Tech platform.  Maybe even could be living on
+IPFS.  The NFT isn’t exactly the piece of digital art (since one could make
+NFTs for off-chain arts) nor is it the rights to the digital art (NFTs in
+general don’t need to specify or detail any kind of license).  The NFT is more
+like a badge of honor, or a proof of provenance, for supporting the creator,
+either directly or indirectly through a secondary market.&lt;/p&gt;
+
+&lt;p&gt;For the digital art backing the NFT, what are it’s rights and permissions and
+how does the NFT-ness interact with those rights and permissions?  And how
+could (or should) those aspects change over time as the NFT develops?  If the
+piece of art exists off chain it could already have a form of license and
+rights attached to it that limit it’s re-use, for example with a restrictive
+Copyright.  Same even if the NFT lives fully on Chain, the creator could only
+permit the right to read and observe the thing and trade the access rights.
+In those settings, NFTs don’t really do anything radical.  Intellectual
+Property still exists as we’ve been familiar with it and now we just have a
+new ownership system that does a better job of paying trailing royalties to
+creators even in secondary markets.&lt;/p&gt;
+
+&lt;p&gt;But let’s get silly.&lt;/p&gt;
+
+&lt;p&gt;I’ve always felt that cultural icons like Mickey Mouse should have entered the
+commons (or properly the Public Domain) long ago.  With a positive framing,
+Mickey Mouse is famous not because Walt Disney made a really cool and
+creative mouse but because Mickey Mouse participated in a series stories and
+challenges that reflected problems and difficulties we all face.  And at a
+certain point, Mickey Mouse began to reflect the life situations for a growing
+subset of society.  Mickey even went international.   It’s only due to
+Copyright law that the Disney Corporation was the central manager for these
+stories.  Had Mickey Mouse entered public domain, which should have happened
+some number of years after Walt Disney’s death, an even larger number could
+have told stories with Mickey that captured even more of our life stories.&lt;/p&gt;
+
+&lt;p&gt;Copyright has an approach for this.  In some countries, 70 years after a
+creators death a work of art enters into the Public Domain and it’s officially
+part of The Commons, the thing we all steward into the future.  But Mickey
+Mouse and plenty of other creations outlive this deadline and have managed to
+remain under Copyright for “reasons”.&lt;/p&gt;
+
+&lt;p&gt;But could this be done and enforced more naturally with the blockchain such
+that there’s no wiggle room?  A totally blockchain native NFT could evolve its
+license over time based on some pre-defined schema and schedule.  At a
+technical level, this is pretty easy as it would just be some attribute that
+changes in a smart contract much like levels for Crypto Zombies.  This
+attribute would just be the particular license attached to the NFT.&lt;/p&gt;
+
+&lt;p&gt;A creator could use a range of schemas and schedules in fun combinations.  One
+could for example make license transitions according to the total net worth of
+the NFT according to DAI.  Or one could make license transitions following the
+number and size of secondary sales such that the n-th secondary sale triggers
+a change.  Or transitions could be triggered by the number of derivatives,
+follow on pieces of work or financial derivatives.&lt;/p&gt;
+
+&lt;p&gt;The transition schedules in an ideal scenario would go from restrictive rights
+to ultimately the Public Domain.  Here, a creator could select the Creative
+Commons Non-Commercial Share-Alike license and thereby ensure no one can
+commercially compete with them using the work of art for some period of time.
+Once the work has supported the creator sufficiently, the work could drop the
+Non-Commercial clause and become a simple Creative Commons Share-Alike
+license.  And once the work really hits critical mass it explicitly goes into
+the Public Domains with an explicit Creative Commons 0 license.&lt;/p&gt;
+
+&lt;p&gt;And all of this would be self managed and self enforced by the smart contract
+wrapping the NFT itself.  We wouldn’t be beholden to a corporation making
+these changes or Copyright lawyers negotiating these changes.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day this would be transitioning more works of art to The
+Commons, a resource we all steward and all benefit from.  By that point
+ideally creators would have moved on to create other follow on works that
+support them and made enough from any royalties on secondary sales.  One the
+final transition to Public Domain happens the NFT itself could be burned or
+could automatically route a growing share of royalties to public goods
+funding.&lt;/p&gt;
+
+&lt;p&gt;The really fun stage would be when whole libraries of works change as a bulk,
+essentially working as a Common Pool Resource.  Even if some of the works
+don’t hit the milestones for transitions, the pool as a whole might be
+culturally significant that all entries in the pool should change in tandem.
+Perhaps these transitions could also bake into them an expansion of who owns
+or governs them. For example, the Song a Day library is currently owned fully
+by the Song A Day DAO.  But at some point, perhaps the library’s contract
+could require additional DAOs to be brought on as owners.  Each transition
+would bring on more and more governors until finally it’s in The Commons and
+somehow everyone governs and benefits from the library.&lt;/p&gt;
+
+&lt;p&gt;A key part to making this all work is likely the works living entirely
+on-chain so that smart contracts can manage these attributes and enforce the
+transitions.  You can’t really change the licenses for off chain works of art
+like the Mona Lisa as no one would realistically respect that declaration.
+But a fully on chain entity would exist as both the entity and the license and
+the transition rules.  At that point, I suspect, there’d be less room for
+untrustworthy actors to develop workarounds.&lt;/p&gt;
+
+&lt;p&gt;Even with that challenge and a lot of open details, this could be pretty rad.&lt;/p&gt;</content><author><name></name></author><category term="web3" /><summary type="html">Okay so, NFTs (Non-Fungible Tokens) are technically some piece of digital art that exist somewhere. Maybe on a personal web server. Maybe on an AWS S3 Bucket. Maybe on some other Big Tech platform. Maybe even could be living on IPFS. The NFT isn’t exactly the piece of digital art (since one could make NFTs for off-chain arts) nor is it the rights to the digital art (NFTs in general don’t need to specify or detail any kind of license). The NFT is more like a badge of honor, or a proof of provenance, for supporting the creator, either directly or indirectly through a secondary market.</summary></entry><entry><title type="html">Moloch as the lack of balance</title><link href="https://fozziethebeat.com/blog/2021/moloch-as-lack-of-balance/" rel="alternate" type="text/html" title="Moloch as the lack of balance" /><published>2021-11-25T00:00:00+09:00</published><updated>2021-11-25T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2021/moloch-as-lack-of-balance</id><content type="html" xml:base="https://fozziethebeat.com/blog/2021/moloch-as-lack-of-balance/">&lt;p&gt;What is Moloch?&lt;/p&gt;
+
+&lt;p&gt;Slate Star Codex (SSC) believes Moloch to be the failure to coordinate.  Or
+really, Moloch is the tendency to compete (and win) over all other values.
+Or really, Moloch is the determination to play finite games instead of
+infinite games.&lt;/p&gt;
+
+&lt;p&gt;The crypto world seems to have agree with SSC’s interpretation of Moloch.
+We have the Moloch DAO to form DAO centered around funding coordination.
+We have Gitcoin who repeatedly remarks public goods failures as coordination
+failures.  We have the Commons Stack building token economies for the
+commons to fight coordination failures.  We have Coordinate
+doing….something.  In Crypto, all problems boil down to coordination
+failures.&lt;/p&gt;
+
+&lt;p&gt;But what if Moloch is much simpler?  SSC’s consistent framing for Moloch is
+that of an old god demanding all values be sacrificed for the sake of
+survival amongst Nature.  This has two, potentially false, assumptions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nature is actively trying to kill us.&lt;/li&gt;
+  &lt;li&gt;Trying to survive is not a value.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;My take differs quite radically.&lt;/p&gt;
+
+&lt;p&gt;Moloch is the tendency of sentient beings to choose the value of survival
+over other values.  That’s it.  In more words, Moloch is the failure to
+balance competing values.  Nature is not trying to kill us, instead, change
+is inevitable and all things naturally arise and die over time and
+ultimately values must always be balanced.  No value is always best in all
+situations.  And nothing in guaranteed to survive.  In fact, from a Buddhist
+view all things are guaranteed to end.&lt;/p&gt;
+
+&lt;p&gt;SSC does equate Moloch to Lovecraftian Old Gods.  This relation feels much
+more right given that the base desire for living beings to survive is
+ancient and continues deep within pretty much all living things.  If Moloch
+is the personification of blind pursuit of survival, he is for sure the
+oldest of Old Gods.  But he is not the god behind all Old Gods, nor is he
+the only Old God.  Instead, anytime we fixate on any single value above all
+other values we make a new Old God like Moloch.  And that new Old God of our
+own creation too will one day engulf us.&lt;/p&gt;
+
+&lt;p&gt;If coordination becomes a value above all values, that too will become an
+Old God alongside Moloch.  The God of Optimizing Coordination will seek to
+delude us in optimizing coordination.  It will bring us down to the realm of
+fighting over winning finite games.&lt;/p&gt;
+
+&lt;p&gt;Only the infinite game can overcome Old Gods.&lt;/p&gt;</content><author><name></name></author><category term="theology" /><summary type="html">What is Moloch?</summary></entry><entry><title type="html">What is going on here</title><link href="https://fozziethebeat.com/blog/2021/what-is-going-on-here/" rel="alternate" type="text/html" title="What is going on here" /><published>2021-08-08T00:00:00+09:00</published><updated>2021-08-08T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2021/what-is-going-on-here</id><content type="html" xml:base="https://fozziethebeat.com/blog/2021/what-is-going-on-here/">&lt;p&gt;&lt;img src=&quot;/assets/img/surface.png&quot; alt=&quot;Surface Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As I do every few years, I am restarting my blog and doing it the hard way.
+About a decade ago I used Octopress and GithubPages to do a blog.  A year or so
+ago I used Ghost to do a blog.  Intermitently I’ve tried Medium and even
+Substack.  But like always, i’m here again with a really rough blog platform
+with few bells or whistles.&lt;/p&gt;
+
+&lt;p&gt;So why do this all over again?  The key reason is that in the very near future
+I will be leaving Google after over 9 years of full employment and I need to
+get back into the flow of both blogging and using open source tools.  Further,
+I always prefer platforms where I fully own the content that gets made.  Ghost
+is great but it requires a bit too much to maintain.  So rough again we go.&lt;/p&gt;
+
+&lt;p&gt;For the last few months of employment I’ll be making a simple project of
+updating the New York Times &lt;a href=&quot;https://github.com/nytlabs/hive&quot;&gt;Hive&lt;/a&gt; projects
+into the modern era.  I found this project many years ago when I started a
+crowdsourcing project and thought it was pretty cool.  The sad story however
+was that the project was poorly documented and it ended up going stale pretty
+quickly.  Go was always a weird language to use that had a small community and
+ElasticSearch advanced too fast for New York Times to keep up with.  So that
+old package got pretty crusty pretty fast.&lt;/p&gt;
+
+&lt;p&gt;That’s why project number one is just to take an existing well intentioned
+project and make it work with a slightly more long lasting stack.  That’ll mean
+getting it to work with the latest Elastic Search APIs (7.x as of now) and to
+get it working with a slightly more trendy and persistent server stack.  For me
+that looks like something that works smoothly with the serverless trend and is
+based solidly on node.js.  After poking a lot at frameworks Next JS feels like the easiest to use and has the fewest oddities backed into it.&lt;/p&gt;
+
+&lt;p&gt;If this all works well I will likely checkin with Professor Paul Eggert at UCLA
+to pitch a CS 130 project to extend the effort to do a few cool things.
+Probably have a good solid user interface that wraps the REST APIS.  Maybe
+generalize the framework to use more than just ElasticSearch, such as SOLR or
+some other option.  And to do something about authentication.  The original
+library seemed to assume authentication was just…done…for you….and that’s
+never the case.  Again, Next JS seems to have handled that pretty well.&lt;/p&gt;
+
+&lt;p&gt;So, like all my blogging efforts, this might die out, but hopefully not.  At least this time around there’s a cool and very custom logo.&lt;/p&gt;</content><author><name></name></author><category term="life" /><category term="open-source" /><summary type="html"></summary></entry><entry><title type="html">Papers I’ve Really Enjoyed Reading</title><link href="https://fozziethebeat.com/blog/2012/papers-ive-really-enjoyed-reading/" rel="alternate" type="text/html" title="Papers I’ve Really Enjoyed Reading" /><published>2012-09-12T00:00:00+09:00</published><updated>2012-09-12T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2012/papers-ive-really-enjoyed-reading</id><content type="html" xml:base="https://fozziethebeat.com/blog/2012/papers-ive-really-enjoyed-reading/">&lt;p&gt;As any good grad student would, I’ve read a lot of research papers. And my reading interest have swayed far and wide across the Natural Language Processing spectrum and even expanded into more general Machine Learning methods and Bayesian modelling. Now that i’m transitioning from a full time grad student focused on research to being a full time software developer at Google, I want to just briefly jot down a list of papers that have stuck out the most for me this last week as I transition. So in no particular order, and in no way totally inclusive, here they are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://people.eecs.berkeley.edu/~jordan/papers/hdp.pdf&quot;&gt;Hierarchical Dirichlet
+Processes&lt;/a&gt;: This
+paper really helped me figure out both how Dirichlet Processes worked, the
+multiple interpretations of these models, and inference procedures. On top of
+that, it introduced an even cooler hierarchical extension to Dirichlet
+Processes. A must read for non-parametric Bayesian models.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuclid.org/journals/bayesian-analysis/volume-5/issue-4/Particle-learning-for-general-mixtures/10.1214/10-BA525.full&quot;&gt;Particle Learning for General
+Mixtures&lt;/a&gt;:
+I still don’t fully understand how to design good particle filters, but this
+paper pushed my mind in a lot of ways and got me excited about Sequential
+Markov Models quite a while ago. It’s event got a cool surprise: It’s written
+by people in Business schools!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/227630765_The_Curious_Case_of_Behavioral_Backlash_Why_Brands_Produce_Priming_Effects_and_Slogans_Produce_Reverse_Priming_Effects&quot;&gt;The Curious Case of Behavioral
+Backlash&lt;/a&gt;:
+Why Brands Produce Priming Effects and Slogans Produce Reverse Priming Effects:
+I in generally love anything to do with psychical priming, so this paper caught
+my attention when I came across it. And the horribly long title says what it’s
+all about. They go through a battery of experiments testing the impact upon
+people created by both branding and slogans. Their results are kinda surprising
+between&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aclanthology.org/D11-1130&quot;&gt;Cross-Cutting Models of Lexical
+Semantics&lt;/a&gt;: This paper is both really
+simple and really complicated at the same time. They glue together two really
+great ideas: Latent Dirichlet Allocation and Dirichlet Process Mixture Models
+to build a nicely thought out Cross Cutting, or multiple clustering under
+multiple views, model for processing text documents. I only wish I’d thought of
+this idea first.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.7133&quot;&gt;An Introduction to MCMC for Machine
+Learning&lt;/a&gt;:
+If you love topic models, Dirichlet Process Mixture Models, or any other
+sophisticated Bayesian model, then this paper is a must read. Written by some
+of the big hitters in MCMC learning, they cover all the major Monte Carlo
+Markov Chain approaches in sweet sweet detail.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gatsby.ucl.ac.uk/~edward/pub/inf.mix.nips.99.pdf&quot;&gt;The Infinite Gaussian Mixture
+Model&lt;/a&gt;: Yet
+another paper based on Dirichlet Process Mixture Models. It’s a totally
+non-parametric Bayesian clustering model with deep layers of hierarchy to
+smooth out the mixtures nicely.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gatsby.ucl.ac.uk/~edward/pub/inf.mix.nips.99.pdf&quot;&gt;A Nonparametric Bayesian Model for Multiple Clusterings with Overlapping
+Feature Views&lt;/a&gt;:
+This was my first introduction to cross cutting clustering models. They take a
+totally different approach than the original multi-clustering approach and but
+as complicated as it looks at first, it makes a nice amount of sense after a
+while.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ai.stanford.edu/~rion/papers/semtax_acl06.pdf&quot;&gt;Semantic Taxonomy Induction from Heterogeneous
+Evidence&lt;/a&gt;: Yet
+another paper I wish I’d though of first. How do you extend an ontology
+automatically? You just use the knowledge you already have encoded to train a
+classifier for the kind of relationships you want to add and let it fly over
+new data. Final product? A bigger and better taxonomy with oodles of new
+information.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aclanthology.org/E09-1005.pdf&quot;&gt;Personalizing PageRank for Word Sense
+Disambiguation&lt;/a&gt;: This is one of the
+earlier really great graph based and fully unsupervised Word Sense
+Disambiguation papers. It glues together the magic of PageRank and intuitions
+about word senses to get a general model that’s pretty hard to beat event
+today.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://homepages.inf.ed.ac.uk/mlap/Papers/PAMI_2010_Navigli_Lapata-1.pdf&quot;&gt;An Experimental Study of Graph Connectivity for Unsupervised Word Sense
+Disambiguation&lt;/a&gt;:
+Another really good paper covering all the ways you can build fully
+unsupervised Word Sense Disambiguation models using graphs of word senses. The
+best of the models used still get used pretty often in WSD.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aclanthology.org/P12-1092.pdf&quot;&gt;Improving Word Representations via Global Context and Multiple Word
+Prototypes&lt;/a&gt;: Andrew Socher is a
+badass. Simple as that. I never though I’d see a totally legitimate and awesome
+lexical semantics model use a neural network, but hey made it work beautifully.
+It’s a good competitor to the Cross-Cutting model of semantics too.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pubmed.ncbi.nlm.nih.gov/21377146/&quot;&gt;A probabilistic model of
+cross-categorization&lt;/a&gt;: Probably
+the best starting point for learning about cross categorization (cross-cutting)
+models. It gives a good bit of theory of how they work, how to build them, and
+a huge swath of examples of how they can be applied to approximate human
+decision making. Really impressive stuff.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="research" /><summary type="html">As any good grad student would, I’ve read a lot of research papers. And my reading interest have swayed far and wide across the Natural Language Processing spectrum and even expanded into more general Machine Learning methods and Bayesian modelling. Now that i’m transitioning from a full time grad student focused on research to being a full time software developer at Google, I want to just briefly jot down a list of papers that have stuck out the most for me this last week as I transition. So in no particular order, and in no way totally inclusive, here they are:</summary></entry><entry><title type="html">Finding Events During the Olympics</title><link href="https://fozziethebeat.com/blog/2012/finding-events-during-the-olympics/" rel="alternate" type="text/html" title="Finding Events During the Olympics" /><published>2012-08-28T00:00:00+09:00</published><updated>2012-08-28T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2012/finding-events-during-the-olympics</id><content type="html" xml:base="https://fozziethebeat.com/blog/2012/finding-events-during-the-olympics/">&lt;p&gt;I needed the event times for every game, tournament, and competition that
+happened during the London 2012 Olympics. Thankfully the London 2012 website
+posts all this information online. Sadly, this information isn’t posted
+anywhere in an easy to utilize format. I was deeply hoping that there would be
+a csv file describing when every event took place, but to no avail. Instead,
+all I had access to was beautifully rendered web pages like below, which
+graphically detail when each event began and end for each day.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/olympics-archery-event-example.png&quot; alt=&quot;When Archery Events were happening in 2012&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This handy web page has all the information I need, but how easy is it to get
+that information out?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-raw-event-information&quot;&gt;The raw event information&lt;/h2&gt;
+
+&lt;p&gt;Well, let’s take a gander at the html used to describe each event:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;barWrap disciplines&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;c&quot;&gt;&amp;lt;!--s-u: ARM073900 - ARM073900--&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;left: 72px; width: 90px; height:19px; overflow:hidden;&quot;&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bar ed_2012-08-30T12:30:00+01:00&quot;&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bar-ARM073900&quot;&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;a_20120830090000 b_&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+       &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;barcnt m0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/paralympics/archery/event/men-individual-recurve-w1-w2/phase=arm073900/index.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bar-time&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;10:00 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bar-phasedesc&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Ranking Round &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bar-scheduleline&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+             &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;score&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+       &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It’s pretty obvious when the event took place no?&lt;/p&gt;
+
+&lt;p&gt;Not really. They’ve crammed all the timing information into the second div
+element using two different attributes: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-type&lt;/code&gt;. Furthermore,
+they’ve also encoded the start time within a deeply nested span. &lt;em&gt;But&lt;/em&gt; it gets
+&lt;em&gt;better&lt;/em&gt;. They use two &lt;em&gt;different&lt;/em&gt; time zones and two different date formats,
+the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; attribute uses GMT+01:00 using a pretty readible format while the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-type&lt;/code&gt; uses GMT+00:00 with a horribly mashed together format. But at
+least, it’s a regular pattern. So we should be able to get everything we want
+by treating this as xml and just extracting the attribute values for the nodes
+we care about.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-obvious-way-to-extract-those-times&quot;&gt;The obvious way to extract those times&lt;/h2&gt;
+
+&lt;p&gt;XML parsing is both pretty fast and easy, if you select the right language.
+Let’s throw this into a simple xml parser and see what happens:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scala.xml.XML&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;eventXml&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;XML&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;loadFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Parsing…parsing…parsing…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xml&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SAXParseException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;lineNumber:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;columnNumber:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;299&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;immediately&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;follow&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'&amp;amp;'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reference&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ErrorHandlerWrapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createSAXParseException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ErrorHandlerWrapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;198&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ErrorHandlerWrapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;fatalError&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ErrorHandlerWrapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;177&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;XMLErrorReporter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;reportError&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;XMLErrorReporter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;441&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;XMLErrorReporter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;reportError&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;XMLErrorReporter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;368&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;XMLScanner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;reportFatalError&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;XMLScanner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1375&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sun&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;xerces&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;internal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;impl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;XMLScanner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;scanAttributeValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;XMLScanner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;824&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So, it looks like XML parsing this beast is both slow and higly error prone.
+What else could we do? We could try using a more accurate or graceful xml
+parser that’s built to deal with html’s malformities, but I’ll leave out story
+of how that doesn’t work well in this case either. Instead, we’ll do something
+even more silly.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-rolls-javascript&quot;&gt;In rolls javascript&lt;/h2&gt;
+
+&lt;p&gt;Obviously someone code path out in the world has to be capable of handling this
+html mess. Otherwise it’d never show in a browser. But what’s the shortest path
+for doing this? Hacking through either the Firefox source code or the &lt;a href=&quot;https://src.chromium.org/viewvc/chrome/&quot;&gt;Chromium
+source code &lt;/a&gt;both sound like longest
+path solutions to me. In comes the magic of Javascript.
+&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt; is able to single handedly take an html file,
+turn it into a &lt;a href=&quot;https://en.wikipedia.org/wiki/Document_Object_Model&quot;&gt;Document Object
+Model&lt;/a&gt; structure, and let
+you run queries over it, not only does this work in a few lines of code, it’s
+super fast.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-quick-setup&quot;&gt;A quick setup&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;But&lt;/em&gt;, first you have to do a little setup to run all this outside of a
+browser. The easiest system I found was &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;node.js&lt;/a&gt;. To
+setup, all you have to do is grab a tarball, I used &lt;a href=&quot;http://nodejs.org/dist/v0.8.8/node-v0.8.8.tar.gz&quot;&gt;this
+one&lt;/a&gt;, untar it, and added the
+binaries to your path:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://nodejs.org/dist/v0.8.7/node-v0.8.7.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xvzf&lt;/span&gt; node-v0.8.7.tar.gz
+&lt;span class=&quot;nb&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;:&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;/node-v0.8.7-linux-x86/bin/node
+&lt;span class=&quot;nb&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;:&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;/node-v0.8.7-linux-x86/bin/npm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And to get jQuery setup for node.js, it’s as easy as running:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jquery
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Only hitch is that you have to run this from the root directory where you’ll be
+running your processing, but that’s a minor problem.&lt;/p&gt;
+
+&lt;h3 id=&quot;parsing-power&quot;&gt;Parsing Power!&lt;/h3&gt;
+
+&lt;p&gt;Now that our javascript runtime environment is setup with the library we need,
+it’s time to get into the meat of the code. The approach is pretty simple:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;parse a html file using jquery&lt;/li&gt;
+  &lt;li&gt;Find the nodes with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bar&lt;/code&gt; id nested within a div having a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disciplines&lt;/code&gt;
+id.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-type&lt;/code&gt; attributes from the div we got back and
+handle one of three cases:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; attritube tells us all we need&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-type&lt;/code&gt; include timing information&lt;/li&gt;
+      &lt;li&gt;the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-type&lt;/code&gt; attribute tells us all we need.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So let’s code that up! First, import the js libraries you need.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;/// Import jquery library.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;jquery&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Import file system library.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now parse the javascript to get a DOM structure:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;readFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Throw any errors found.&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Convert the raw data to text.&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// More coming shortly!&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So far so easy, breezy. Now comes the challenging part: grabbing the div’s
+holding the timing info we need and checking for the funny ways &lt;a href=&quot;www.london2012.com/index-olympic.html&quot;&gt;london
+2012&lt;/a&gt; decided to encode that
+information:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;    &lt;span class=&quot;c1&quot;&gt;// Navigate the html to find all div elements with the &quot;disciplines&quot; class&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// and the children of these elements with the &quot;bar&quot; class.  These elements&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// define the time of each event.&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;barElemens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.disciplines&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;children&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.bar&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// For each bar element found, extract the start time and end time.  The&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// start time is the text within the span having a &quot;.bar-time&quot; class and the&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// end time is the second class label of each element.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;barElemens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// Convert the index to an element in the array.&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;barElemens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;classAttr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dataType&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;data-type&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dataType&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// If the data-type attribute is empty, then we know that both the&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// start and end times are stored in the class attribute, albeit in&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// an utterly horrible and wretched format that uses two different&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// timezones and two different formats.&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classAttr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dataType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;substr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// If the data-type ends with an underscore, we know that the start&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// time is in the text and the end time is in the class attribute.&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// So report that.&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classAttr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.bar-time&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// Otherwise, the data-type has the full time range for the event,&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// so just report that, even though it's in a different format.&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dataType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// This ends the original jquery call to parse the html file&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And that’s it. With jQuery and node.js, I have significantly more comments than
+actual code, mostly to describe my new understanding of the api’s and data
+based logic processing that no human should have to decifer through code.&lt;/p&gt;
+
+&lt;h3 id=&quot;actually-getting-the-data&quot;&gt;Actually getting the data&lt;/h3&gt;
+
+&lt;p&gt;Actually downloading the data requires a few simple tricks that are worth
+noting, just in case anyone ever wants to duplicatet this whole shebang.&lt;/p&gt;
+
+&lt;p&gt;First, london 2012 doesn’t let you do a normal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; call, it requires a user
+agent. So, every request looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;userAgent=&quot;Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3&quot;
+wget --user-agent=$userAgent $url
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we just need to figure out the pattern for each sport. For once, london
+2012 makes that part easy. Their uer’s use just two key values: the sport you want and the day you want, so here’s a little bit of bash to extract all that (and save everything in an easier to use file name:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sports=&quot;judo gymnastics-artistic fencing tennis archery&quot;
+julyDays=`seq  25 31 | while read day; do echo $day-july; done`
+augDays=`seq 1 12 | while read day; do echo $day-august; done`
+userAgent=&quot;Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3&quot;
+resultDir=tmpHtmlData
+
+# Define a helper function to return the full url based on the sport and day.
+# This is just to make changing the url easier.
+function olympicsUrl() {
+    echo http://www.london2012.com/$sport/schedule-and-results/day=$day/all-day.html 
+}
+
+# Now iterate through every sport.
+for sport in $sports; do
+    # And every day of the olympics.
+    for day in $julyDays $augDays; do
+        # And do a simple wget request.  Since each page has the same html file
+        # name, the -O bit saves the html output to a file based on the sport
+        # and day for easier management.
+        wget --user-agent=$userAgent -O $tmpHtmlData/$sport-$day.html `olympicsUrl`
+    done
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And voila, you have all the sports you want for each day of the olympics. You
+can no easily power through all those files with this dandy bit of code:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for sport in $sports; do
+    for html in $resultDir/*$sport*.html; do
+        node src/main/javascript/ExtractTimes.js $html
+    done &amp;gt; olympics.$sport.times.txt
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="research" /><category term="analysis" /><summary type="html">I needed the event times for every game, tournament, and competition that happened during the London 2012 Olympics. Thankfully the London 2012 website posts all this information online. Sadly, this information isn’t posted anywhere in an easy to utilize format. I was deeply hoping that there would be a csv file describing when every event took place, but to no avail. Instead, all I had access to was beautifully rendered web pages like below, which graphically detail when each event began and end for each day.</summary></entry><entry><title type="html">Building a Phrase Graph</title><link href="https://fozziethebeat.com/blog/2012/building-a-phrase-graph/" rel="alternate" type="text/html" title="Building a Phrase Graph" /><published>2012-08-12T00:00:00+09:00</published><updated>2012-08-12T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2012/building-a-phrase-graph</id><content type="html" xml:base="https://fozziethebeat.com/blog/2012/building-a-phrase-graph/">&lt;p&gt;Research papers. I hate them sometimes. They present a great idea, talk about
+how it can be used and applied, and then give only the barest description of
+how to actually build and implement the idea, often with no pointers or links
+to what they built. My current frustration is with building a &lt;em&gt;Phrase Graph&lt;/em&gt;.
+The idea behind phrase graphs are pretty simple, they encode a large set of
+sentences with a minimal automata.&lt;/p&gt;
+
+&lt;p&gt;Here’s a simple example. Say you have the following two sentences:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#archery by the Republic of Korea and the guy is legally blind.
+#archery by the Republic of Korea and the guy who is legally blind.
+#archery by the Republic of Korea in archery by a guy who is legally blind.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There’s quite a lot of overlap at the start of the sentence and at the end of the sentence. So a good phrase graph would look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/phrase-graph-example.svg&quot; alt=&quot;Example Phrase Graph&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So you can see that the nodes in the graph represent words found in the
+sentences observed and if you weight the nodes based on how often they are
+traversed, you can start to detect which phrases are used most frequently. But
+how does one do this? And how does one do this efficiently? This is where
+research papers make me mad. They fail to point out the simplest algorithms for
+building these awesome ideas. To complement these research ideas, this post’ll
+give a little more detail on what these phrase graphs are, an easy way to build
+them using existing libraries, and code to write your own custom phrase graph!&lt;/p&gt;
+
+&lt;h3 id=&quot;badly-described-methods-for-building-a-phrase-graph&quot;&gt;Badly described methods for building a phrase graph&lt;/h3&gt;
+
+&lt;p&gt;The first paper I read for building phrase graphs, titled &lt;a href=&quot;http://www.jeffreynichols.com/papers/summary-iui2012.pdf&quot;&gt;Summarizing Sporting
+events using
+Twitter&lt;/a&gt;, gives this
+highly detailed algorithm description:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The phrase graph consists of a node for each word appearing in any status
+update, and an edge between each set of two words that are used adjacently in
+any status update&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Seems easy to implement, no? Here’s a more detailed algorithm, found in &lt;a href=&quot;http://www.cs.uccs.edu/~jkalita/papers/2010/SharifiBeauxSocialcom2010.pdf&quot;&gt;Experiments in Microblog Summarization&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To construct the left-hand side, the algorithm starts with the root node. It
+reduces the set of input sentences to the set of sentences that contain the
+current node’s phrase. The current node and the root node are initially the
+same. Since every input sentence is guaranteed to contain the root phrase,
+our list of sentences does not change initially. Subsequently, the algorithm
+isolates the set of words that occur immediately before the current node’s
+phrase. From this set, duplicate words are combined and assigned a count that
+represents how many instances of those words are detected. For each of these
+unique words, the algorithm adds them to the graph as nodes with their
+associated counts to the left of the current node.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This gives a lot more detail on what the phrase graph contains, and an easy
+enough algorithm, but it’s not exactly a fast algorithm, especially if you want
+to do this using 10 million tweets about the Olympics. Both descriptions leave
+out a key detail: these phrase graphs are really just &lt;a href=&quot;https://en.wikipedia.org/wiki/Trie#Compressing_tries&quot;&gt;Compressed
+Tries&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tries-and-their-compressed-cousins&quot;&gt;Tries and their compressed cousins&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/trie-example.svg&quot; alt=&quot;Trie Example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tries are one of the simplest data structures, and one of the most powerful
+when processing natural languages. Given a set of words or sentences, a Trie is
+essentially a standard tree where the leaves represent observed words or
+sentences. The power of it is that each internal node in the Trie represents
+overlapping sequences. So if you want to build a Trie for an &lt;a href=&quot;https://www.brics.dk/automaton/&quot;&gt;English
+Dictionary&lt;/a&gt;, the root node would be a blank
+character, which then points to a node for each letter of the alphabet. From
+the “a” child, you would then have access to all words starting with “a”, and
+the further down the Trie you go, you get longer prefixes of words.&lt;/p&gt;
+
+&lt;p&gt;Now a Phrase Graph is essentially a Trie which condenses not only shared
+prefixes, but also any shared subsequence, be they in the middle, or the end.
+Formally, they are directed acyclic graphs, and if they are treated as a lookup
+structure, ala a dictionary, they are called Minimal Acyclic Finite-State
+Automata. And there’s plenty of fast and simple ways to build these things. The
+easiest places to start reading about these is &lt;a href=&quot;https://aclanthology.org/J00-1002.pdf&quot;&gt;Incremental Construction of
+Minimal Acyclic Finite State Automata&lt;/a&gt;.
+The &lt;a href=&quot;https://www.brics.dk/automaton/&quot;&gt;Brics Automaton&lt;/a&gt; package also provides a
+really good implantation for these that works&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;dk.brics.automaton.BasicAutomata&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;automata&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;BasicAutomata&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;makeStringUnion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;#archery by the Republic of Korea and the guy is legally blind&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;#archery by the Republic of Korea in archery by a guy who is legally blind&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;automata&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;toDot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/brics-phrase-graph-example.svg&quot; alt=&quot;A Brics Phrase Graph&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NOTE: You may want to open this in a new tab to zoom in as every letter has it’s own state.&lt;/p&gt;
+
+&lt;h3 id=&quot;rolling-your-own-automata-builder&quot;&gt;Rolling your own automata builder&lt;/h3&gt;
+
+&lt;p&gt;Using Brics works really well if you just want to check whether or not a
+sentence matches one seen in a corpus. However, it doesn’t easily let you check
+how often particular sub-phrases are used within the corpus. For that kinda
+power, you’ll have to craft your own implemenation. And now it’s time to share
+the very code to do this!&lt;/p&gt;
+
+&lt;h4 id=&quot;nodes-in-the-graph-thats-where&quot;&gt;Nodes in the graph, that’s where.&lt;/h4&gt;
+
+&lt;p&gt;Where does one start? First, you need a node data structure, with some very
+carefully crafted functions to determine equality (which indidentally, the
+research papers &lt;em&gt;don’t&lt;/em&gt; point out).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * A simple node structure that records a label, a weight, and a mapping from this node to other nodes using labeled arcs.  This
+ * implementation overrides {@link hashCode} and {@link equals} such that only nodes with the same label and which point to the same exact
+ * children (i.e.  same objects, not equivalent objects), are considered equal.
+ **/&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * The internal weight for this {@link PhraseNode}.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inCount&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0d&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * A mapping from this {@link PhraseNode} to children {@link PhraseNode}s using labeled arcs.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linkMap&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;,&lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]()&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * A record of the last {@link PhraseNode} added as a child to this {@link PhraseNode}.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lastAdded&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns the {@link PhraseNode} connected to {@code this} {@link PhraseNode} via the arc {@code term}.  If no such node exists, a new
+     * {@link PhraseNode} is created and returned.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;term&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;term&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lastAdded&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;term&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                           &lt;span class=&quot;n&quot;&gt;linkMap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;term&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lastAdded&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                           &lt;span class=&quot;n&quot;&gt;lastAdded&lt;/span&gt;
+                         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Adds {@code delta} to the {@code inCount} and returns a pointer to {@code this} {@link PhraseNode}.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;addCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delta&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Double&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;inCount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delta&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns a hashcode based on java's internal hash code method for every object which uniquely identifies every object.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pointerHashCode&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;hashCode&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Override {@code hashCode} to use three factors:
+     * &amp;lt;ol&amp;gt;
+     *  &amp;lt;li&amp;gt;The hash code for {@code label}&amp;lt;/li&amp;gt;
+     *  &amp;lt;li&amp;gt;The hash code for {@code label} of each child node&amp;lt;/li&amp;gt;
+     *  &amp;lt;li&amp;gt;The hash code for {@code pointer} of each child node&amp;lt;/li&amp;gt;
+     * &amp;lt;/ol&amp;gt;
+     * This ensures that nodes only have the same hash code if they have the same label, same number of children, same links to those
+     * children, and point to the very same children.  This is a cheap and fast way to ensure that we don't accidently consider two nodes
+     * with the same link labels aren't equivalent.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hashCode&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;case&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;childLabel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nv&quot;&gt;childLabel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;hashCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;pointerHashCode&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;foldLeft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;hashCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Override {@code equals} to use the same three factors as {@cod hachCode}:K
+     * &amp;lt;ol&amp;gt;
+     *  &amp;lt;li&amp;gt;The {@code label}&amp;lt;/li&amp;gt;
+     *  &amp;lt;li&amp;gt;The {@code label} of each child node&amp;lt;/li&amp;gt;
+     *  &amp;lt;li&amp;gt;The {@code pointer} of each child node&amp;lt;/li&amp;gt;
+     * &amp;lt;/ol&amp;gt;
+     * 
+     * This ensures that nodes only equal when they have the same distinguishing meta data and point to the same children.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;equals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Any&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;hashCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;hashCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+                                      &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+                                      &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;compareLinkMaps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns true if the two maps have the same size, same keys, and the key in each map points to the same object.  We use this instead
+     * of simply calling equals between the two maps because we want to check node equality using just the pointer hash code, which prevents
+     * walking down the entire graph structure from each node.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;compareLinkMaps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lmap1&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lmap2&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Boolean&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lmap1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;lmap2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lmap1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;matched&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;lmap2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;pointerHashCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;entry1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;pointerHashCode&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matched&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This PhraseNode has three fairly simple data members, a label that records
+which word the node represents, the weight of the node, and a map from this
+node to it’s children based on their labels. The tricky part of this node is
+how you determine equality. Two nodes can be equal in two different senses: 1)
+they are the exact same data structure in memory, and so their memory locations
+are the same or 2) they have the same label and point to the same exact
+children in memory. Checking the first type of equality is easy, you can
+compare the hash code of their addresses using the default hashCode method java
+provides for every object. Checking the second form of equality is more
+challenging to do efficiently. The naive way would be to recursively check that
+all children eventually point to sub-graphs with the same structure. However,
+checking the hash code of the pointers of each children is much faster and
+accomplishes the same goal. Hence, this is why we override hashCode and equals
+with such complicated code.&lt;/p&gt;
+
+&lt;h4 id=&quot;linking-together-those-phrase-nodes&quot;&gt;Linking together those Phrase Nodes&lt;/h4&gt;
+
+&lt;p&gt;The algorithm for linking together PhraseNodes such that they form a minimal
+transducer relies on a few interesting tricks and beautiful recursion. The
+first trick we need is lexicographically sorted input. By sorting the input,
+you’re maximizing the size of matching prefixes between any neighboring words
+you want to put in the transducer. So let’s look at how we do that adding in
+sorted order.&lt;/p&gt;
+
+&lt;p&gt;Before we get there though, let’s flesh sketch out a CondensedTrie data
+structure. It’s pretty simple. It starts off with just having a single
+PhraseNode element, the root.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * The {@link CondensedTrie} represents a single phrase graph centered around a single key phrase.  Lists of tokens, representing sentences,
+ * can be added to the {@link CondensedTrie} to create a minimal finite state automata which counts the number of times sequences of tokens
+ * appear.  Lists must be added in fully sorted order, otherwise the behavior is undefined.  Once the {@link CondensedTrie} has been
+ * completed, a sequence of tokens can be used to walk through the {@link CondensedTrie} and count the weight of that particular sequence.
+ **/&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CondensedTrie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * The root node in the {@link CondensedTrie}.  This always has an emtpy label.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now comes adding entries. Since we want a clean and easy to use interface,
+we’ll be defensive and assume the elements aren’t sorted, but they are already
+tokenized, so each element in the given list is a sequence of tokens. How you
+sort thoes beasts is a homework assignment.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * Trains the {@link CondensedTrie} on a list of token sequences.  This list does not have to be sorted and will instead be sorted
+ * before any sentences are added.
+ */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;train&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tokenizedSentences&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokenizedSentence&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tokenizedSentences&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;sortWith&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;tokenListComparator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tokenizedSentence&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;replaceOrRegister&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+ * Adds the list of tokens to this {@link CondensedTrie}.
+ */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastSharedNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remainingSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeDeepestCommonNodeAndSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lastSharedNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;replaceOrRegister&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastSharedNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;addSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastSharedNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remainingSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+ * Returns the deepest {@link PhraseNode} in the {@link CondensedTrie} matching the tokens in {@code tweet}.  When a {@link PhraseNode}
+ * no longer has an arc matching the first element in {@code tweet}, this returns that {@link PhraseNode} and the remaining tokens in
+ * {@code tweet} that cold not be matched.
+ */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;computeDeepestCommonNodeAndSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;addCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;computeDeepestCommonNodeAndSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;None&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+ * Adds all tokens in {@code tweet} as a branch stemming from {@code node}
+ */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;addSuffix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;foldLeft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;neighbor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;addCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;These methods are mostly simple. addSuffix starts adding links to nodes
+starting from some initial point, note that nodes will automatically create a
+new node for a word if one doesn’t already exist.
+computeDeepestCommonNodeAndSuffix walks down the Trie starting at the root
+consuming each token that has a node and returns the deepest node reachable,
+i.e. finds the node with the longest common prefix with a given sequence of
+tokens. Finally adding a single tweet depends on getting the prefix, doing some
+magic called replaceOrRegister and then adding the suffix to the last node in
+the longest prefix. So, only question left, what is this registry business?&lt;/p&gt;
+
+&lt;p&gt;The registry keeps track of all nodes in the graph after they’ve been
+validated. And what does validation entail? It involves checking wether or not
+an existing node already exists in the registry. If one does, you simply
+replace that duplicate node with the one in the registry. If no such node
+exists, in goes the node. And this is exactly what replaceOrRegister does. To
+do this efficiently and correctly, we call replaceOrRegister on the last node
+in our comment prefix and walk all the way down along the most recently added
+path, i.e. the added by the last element we added, and then zip up any matching
+nodes which correspond to matching suffixes. By starting at the bottom, we
+match together end points which have no children and merge them.&lt;/p&gt;
+
+&lt;p&gt;Take our archery example above, all three sentences end with “is legally
+blind.” After we add the first sentence, there would be a node for each token
+in the order of the sentence. When we add the second sentence and walk down to
+the end, we see that “blind.” has a duplicate, which we can merge. Taking one
+step backwards, we’ll see that “legally” also has an exact match, where two
+nodes with the same label point to the same exact node, the node we just
+merged. And then thanks to recursion, we keep zipping things along until we get
+to “who”, which has no exact match, and we can stop zipping. Walking through an
+example like this should make the code below a little clearer.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cm&quot;&gt;/**
+ * Recursively walks down the chain of last nodes added starting at {@code node} and then checks if the last child of that node are in the
+ * registry.  If an equivalent {@link PhraseNode} matching the last child is in the registry, this replaces the last child with the
+ * registry node.  If no matching {@link PhraseNode} exists in the registry, then the last child is added to the registry.
+ **/&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;replaceOrRegister&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Recursively replace or register the last added child of the current node.&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;lastAdded&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;replaceOrRegister&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Get the possible matches for the last child.&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;candidateChildren&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Select only the registry node which has an exact match to the last&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// child.  We can also replace this equivalence check for a subsumption&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// check later on to condence the trie even more while breaking the&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// automata contract.&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;candidateChildren&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;matchMethod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// If such a child exists, merge the counts of the last child to the&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// existing child and link the parent to the existing child.  This&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// is just a convenient way to match a list, which is what gets&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// returned by filter&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;existingChild&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nv&quot;&gt;existingChild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;addCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;inCount&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// Make sure to update the most recently added node with the&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// registry version!&lt;/span&gt;
+            &lt;span class=&quot;nv&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;lastAdded&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;existingChild&lt;/span&gt;
+            &lt;span class=&quot;nv&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;existingChild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// If no chld exists, put the last child in the registery.&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And Voila, we now have all the code needed to make a phrase graph!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/example.exact.phrase-graph.svg&quot; alt=&quot;Exact Phrase Graph&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tweaking-the-automata-to-condense-more-phrases&quot;&gt;Tweaking the automata to condense more phrases&lt;/h3&gt;
+
+&lt;p&gt;BUT! Suppose you want something more minimal? Suppose you think it’s kinda
+funny that interjection of “who” prevents “guy SOMETHING OR NOTHING is” from
+being a phrase. Or you try adding in the sentence&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#archery ZOIDBERG by the Republic of Korea and the guy who is legally blind.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and notice how it creates an entirely new branch for “the Republic of Korea”
+starting at “ZOIDBERG”, thus making the number of times you think you’ve seen
+that phrase dependent on the previous tokens. Can we fix this? YES! All we have
+to do is relax our definition of finding a matching element in the registry to
+finding a node whose outgoing links are a superset of the most recently added
+children.&lt;/p&gt;
+
+&lt;p&gt;And since Scala is awesome, we can do this with minimal effort.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CondensedTrie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;useSubsumingMatches&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Boolean&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * The filtering method for determining which candidate node from the register will replace existing children nodes during the
+     * compaction phase.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;matchMethod&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;useSubsumingMatches&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subsumeMatch&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns true if {@code child} and {@code candidate} are exact matches.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;exactMatch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;candidate&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;candidate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns true if {@code child} and {@code candidate} have the same label and the links from {@code child} are a subset of the links
+     * from {@code candidate}.
+     */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;subsumeMatch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;candidate&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;PhraseNode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;candidate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+            &lt;span class=&quot;nv&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;case&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subchild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;nv&quot;&gt;candidate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linkMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;otherSubchild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;otherSubchild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;pointerHashCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;subchild&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;pointerHashCode&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;}.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;foldLeft&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All we had to do was update the contractor to take in a boolean, then create a new data member that links to one of two comparison functions for pairs of nodes: 1) an exact matching function, which we would use for a true compressed trie and 2) a subset matching function, to get our even more compressed sorta-trie. If we swap in subsumeMatch, we now get this phrase graph:&lt;/p&gt;
+
+&lt;p&gt;Let’s see how the two versions handle this as input:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Republic of Korea in archery by a guy who is legally blind
+#archery by the Republic of Korea and by the guy is legally blind
+#archery by the Republic of Korea and the guy is legally blind
+#archery by the Republic of Korea in archery by a guy who is legally blind
+#archery zoidberg by the Republic of Korea and by the guy is legally blind
+#archery zoidberg by the Republic of Korea in archery by a guy who is legally blin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Using exact Matching: Using Exact Matching:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/test.exact.svg&quot; alt=&quot;Exact Matching&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using link subset Matching:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2012/test.subsume.svg&quot; alt=&quot;Subsume Matching&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally! This second version is precisely the data structure those three
+original papers were describing.&lt;/p&gt;</content><author><name></name></author><category term="research" /><summary type="html">Research papers. I hate them sometimes. They present a great idea, talk about how it can be used and applied, and then give only the barest description of how to actually build and implement the idea, often with no pointers or links to what they built. My current frustration is with building a Phrase Graph. The idea behind phrase graphs are pretty simple, they encode a large set of sentences with a minimal automata.</summary></entry><entry><title type="html">Building Visualizations to Test Summarizations</title><link href="https://fozziethebeat.com/blog/2012/building-visualizations-to-test-summarizations/" rel="alternate" type="text/html" title="Building Visualizations to Test Summarizations" /><published>2012-08-03T00:00:00+09:00</published><updated>2012-08-03T00:00:00+09:00</updated><id>https://fozziethebeat.com/blog/2012/building-visualizations-to-test-summarizations</id><content type="html" xml:base="https://fozziethebeat.com/blog/2012/building-visualizations-to-test-summarizations/">&lt;p&gt;I’m currently working on interesting on-line methods for summarizing streams of
+documents. The basic idea is that documents come hurtling into your inbox at a
+startling rate and you’d like a quick, easy, online method to summarize that
+they’re about. A lot of approaches to text summarization use an offline
+approach, meaning that those methods inspect all the documents. That’s not
+practical, especially if you want to, oh say, do this thing on all the tweets
+about the ongoing 2012 Olympics in London. So my goal is to work up a good
+enough algorithm for doing this process completely online. Even though it sadly
+won’t be working well enough to actually run online while the Olympics is going
+on (I’m still working on said algorithm), it could be pretty cool.&lt;/p&gt;
+
+&lt;p&gt;However, figuring out if you’re doing something right or wrong on many million
+tweets about 50 different sports is kind of challenging. So while i’m gathering
+ton of data to process, and then processing it all, I figured I should design a
+night UI for exploring the results. Being a terrible UI guy I thought I could
+never pull it off, but thanks to the magicians behind Crossfilter and
+&lt;a href=&quot;https://d3js.org/&quot;&gt;D3.js&lt;/a&gt;, it turned out to be pretty easy. The result of my
+UI wizardry is currently here.  And while there’s quite a lot more to add, such
+a way to select other sports or other summarization methods, it does the bulk
+of what I want:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It builds histograms of tweet’s based on three dimensions: the date, the
+hour, and the “cluster” of the tweet.&lt;/li&gt;
+  &lt;li&gt;It lets you select sub-regions of these dimensions and automatically
+updates the histograms for other selection files. So if you put a range
+on the day, you can see the histograms according to hour and cluster for that
+date range.&lt;/li&gt;
+  &lt;li&gt;Given a range, you can also see the most representative, or summary,
+tweets for the most frequent clusters in that range. There’s still a
+little bit missing, I should really be ordering the summaries by their time,
+but that’ll come later.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As complicated as all that initially sounds, I barely had to write any
+JavaScript on my own, which is truly fortunate since I barely know JavaScript.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-joy-of-making-that-ui&quot;&gt;The joy of making that UI.&lt;/h2&gt;
+
+&lt;p&gt;Since I know next to nothing about JavaScript, D3.js, and Crossfire, I did a
+lot of hacking, console debugging, and total guessing to make this beast work.
+So here’s a quick rundown on what these three things are doing together and how
+they synergize into my current app. There’s still quite a bit I don’t know, so
+i’ll mostly focus on what I figured out in my hackings.&lt;/p&gt;
+
+&lt;h3 id=&quot;loading-that-dataset&quot;&gt;Loading that dataset&lt;/h3&gt;
+
+&lt;p&gt;Cross filter arrays of key-valye javascript objects, which can be easily pulled
+out of Comma Separated Files. However, those initial object arrays are totally
+untyped, so you need to do some processing to shuffle values out of raw strings
+into something more usable. I’m currently using two styles of data: 1) one
+format that simple records the time of a tweet and it’s cluster identifier and
+2) one that records the cluster identifier, the time of the first tweet in that
+cluster, the time of the average tweet in that cluster, and the summary tweet.
+They’re pretty simple and look like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Date,Time,Group
+07272344,1343400289,1
+07272351,1343400698,2
+07272351,1343400706,3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;StartTime,MeanTime,Group,Summary
+1343458794,1343400289,1,I cannot wait for the swimming diving and gymnastics #London2012
+1343458793,1343400698,2,Hey @mdoolittle #olympics day today. I hope we'll have comments from you esp. 4 #gymnastics parts! ;) I'm an EX-gymnast too(it shows!lol)
+1343458791,1343400706,3,looking forward to the opening ceremony tonight just disappointed that SABC wont be showing much gymnastics #Olympics2012
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;D3 makes this super easy to handle. All you do is call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d3.csv(fileName,
+callback)&lt;/code&gt;. In my example, this turns out to be:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/crossfilter/tweet.gymnastics.particle.mean.all.splits.json&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;summaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Add in types to the summaries.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;summaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;startTime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parseTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;StartTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;meanTime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parseTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MeanTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/crossfilter/tweet.gymnastics.particle.mean.all.groups.json&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Add in types to the tweets.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parseDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;parseTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;crossing-the-filters-on-that-data&quot;&gt;Crossing the filters on that data&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve got data loaded, you gotta do something with it, no? Crossfilter
+lets you do some super powerful things with very little work. The primary job
+of cross filter is to take your array of objects and let you select different
+dimensions to act as keys in that array. Initially your key is just the index
+of the array. But after calling dimension on a crossfiltered object, you can
+select any variable in your object to be a key. Since I wanted three charts,
+that means I need three keys: 1) a key on the day, 2) a key on the hour, and 3)
+a key on the cluster id. I also want counts for the number of tweets in the
+bins corresponding to each dimension. That sounds like a lot of work, but it’s
+as easy as this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// Create the crossfilter over the tweets.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;crossfilter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// This groups all tweets together.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;all&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;groupAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Select the day of the tweet as a dimension and compute the counts.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dimension&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;dates&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Select the hour of the tweet as a dimension and compute the counts.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;hour&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dimension&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMinutes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;hours&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;floor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Select the cluster id of the tweet as a dimension and compute the counts.&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;cluster&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dimension&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}),&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;clusters&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cluster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That’s it! All you need is two lines to select a dimension for your chart and
+compute the data for the histogram. Easy Breezy.&lt;/p&gt;
+
+&lt;h3 id=&quot;charting-those-groups&quot;&gt;Charting those groups&lt;/h3&gt;
+
+&lt;p&gt;Now that you’ve got some dimensions set up and some counts to go along with
+them, it’s time to plot those fine numbers. For each chart you want, all you
+have to do is note what dimension you want to use, provide the summary counts,
+put some limits on the plots, then apply all that to some plotting object like
+a bar graph. I’m just using bar charts, but this other crossfilter example
+gives some sweet alternatives you can re-use.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// The first chart tracks the hours of each tweet.  It has the&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// standard 24 hour time range and uses a 24 hour clock.&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;barChart&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;dimension&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hours&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;// Setup the type of dimension you want and the range of values that&lt;/span&gt;
+          &lt;span class=&quot;c1&quot;&gt;// are valid.  Note that I'm still a little fuzzy on this part.&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;linear&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                     &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;domain&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;err&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;
+                     &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;rangeRound&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;err&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])),&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;printing-the-tweet-summaries&quot;&gt;Printing the tweet summaries&lt;/h3&gt;
+
+&lt;p&gt;The fun part is printing all the summaries for the tweets that have been
+selected. The original Crossfilter example was pretty simple, it just printout
+out the actual rows being selected in the histograms. But I wanted to do
+something more complicated. I wanted to figure out which clusters existed in
+the selection, get the summaries attached to each cluster (and only one copy of
+the summary per cluster), and then organize the summaries by date. Not knowing
+javascript, that sounded kinda hard. In my candy land language, [Scala][7],
+it’s pretty easy to do with some groupBys and maps, but does javascript have
+all this? YES! Turns out the clusters object` computed to print the histogram
+has nearly everything I want, the collection of cluster identifiers found in
+the current filter selection. And since all arrays in JavaScript have a map
+operator, I can get the array of summaries I so desperately desired.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// Map each of the top clusters to their corresponding summaries.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Note that the entries in clusters use group identifiers starting at 1, so we&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// have to subtract by 1 to make them valid indices.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;clusterSummaries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;clusters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;summaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Next comes the cool part, creating a hierarchy on the cluster summaries based
+on the date. These two lines together do that magic:j&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nestByDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;startTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Group the summaries by their date.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweetsByGroup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nestByDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;entries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clusterSummaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The first line creates an object that will nest any array of items with a
+startTime attribute according to their day and the second line runs that nester
+over the cluster summaries to get a mapping from days to arrays of summaries
+occuring on each day. Using that nested object, you can build a table of tweet
+summaries for each day by attaching the data object to the list div holding
+those tables:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// For each day's summaries, add them as a table with the date as&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// the header.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// This binds the date nested group of tweet summaries to the `.date` element&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// of the `summary-list div.&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+               &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+               &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tweetsByGroup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// This appends a new `.date` and `.day` div for each item in the nested list&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// the summary's start time as the title for the list.&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;enter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;formatDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;startTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// This binds each entry in the nested list, i.e. the list of summaries for&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// each day, to the divs created above.  This way each div, titled with a&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// particular day, has the array of summaries found on that day.&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;summary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+                    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selectAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.summarylist&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+                         &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// This creates a new `.summarylist` div to surround the summaries.&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;summaryEnter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;enter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+                            &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                            &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;summarylist&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// This creates a new '.summary' div for each summary to place in the list.&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;summaryEnter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+              &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+              &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And that’s it! Again, easy breazy.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-the-divs-for-the-stuff-you-want&quot;&gt;Setting up the divs for the stuff you want&lt;/h2&gt;
+
+&lt;p&gt;The last thing you need whenever you’re going to be mashing data into a website
+via D3 is some divs to host that data. For my application, I need just two
+types of divs: charts to hold the histograms and tables to hold the summaries.
+These look like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;charts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hour-chart&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;chart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Time of Day&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cluster-chart&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;chart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Cluster&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date-chart&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;chart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Date&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lists&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;summary-list&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;They’re pretty dead simple. One chart for each histogram I’m plotting and a
+general div for the lists. The lists will get populated with more divs
+dynamically based on how many dates fall into a selected range.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-the-data-to-put-in-this-app&quot;&gt;Creating the data to put in this app&lt;/h2&gt;
+
+&lt;p&gt;o how did I get all these tweets? And how did I split them up into different
+clusters? That’s secret for now, but if my current research project is looking
+good, that’ll be come the topic of a new research paper, and if not, i’ll be
+the topic of a blog post describing what failed! So stay tuned!&lt;/p&gt;</content><author><name></name></author><category term="research" /><category term="visualization" /><summary type="html">I’m currently working on interesting on-line methods for summarizing streams of documents. The basic idea is that documents come hurtling into your inbox at a startling rate and you’d like a quick, easy, online method to summarize that they’re about. A lot of approaches to text summarization use an offline approach, meaning that those methods inspect all the documents. That’s not practical, especially if you want to, oh say, do this thing on all the tweets about the ongoing 2012 Olympics in London. So my goal is to work up a good enough algorithm for doing this process completely online. Even though it sadly won’t be working well enough to actually run online while the Olympics is going on (I’m still working on said algorithm), it could be pretty cool.</summary></entry></feed>
