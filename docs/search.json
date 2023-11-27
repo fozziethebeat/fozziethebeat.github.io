@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "With 20 years practicing Buddhism and 15 years working in Natural Language Processing, I firmly believe language technology works best when it helps people live economically better lives so they can spend more time building and enjoying the human relationships that give life meaning. More so, the best solutions come from teams that focus deeply on a poignant market problem and solve it with relentless focus. And that’s what I hope to keep doing.\nOver 9 years I worked with the google translate team as we did exactly that for machine translation. We got to live through the paradigm shift from old school statistical NLP to large transformer models, being one of the first teams in Google to productionize transformer models. With my direct teams we built systems that discovered, curated, and housed the vast pools of data needed to train these models. And with a small team I personally led we build out user facing features that let users share data and insights with us.\nSince leaving Google I spent the last two years seeing the startup world up close. I tried replicating some of my Google work as an open source project. Partnered with a co-founder to try making an emotional intelligence oriented AI startup. I’ve since been working with several startups to build out their LLM infused products. Until mid 2024, I plan to continue doing this will splitting my time between Tokyo and Hakuba Japan. In my spare time I’ll also be skiing and writing mini reports on various LLM adjacent open source projects that catch my interest.\nAfter the middle of 2024, I expect to relocate from Japan to either the SF Bay Area or Los Angeles while my wife studies for her MBA. While in the states, I hope to find a solid team to join more permanently to make sure LLMs are useful. If that’s you, let me know."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Source Musings & Snow Time",
+    "section": "",
+    "text": "Welcome! Here’s where I write thoughts on various open source Large Language Model projects and random things I’m doing. I’m a former Staff Software Engineer from Google Translate and until I make it back the states, I’m spending some time exploring the world of smaller teams and companies. I sometimes take on contractor work related to LLMs. During winter, I spend a lot of time skiing in Hakuba Japan (if you find yourself there, say hello and I can show you around)."
+  },
+  {
+    "objectID": "index.html#upcoming-reviews",
+    "href": "index.html#upcoming-reviews",
+    "title": "Open Source Musings & Snow Time",
+    "section": "Upcoming Reviews",
+    "text": "Upcoming Reviews\n\nMaking KT-Villa with FastChat, LLaVa & RedwoodJS:\n\nA basic overview\nGluing Stable Diffusion and Llava together\nPiping in Zephyr-7b\nWhy the rest of the project was still hard\n\nEvaluate some interesting projects:\n\nModelFusion\nllama-cpp-python\nxorbitsai/inference\nLilac\n\nTry out some more models:\n\nteknium/OpenHermes-2.5-Mistral-7B\nteknium/Mistral-Trismegistus-7B\nliuhaotian/llava-v1.5-7b ## Selected Publications"
+  }
+]
