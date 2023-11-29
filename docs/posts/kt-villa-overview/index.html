@@ -62,15 +62,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Fozzie The Beat - KT Villa Overview">
 <meta property="og:description" content="How I ended up building a booking website with too much Generative AI">
-<meta property="og:image" content="https://fozziethebeat.com/posts/kt-villa-overview/kt-villa-booking.png">
+<meta property="og:image" content="https://fozziethebeat.com/posts/kt-villa-overview/meiji-chocolate-stickers.png">
 <meta property="og:site-name" content="Fozzie The Beat">
-<meta property="og:image:height" content="1216">
-<meta property="og:image:width" content="1014">
+<meta property="og:image:height" content="640">
+<meta property="og:image:width" content="480">
 <meta name="twitter:title" content="Fozzie The Beat - KT Villa Overview">
 <meta name="twitter:description" content="How I ended up building a booking website with too much Generative AI">
-<meta name="twitter:image" content="https://fozziethebeat.com/posts/kt-villa-overview/kt-villa-booking.png">
-<meta name="twitter:image-height" content="1216">
-<meta name="twitter:image-width" content="1014">
+<meta name="twitter:image" content="https://fozziethebeat.com/posts/kt-villa-overview/meiji-chocolate-stickers.png">
+<meta name="twitter:image-height" content="640">
+<meta name="twitter:image-width" content="480">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -168,6 +168,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-origins-for-kt-villa" class="level2">
 <h2 class="anchored" data-anchor-id="the-origins-for-kt-villa">The origins for KT Villa</h2>
 <p><a href="https://www.kt-villa.com">KT Villa</a> is a nifty little booking website I hand built to manage trips to my winter lodge in Hakuba Japan. For entirely silly reasons I infused it with way more Generative AI than needed. Why? Well it all starts with little Meiji Chocolates in Japan where each tube comes with some delightful little sticker representing a country somewhere in the world. I’ve been collecting these over the years and thought it would be fun to do the same thing with bar soap, each purchase comes with a little trading card that has an AI generated image and an AI generated character profile. Like NFTs, people could “claim” them on a website but unlike NFTs they’re intentionally worthless. Seems pretty doable but it requires a soap company selling real products, which I aspire to have one day but currently do not (message me if you’re keen to do something silly like this plz).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="meiji-chocolate-stickers.png" title="Look at those cute little stickers! Mind you I'm not the best photographer" class="img-fluid figure-img"></p>
+</figure>
+</div>
 <p>I do however have an empty winter lodge in Hakuba Japan, a prime place to enjoy the snow. And I have many friends who wish to stay there on the regular. So instead of generated images and character cards for soap purchases, I did the same thing for trips to my winter lodge. And bam, that’s how we get KT Villa. As a fun aside, the Villa part comes from a previous name for our house, Chill Villa, when it was on AirBnB and the KT part comes from nicknames for my wife and myself, Koala and Tree. Cute right?</p>
 <p><img src="kt-villa-booking.png" title="Not gonna lie, this date range selector was the biggest time sync due to wanting to make sure timezones were handled right. Its always timezones" class="img-fluid"></p>
 <p>Pretty much all the hard part of the site is just your regular old booking website challenges. Managing users, managing booking details, making sure two trips don’t overlap, making sure timezones are all done right. Making it look visually okay. It’s an entirely normal website except when you make a booking, you get a SDXL (Stable Diffusion XL from Stability AI) generated image. To boot, I setup SDXL to run a different themed LoRA adapter every two weeks so with a bit of prompt magic and adapter swapping, every trip will generate a fairly unique image.</p>
