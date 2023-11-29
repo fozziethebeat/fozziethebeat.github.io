@@ -33,7 +33,7 @@ and myself, Koala and Tree.  Cute right?
 
 ![](kt-villa-booking.png "Not gonna lie, this date range selector was the
 biggest time sync due to wanting to make sure timezones were handled right.
-Its always timezones")
+Its always timezones"){.preview-image}
 
 Pretty much all the hard part of the site is just your regular old booking
 website challenges.  Managing users, managing booking details, making sure two

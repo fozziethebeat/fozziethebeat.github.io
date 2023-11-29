@@ -62,15 +62,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Fozzie The Beat - KT Villa Overview">
 <meta property="og:description" content="How I ended up building a booking website with too much Generative AI">
-<meta property="og:image" content="https://fozziethebeat.com/posts/kt-villa-overview/meiji-chocolate-stickers.png">
+<meta property="og:image" content="https://fozziethebeat.com/posts/kt-villa-overview/kt-villa-booking.png">
 <meta property="og:site-name" content="Fozzie The Beat">
-<meta property="og:image:height" content="640">
-<meta property="og:image:width" content="480">
+<meta property="og:image:height" content="1216">
+<meta property="og:image:width" content="1014">
 <meta name="twitter:title" content="Fozzie The Beat - KT Villa Overview">
 <meta name="twitter:description" content="How I ended up building a booking website with too much Generative AI">
-<meta name="twitter:image" content="https://fozziethebeat.com/posts/kt-villa-overview/meiji-chocolate-stickers.png">
-<meta name="twitter:image-height" content="640">
-<meta name="twitter:image-width" content="480">
+<meta name="twitter:image" content="https://fozziethebeat.com/posts/kt-villa-overview/kt-villa-booking.png">
+<meta name="twitter:image-height" content="1216">
+<meta name="twitter:image-width" content="1014">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>I do however have an empty winter lodge in Hakuba Japan, a prime place to enjoy the snow. And I have many friends who wish to stay there on the regular. So instead of generated images and character cards for soap purchases, I did the same thing for trips to my winter lodge. And bam, that’s how we get KT Villa. As a fun aside, the Villa part comes from a previous name for our house, Chill Villa, when it was on AirBnB and the KT part comes from nicknames for my wife and myself, Koala and Tree. Cute right?</p>
-<p><img src="kt-villa-booking.png" title="Not gonna lie, this date range selector was the biggest time sync due to wanting to make sure timezones were handled right. Its always timezones" class="img-fluid"></p>
+<p><img src="kt-villa-booking.png" title="Not gonna lie, this date range selector was the biggest time sync due to wanting to make sure timezones were handled right. Its always timezones" class="preview-image img-fluid"></p>
 <p>Pretty much all the hard part of the site is just your regular old booking website challenges. Managing users, managing booking details, making sure two trips don’t overlap, making sure timezones are all done right. Making it look visually okay. It’s an entirely normal website except when you make a booking, you get a SDXL (Stable Diffusion XL from Stability AI) generated image. To boot, I setup SDXL to run a different themed LoRA adapter every two weeks so with a bit of prompt magic and adapter swapping, every trip will generate a fairly unique image.</p>
 <p><img src="kt-villa-image-gen-cards.png" title="Pretty cute right? I randomly swap out a few key words with a prompt that worked reasonably well for multiple adapters and multiple key terms. Not always 100% but usually solid" class="img-fluid"></p>
 <p>But I wanted something <em>even</em> sillier. Since I’ve been contracting with a team focusing on themed chatbots, I wanted to take it to the extreme. For every generated imaged, I let users create a character profile card using a multi-modal LLM. That gives us a pretty unpredictable chatbot profile and when paired with a decent small chat trained LLM, users can try chatting with their booking image and see what silliness entails. With time I also plan to somehow cram in Retrieval Augmented Generation somewhere using <a href="https://python.langchain.com/">LangChain</a>.</p>
