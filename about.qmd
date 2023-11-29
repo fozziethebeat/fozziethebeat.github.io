@@ -1,5 +1,18 @@
 ---
-title: "About"
+title: "Keith Stevens"
+image: assets/img/profile-photo.jpg 
+about:
+  template: jolla
+  links:
+    - icon: threads
+      text: Threads
+      href: https://threads.net/fozziethebeat
+    - icon: github 
+      text: Github
+      href: https://www.github.com/fozziethebeat
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/fozziethebeat/
 ---
 
 With 20 years practicing Buddhism and 15 years working in Natural Language

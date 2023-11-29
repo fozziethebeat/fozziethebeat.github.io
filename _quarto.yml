@@ -25,10 +25,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:
     theme: simplex
     css: styles.css
     toc: true
+    mermaid:
+      theme: forest

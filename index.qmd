@@ -1,6 +1,11 @@
 ---
 title: Open Source Musings & Snow Time
 bibliography: _bibliography/papers.bib
+listing:
+  id: blog-highlights
+  contents: posts
+  sort: "date desc"
+  max-items: 3
 ---
 
 Welcome! Here's where I write thoughts on various open source Large Language
@@ -9,13 +14,18 @@ Engineer from Google Translate and until I make it back the states, I'm
 spending some time exploring the world of smaller teams and companies.  I
 sometimes take on contractor work related to LLMs.  During winter, I spend a
 lot of time skiing in Hakuba Japan (if you find yourself there, say hello and I
-can show you
-around).
+can show you around).
+
+## Recent Posts
+
+::: {#blog-highlights}
+:::
+
 
 ## Upcoming Reviews
 
 * [ ] Making KT-Villa with FastChat, LLaVa & RedwoodJS:
-  * [ ] A basic overview
+  * [x] A basic overview
   * [ ] Gluing Stable Diffusion and Llava together
   * [ ] Piping in Zephyr-7b
   * [ ] Why the rest of the project was still hard
@@ -28,6 +38,7 @@ around).
   * [ ] [teknium/OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)
   * [ ] [teknium/Mistral-Trismegistus-7B](https://huggingface.co/teknium/Mistral-Trismegistus-7B)
   * [ ] [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b)
+
 ## Selected Publications
 
 ---
