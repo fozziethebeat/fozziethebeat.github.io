@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Keith Stevens">
+<meta name="dcterms.date" content="2023-12-07">
+<meta name="description" content="I too want my own native app with local Llama models and so can you">
+
+<title>Fozzie The Beat - Local LLama in Electron JS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../assets/img/surface.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta name="mermaid-theme" content="forest">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Fozzie The Beat - Local LLama in Electron JS">
+<meta property="og:description" content="I too want my own native app with local Llama models and so can you">
+<meta property="og:image" content="https://fozziethebeat.com/posts/231206-local-llama-electron/231206-anna-cat-travel.png">
+<meta property="og:site-name" content="Fozzie The Beat">
+<meta property="og:image:height" content="1028">
+<meta property="og:image:width" content="1576">
+<meta name="twitter:title" content="Fozzie The Beat - Local LLama in Electron JS">
+<meta name="twitter:description" content="I too want my own native app with local Llama models and so can you">
+<meta name="twitter:image" content="https://fozziethebeat.com/posts/231206-local-llama-electron/231206-anna-cat-travel.png">
+<meta name="twitter:image-height" content="1028">
+<meta name="twitter:image-width" content="1576">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Fozzie The Beat</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto tools-wide">
+    <a href="https://github.com/fozziethebeat/fozziethebeat.github.io" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/fozziethebeat/" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.threads.net/fozziethebeat/" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-threads"></i></a>
+    <a href="mailto:keith@surfacedata.org" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-send-fill"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-local-models-why-local-apps" id="toc-why-local-models-why-local-apps" class="nav-link active" data-scroll-target="#why-local-models-why-local-apps">Why Local models? Why local apps?</a></li>
+  <li><a href="#your-own-electron-js-app-with-local-models" id="toc-your-own-electron-js-app-with-local-models" class="nav-link" data-scroll-target="#your-own-electron-js-app-with-local-models">Your own Electron JS app with local models</a></li>
+  <li><a href="#breaking-out-of-the-electron-box" id="toc-breaking-out-of-the-electron-box" class="nav-link" data-scroll-target="#breaking-out-of-the-electron-box">Breaking out of the Electron Box</a>
+  <ul class="collapse">
+  <li><a href="#putting-the-llava-in-the-multimodal" id="toc-putting-the-llava-in-the-multimodal" class="nav-link" data-scroll-target="#putting-the-llava-in-the-multimodal">Putting the Llava in the multimodal</a></li>
+  <li><a href="#now-lets-do-it-with-images" id="toc-now-lets-do-it-with-images" class="nav-link" data-scroll-target="#now-lets-do-it-with-images">Now let’s do it with images</a></li>
+  </ul></li>
+  <li><a href="#recap" id="toc-recap" class="nav-link" data-scroll-target="#recap">Recap</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Local LLama in Electron JS</h1>
+</div>
+
+<div>
+  <div class="description">
+    I too want my own native app with local Llama models and so can you
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Keith Stevens </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 7, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="why-local-models-why-local-apps" class="level2">
+<h2 class="anchored" data-anchor-id="why-local-models-why-local-apps">Why Local models? Why local apps?</h2>
+<p>Recently I had to make a trip to China with my wife. These days, that means I’ll be disconnected from the regular internets and totally isolated from the ChatGPTs of the world or even my Linux server hosted open source LLMs. I can get by without these things when it comes to writing emails or writing code, but I do need my LLMs to explore the world of bad dad jokes and get pet care advice. How am I to survive? local models with internet free apps to the rescue!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="231206-anna-cat-travel.png" title="When traveling, I use models to get advice from Princess Anna of Frozen to get my pet advice. What are you doing with your local models?" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Right now, probably the best and easiest to use app for all this is <a href="https://lmstudio.ai/">LM Studio</a>. They let you install a local native app and then download quantized (e.g.&nbsp;compressed) open source models that you run totally locally if you have a sufficiently good computer. I have a Mac M2 with 20 something gigs of ram so I can run any 7B model without question. That lets me get all the dad jokes I need to be productive. But what if LM studio didn’t exist? What would it take to make it? Or what if I felt like I needed something like LM Studio but with a few twists and turns? How hard is it to do?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="231206-lm-studio-activity.png" title="What is LM studio doing in the background? Activity Monitor to the rescue!" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>If you take a peek at what LM Studio is doing in the background, it’s pretty obvious it’s an <a href="https://www.electronjs.org/">Electron JS</a> app. This has been a pretty standard way to write a cross platform native app using pure Node.JS. You write up your little server like background process and then a bunch of client side HTML + javascript and with a little bit of compilation you get your own LM Studio, Slack, or Discord app. So, what did LM Studio do to get their app? Let’s dive in and find out.</p>
+</section>
+<section id="your-own-electron-js-app-with-local-models" class="level2">
+<h2 class="anchored" data-anchor-id="your-own-electron-js-app-with-local-models">Your own Electron JS app with local models</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="231206-basic-chat.png" title="Gives perfectly fine jokes, even without any system prompt tuning" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Our end goal is a local app running a model 100% on our local machine and ideally packaged in a single ElectronJS app without any other services. There’s lots of other (easier) ways to crack this nut but let’s aim for this goal because we’re pretending we don’t like accessing apps through our web browsers. So what do you need? Ultimately you need a way to run the quantized LLMs with your bare model CPU or Apple silicon. You could write that yourself or you could leverage <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> like a reasonable person.</p>
+<p>But <code>llama.cpp</code> is in C++, which last I checked is not javascript, nor typescript. Thankfully <a href="https://github.com/withcatai"><span class="citation" data-cites="withcatai">@withcatai</span></a> has solved this problem for us, mostly, by writing <a href="https://github.com/withcatai/node-llama-cpp">node-llama-cpp</a>. This builds llama.cpp as some linkable libraries and adds Javascript bindings so any (almost) Node.JS app can call local models directly form javascript land.</p>
+<p>To get this working, let’s solve two key requirements:</p>
+<ol type="1">
+<li>We must use ESM modules. Javascript is notorious for having many flavors and none of them work well together. <code>node-llama-cpp</code> chose ESM modules so that’s what we have to pick.</li>
+<li>We like to be lazy so let’s do the client side in ReactJS. That will introduce some additional challenges.</li>
+</ol>
+<p>I’ve done all this already for you with an app I call <a href="https://github.com/SurfaceData/local-llama-electron/">local-llama-electron</a>, a very creative name. If you want to read the code for yourself, take a minute and come back. Or just fork it and move along without reading below, but you might miss a funny image or two.</p>
+<p>Let’s look at the hardest parts now. Going forward, I’m going to assume you’ve created a vanilla Electron JS app using <a href="https://www.electronforge.io/">Electron Forge</a> or you’re reading my repository.</p>
+<p>First, ElectronJS doesn’t yet fully support ESM moduels, a hard requirement for <code>node-llama-cpp</code>, but in their upcoming version 28 release they will be. That gets us pretty far. We just need to install the beta releaes and make a few changes to our Electron App after creating it.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">--upgrade</span> electron@beta</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The other small change you likely need to do is make sure all the Electron config files are written as ESM modules. This should look like</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">buildIdentifier</span><span class="op">:</span> <span class="st">"esm"</span><span class="op">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">defaultResolved</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">packagerConfig</span><span class="op">:</span> {}<span class="op">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">rebuildConfig</span><span class="op">:</span> {}<span class="op">,</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="op">...</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If we wanted to write all the client side in bare bones HTML, CSS, and Javascript, we’d be done. But people like me, we want ReactJS and that means we need a tool like WebPack or Vite to bundle client side code into something sensible. Normally Vite handles ESM really well but Electron’s Vite plugin does not. So I forked it to make a one line change that treats everything as ESM instead of some other option. You can find that <a href="https://github.com/fozziethebeat/electron-forge-plugin-vite-esm">here</a>.</p>
+<p>You can install that with something like</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">--upgrade</span> <span class="dt">\</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://github.com/fozziethebeat/electron-forge-plugin-vite-esm#plugin-vite-esm"</span> <span class="dt">\</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">--include</span><span class="op">=</span>dev <span class="dt">\</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">--save</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Are we done yet? Assuming we’ve followed the Electron Forge documentation on setting up ReactJS and Vite? Nope, because Vite does so much work for us, it now complicates <code>node-llama-cpp</code> in one tiny way. It tries to bundle the entire package up for us but manages to leave out the C++ resource libraries.</p>
+<p>I bet there’s a better way to fix this but I edited my <code>vite.main.config.ts</code> file to include this stanza:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="fu">defineConfig</span>({</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">build</span><span class="op">:</span> {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">rollupOptions</span><span class="op">:</span> {</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>      <span class="dt">external</span><span class="op">:</span> [</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="st">"node-llama-cpp"</span><span class="op">,</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      ]<span class="op">,</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  }<span class="op">,</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="op">...</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now we’ve got a fully functioning independent Local Llama Electron App. But let’s go further and test the limits of what we <em>could</em> build with some additional work.</p>
+</section>
+<section id="breaking-out-of-the-electron-box" class="level2">
+<h2 class="anchored" data-anchor-id="breaking-out-of-the-electron-box">Breaking out of the Electron Box</h2>
+<p>So far we set ourselves a goal and we hit it hard. We wanted a single app we can package and distribute that lets us run local models as a native app and that we got. But right now there’s a few limitations to what <code>node-llama-cpp</code> can do:</p>
+<ol type="1">
+<li>It doesn’t support Multimodal models like Llava even though <code>llama.cpp</code> does.</li>
+<li>It doesn’t support streaming (again even though <code>llama.cpp</code> does).</li>
+<li>To my knowledge, no one has built a <code>llama.cpp</code> for SDXL Turbo, the latest fast version of Stable Diffusion that you can run locally with a python setup.</li>
+</ol>
+<p>So let’s expand these shennanigans with these working bits just to see if it feels fun and useful. Later we can figure out how to get everything back into the single Electron box.</p>
+<p>At the end of the day, we’ll end up with something absurd like this:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  Client[React JS]
+  Server[Main]
+  NodeLlama(node-llama-cpp)
+  LocalLlamaPython[local-llama-python]
+  LocalSDXLTurbo[local-sdxl-turbo]
+  SDXLTurbo(sdxl-turbo)
+  Llava(llava-1.5-7b)
+
+  subgraph ElectronJS
+    Client --&gt; Server
+    Server --&gt; NodeLlama
+  end
+
+  subgraph Python Server 1
+    Server --&gt; LocalLlamaPython
+    LocalLlamaPython --&gt; Llava
+  end
+
+  subgraph Python Server 2
+    Server --&gt; LocalSDXLTurbo
+    LocalSDXLTurbo --&gt; SDXLTurbo
+  end
+</pre>
+</div>
+</div>
+</div>
+</div>
+<section id="putting-the-llava-in-the-multimodal" class="level3">
+<h3 class="anchored" data-anchor-id="putting-the-llava-in-the-multimodal">Putting the Llava in the multimodal</h3>
+<p>As stated, <code>llama.cpp</code> already supports running Multimodal modals like Llava 1.5 7B. This is pretty rad because it lets us take an image, run it through an embedding step and then feed that into a standard LLM to get some text description. We can even add arbitrary prompting related to the image. To fancy up our prototype, we can use <a href="https://github.com/abetlen/llama-cpp-python">llama-cpp-python</a>, which is very much like <code>node-llama-cpp</code> but done for Python. Not only does this support Llava models, it also provides an OpenAI compatible server supporting the vision features.</p>
+<p>That means, just go on over to <a href="https://github.com/abetlen/llama-cpp-python">llama-cpp-python</a>, install it, download your favorite multimodal modal and turn it on! For me that looked like</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> llama_cpp.server <span class="dt">\</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">--model</span> ~/.cache/lm-studio/models/mys/ggml_llava-v1.5-7b/ggml-model-q5_k.gguf <span class="dt">\</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">--model_alias</span> llava-1.5 <span class="dt">\</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">--clip_model_path</span> ~/.cache/lm-studio/models/mys/ggml_llava-v1.5-7b/mmproj-model-f16.gguf <span class="dt">\</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">--chat_format</span> llava-1-5 <span class="dt">\</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">--n_gpu_layers</span> 1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>NOTE: One big caveat. If you’re running on MacOS with an M2 chip, you might have an impossible time installing version 0.2.20. I added my solution to <a href="https://github.com/abetlen/llama-cpp-python/issues/847">this issue</a>, maybe it’ll help you too.</p>
+<p>With that setup in a separate process, we just need to do our very standard app building and call the new fake OpenAI endpoint in our main process:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">analyzeImage</span>(<span class="bu">event</span>) {</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Get yo images.</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> { filePaths } <span class="op">=</span> <span class="cf">await</span> dialog<span class="op">.</span><span class="fu">showOpenDialog</span>({</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">filters</span><span class="op">:</span> [{ <span class="dt">name</span><span class="op">:</span> <span class="st">"Images"</span><span class="op">,</span> <span class="dt">extensions</span><span class="op">:</span> [<span class="st">"jpg"</span><span class="op">,</span> <span class="st">"jpeg"</span><span class="op">,</span> <span class="st">"png"</span><span class="op">,</span> <span class="st">"webp"</span>] }]<span class="op">,</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">properties</span><span class="op">:</span> [<span class="st">"openFile"</span>]<span class="op">,</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Tell the client side that we got the file and give it our local protocol</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">// that's handled properly for electron.</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="bu">event</span><span class="op">.</span><span class="fu">reply</span>(<span class="st">"image-analyze-selection"</span><span class="op">,</span> <span class="vs">`app://</span><span class="sc">${</span>filePaths[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">`</span>)<span class="op">;</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Later, this should actually call a node-llama-cpp model.  For now we call</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="co">// llama-cpp-python through the OpenAI api.</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> result <span class="op">=</span> <span class="cf">await</span> mlmOpenai<span class="op">.</span><span class="at">chat</span><span class="op">.</span><span class="at">completions</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">model</span><span class="op">:</span> <span class="st">"llava-1.5"</span><span class="op">,</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">messages</span><span class="op">:</span> [</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>      {</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        <span class="dt">role</span><span class="op">:</span> <span class="st">"user"</span><span class="op">,</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>        <span class="dt">content</span><span class="op">:</span> [</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>          { <span class="dt">type</span><span class="op">:</span> <span class="st">"text"</span><span class="op">,</span> <span class="dt">text</span><span class="op">:</span> <span class="st">"What’s in this image?"</span> }<span class="op">,</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>          {</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>            <span class="dt">type</span><span class="op">:</span> <span class="st">"image_url"</span><span class="op">,</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>            <span class="dt">image_url</span><span class="op">:</span> <span class="vs">`file://</span><span class="sc">${</span>filePaths[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">`</span><span class="op">,</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>          }<span class="op">,</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>        ]<span class="op">,</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>      }<span class="op">,</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>    ]<span class="op">,</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>    <span class="dt">stream</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Get each returned chunk and return it via the reply callback.  Ideally</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>  <span class="co">// there should be a request ID so the client can validate each chunk.</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> <span class="cf">await</span> (<span class="kw">const</span> chunk <span class="kw">of</span> result) {</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> content <span class="op">=</span> chunk<span class="op">.</span><span class="at">choices</span>[<span class="dv">0</span>]<span class="op">.</span><span class="at">delta</span><span class="op">.</span><span class="at">content</span><span class="op">;</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (content) {</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>      <span class="bu">event</span><span class="op">.</span><span class="fu">reply</span>(<span class="st">"image-analyze-reply"</span><span class="op">,</span> {</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>        content<span class="op">,</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>        <span class="dt">done</span><span class="op">:</span> <span class="kw">false</span><span class="op">,</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>      })<span class="op">;</span></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Let the callback know that we're done.</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  <span class="bu">event</span><span class="op">.</span><span class="fu">reply</span>(<span class="st">"image-analyze-reply"</span><span class="op">,</span> {</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    <span class="dt">content</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>    <span class="dt">done</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now we can let a user click a button, select and image, and get some fancy text like below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="231206-image-analysis.png" title="Where did this image come from? I asked SDXL-turbo for fish fighting over a table. Not quite what I wanted, but serves its purpose just fine" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="now-lets-do-it-with-images" class="level3">
+<h3 class="anchored" data-anchor-id="now-lets-do-it-with-images">Now let’s do it with images</h3>
+<p>We’re not satisfied with just generative text, nor with image to text models. No.&nbsp;No.&nbsp;No.&nbsp;We want the whole enchilada. We want text to image generation running all locally so we can get ourselves a full fledged all modality generative AI app.</p>
+<p>So let’s drop the whole C++ requirement and write a tiny little OpenAI compatible API server that hosts SDXL Turbo. With a proper python setup this is pretty easy and we can again call that server fro, our Electron app with a REST API call.</p>
+<p>I did that for you, even tho it’s pretty easy. It’s over at <a href="https://github.com/SurfaceData/local-sdxl-turbo">local-sdxl-turbo</a>. Download it, install, and run. Running is as simple as</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> server <span class="at">--device</span> mps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then you too can add this tiny bit of Javascript to get generative images in your Electron App:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">async</span> function generateImage<span class="er">(</span><span class="ex">event,</span> prompt<span class="kw">)</span> <span class="kw">{</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">//</span> Later, this should actually call a node-llama-cpp model.  For now we call</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">//</span> llama-cpp-python through the OpenAI api.</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">const</span> result = await imageOpenai.images.generate<span class="er">(</span><span class="kw">{</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">prompt,</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">model:</span> <span class="st">"sdxl-turbo"</span>,</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="kw">});</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="ex">result.data[0].b64_json</span><span class="kw">;</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="kw">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>And with your image prompting skills, you too can try to replicate high tech marketing theories as artistic masterpieces.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="231206-image-generation.png" title="This is how you market your high tech local LLM app for market dominance. The bowling pin strategy. Never fails" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="recap" class="level2">
+<h2 class="anchored" data-anchor-id="recap">Recap</h2>
+<p>My little Local Llama Electron app is by no means meant to be a real usable product. It’s janky. It’s kinda ugly (although I do like the DaisyUI cupcake color palette). It’s also hard to setup and deploy.</p>
+<p>But it is a demonstration of what’s possible these days with local models. With a bit more extra work you can have a fully packaged system. To get there you just need to:</p>
+<ol type="1">
+<li>Replicate some of the work done by <code>node-llama-cpp</code> to include support for multi-modal modals.</li>
+<li>Do the whole <code>llama.cpp</code> thing but for SDXL-turbo. I’m sure someone has done it and I just don’t know. If so, then you just need the javascript bindings.</li>
+</ol>
+<p>And then you have a pretty fancy pants multi-modal LLM app for anyone to use.</p>
+<p>I might get around to doing those extra steps and documenting them, but no promises. It turns out even writing this blog post while in China is a <em>massive</em> pain.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

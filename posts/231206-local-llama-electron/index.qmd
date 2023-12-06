@@ -1,0 +1,341 @@
+---
+title: "Local LLama in Electron JS"
+description: "I too want my own native app with local Llama models and so can you"
+author: "Keith Stevens"
+date: "2023-12-07"
+---
+
+## Why Local models?  Why local apps?
+
+Recently I had to make a trip to China with my wife.  These days, that means
+I'll be disconnected from the regular internets and totally isolated from the
+ChatGPTs of the world or even my Linux server hosted open source LLMs.  I can
+get by without these things when it comes to writing emails or writing code,
+but I do need my LLMs to explore the world of bad dad jokes and get pet care
+advice.  How am I to survive? local models with internet free apps to the
+rescue!
+
+![](231206-anna-cat-travel.png "When traveling, I use models to get advice from
+Princess Anna of Frozen to get my pet advice.  What are you doing with your
+local models?"){fig-align="center"}
+
+Right now, probably the best and easiest to use app for all this is [LM
+Studio](https://lmstudio.ai/).  They let you install a local native app and
+then download quantized (e.g. compressed) open source models that you run
+totally locally if you have a sufficiently good computer.  I have a Mac M2 with
+20 something gigs of ram so I can run any 7B model without question.   That
+lets me get all the dad jokes I need to be productive.  But what if LM studio
+didn't exist? What would it take to make it? Or what if I felt like I needed
+something like LM Studio but with a few twists and turns? How hard is it to do?
+
+![](231206-lm-studio-activity.png "What is LM studio doing in the background?
+Activity Monitor to the rescue!"){fig-align="center"}
+
+If you take a peek at what LM Studio is doing in the background, it's pretty
+obvious it's an [Electron JS](https://www.electronjs.org/) app.  This has been
+a pretty standard way to write a cross platform native app using pure Node.JS.
+You write up your little server like background process and then a bunch of
+client side HTML + javascript and with a little bit of compilation you get your
+own LM Studio, Slack, or Discord app.  So, what did LM Studio do to get their
+app? Let's dive in and find out.
+
+## Your own Electron JS app with local models
+
+![](231206-basic-chat.png "Gives perfectly fine jokes, even without any system
+prompt tuning"){fig-align="center"}
+
+Our end goal is a local app running a model 100% on our local machine and
+ideally packaged in a single ElectronJS app without any other services.
+There's lots of other (easier) ways to crack this nut but let's aim for this
+goal because we're pretending we don't like accessing apps through our web
+browsers.  So what do you need? Ultimately you need a way to run the quantized
+LLMs with your bare model CPU or Apple silicon.  You could write that yourself
+or you could leverage [llama.cpp](https://github.com/ggerganov/llama.cpp) like
+a reasonable person.
+
+But `llama.cpp` is in C++, which last I checked is not javascript, nor
+typescript.  Thankfully [@withcatai](https://github.com/withcatai) has solved
+this problem for us, mostly, by writing
+[node-llama-cpp](https://github.com/withcatai/node-llama-cpp).  This builds
+llama.cpp as some linkable libraries and adds Javascript bindings so any
+(almost) Node.JS app can call local models directly form javascript land.
+
+To get this working, let's solve two key requirements:
+
+1.  We must use ESM modules.  Javascript is notorious for having many flavors
+    and none of them work well together.  `node-llama-cpp` chose ESM modules so
+    that's what we have to pick.
+2.  We like to be lazy so let's do the client side in ReactJS.  That will
+    introduce some additional challenges.
+
+I've done all this already for you with an app I call
+[local-llama-electron](https://github.com/SurfaceData/local-llama-electron/), a
+very creative name.  If you want to read the code for yourself, take a minute
+and come back.  Or just fork it and move along without reading below, but you
+might miss a funny image or two.
+
+Let's look at the hardest parts now.  Going forward, I'm going to assume you've
+created a vanilla Electron JS app using [Electron
+Forge](https://www.electronforge.io/) or you're reading my repository.
+
+First, ElectronJS doesn't yet fully support ESM moduels, a hard requirement for
+`node-llama-cpp`, but in their upcoming version 28 release they will be.  That
+gets us pretty far.  We just need to install the beta releaes and make a few
+changes to our Electron App after creating it.
+
+```sh
+npm install --upgrade electron@beta
+```
+
+The other small change you likely need to do is make sure all the Electron
+config files are written as ESM modules.  This should look like
+
+```javascript
+export default {
+  buildIdentifier: "esm",
+  defaultResolved: true,
+  packagerConfig: {},
+  rebuildConfig: {},
+  ...
+}
+```
+
+If we wanted to write all the client side in bare bones HTML, CSS, and
+Javascript, we'd be done.  But people like me, we want ReactJS and that means
+we need a tool like WebPack or Vite to bundle client side code into something
+sensible.  Normally Vite handles ESM really well but Electron's Vite plugin
+does not.  So I forked it to make a one line change that treats everything as
+ESM instead of some other option.  You can find that
+[here](https://github.com/fozziethebeat/electron-forge-plugin-vite-esm).
+
+You can install that with something like 
+
+```sh
+npm install --upgrade \
+  "https://github.com/fozziethebeat/electron-forge-plugin-vite-esm#plugin-vite-esm" \
+  --include=dev \
+  --save
+```
+
+Are we done yet? Assuming we've followed the Electron Forge documentation on
+setting up ReactJS and Vite?  Nope, because Vite does so much work for us, it
+now complicates `node-llama-cpp` in one tiny way.  It tries to bundle the
+entire package up for us but manages to leave out the C++ resource libraries.
+
+I bet there's a better way to fix this but I edited my `vite.main.config.ts`
+file to include this stanza:
+
+```javascript
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      external: [
+        "node-llama-cpp",
+      ],
+    },
+  },
+  ...
+});
+```
+
+Now we've got a fully functioning independent Local Llama Electron App.  But
+let's go further and test the limits of what we *could* build with some
+additional work.
+
+## Breaking out of the Electron Box
+
+So far we set ourselves a goal and we hit it hard.  We wanted a single app we
+can package and distribute that lets us run local models as a native app and
+that we got.  But right now there's a few limitations to what `node-llama-cpp`
+can do:
+
+1. It doesn't support Multimodal models like Llava even though `llama.cpp`
+   does.
+2. It doesn't support streaming (again even though `llama.cpp` does).
+3. To my knowledge, no one has built a `llama.cpp` for SDXL Turbo, the latest
+   fast version of Stable Diffusion that you can run locally with a python
+   setup.
+ 
+So let's expand these shennanigans with these working bits just to see if it
+feels fun and useful.  Later we can figure out how to get everything back into
+the single Electron box.
+
+At the end of the day, we'll end up with something absurd like this:
+
+```{mermaid}
+flowchart LR
+  Client[React JS]
+  Server[Main]
+  NodeLlama(node-llama-cpp)
+  LocalLlamaPython[local-llama-python]
+  LocalSDXLTurbo[local-sdxl-turbo]
+  SDXLTurbo(sdxl-turbo)
+  Llava(llava-1.5-7b)
+
+  subgraph ElectronJS
+    Client --> Server
+    Server --> NodeLlama
+  end
+
+  subgraph Python Server 1
+    Server --> LocalLlamaPython
+    LocalLlamaPython --> Llava
+  end
+
+  subgraph Python Server 2
+    Server --> LocalSDXLTurbo
+    LocalSDXLTurbo --> SDXLTurbo
+  end
+```
+
+### Putting the Llava in the multimodal
+
+As stated, `llama.cpp` already supports running Multimodal modals like Llava
+1.5 7B.  This is pretty rad because it lets us take an image, run it through an
+embedding step and then feed that into a standard LLM to get some text
+description.  We can even add arbitrary prompting related to the image.  To
+fancy up our prototype, we can use
+[llama-cpp-python](https://github.com/abetlen/llama-cpp-python), which is very
+much like `node-llama-cpp` but done for Python.  Not only does this support
+Llava models, it also provides an OpenAI compatible server supporting the
+vision features.
+
+That means, just go on over to
+[llama-cpp-python](https://github.com/abetlen/llama-cpp-python), install it,
+download your favorite multimodal modal and turn it on! For me that looked like
+
+```sh
+python -m llama_cpp.server \
+  --model ~/.cache/lm-studio/models/mys/ggml_llava-v1.5-7b/ggml-model-q5_k.gguf \
+  --model_alias llava-1.5 \
+  --clip_model_path ~/.cache/lm-studio/models/mys/ggml_llava-v1.5-7b/mmproj-model-f16.gguf \
+  --chat_format llava-1-5 \
+  --n_gpu_layers 1
+```
+
+NOTE: One big caveat.  If you're running on MacOS with an M2 chip, you might
+have an impossible time installing version 0.2.20.  I added my solution to
+[this issue](https://github.com/abetlen/llama-cpp-python/issues/847), maybe
+it'll help you too.
+
+With that setup in a separate process, we just need to do our very standard app
+building and call the new fake OpenAI endpoint in our main process:
+
+```javascript
+async function analyzeImage(event) {
+  // Get yo images.
+  const { filePaths } = await dialog.showOpenDialog({
+    filters: [{ name: "Images", extensions: ["jpg", "jpeg", "png", "webp"] }],
+    properties: ["openFile"],
+  });
+  // Tell the client side that we got the file and give it our local protocol
+  // that's handled properly for electron.
+  event.reply("image-analyze-selection", `app://${filePaths[0]}`);
+  // Later, this should actually call a node-llama-cpp model.  For now we call
+  // llama-cpp-python through the OpenAI api.
+  const result = await mlmOpenai.chat.completions.create({
+    model: "llava-1.5",
+    messages: [
+      {
+        role: "user",
+        content: [
+          { type: "text", text: "What’s in this image?" },
+          {
+            type: "image_url",
+            image_url: `file://${filePaths[0]}`,
+          },
+        ],
+      },
+    ],
+    stream: true,
+  });
+  // Get each returned chunk and return it via the reply callback.  Ideally
+  // there should be a request ID so the client can validate each chunk.
+  for await (const chunk of result) {
+    const content = chunk.choices[0].delta.content;
+    if (content) {
+      event.reply("image-analyze-reply", {
+        content,
+        done: false,
+      });
+    }
+  }
+  // Let the callback know that we're done.
+  event.reply("image-analyze-reply", {
+    content: "",
+    done: true,
+  });
+}
+```
+
+Now we can let a user click a button, select and image, and get some fancy text
+like below.
+
+![](231206-image-analysis.png "Where did this image come from? I asked
+SDXL-turbo for fish fighting over a table.  Not quite what I wanted, but serves
+its purpose just fine"){fig-align="center"}
+
+
+### Now let's do it with images
+
+We're not satisfied with just generative text, nor with image to text models.
+No. No. No.  We want the whole enchilada.  We want text to image generation
+running all locally so we can get ourselves a full fledged all modality
+generative AI app.
+
+So let's drop the whole C++ requirement and write a tiny little OpenAI
+compatible API server that hosts SDXL Turbo.  With a proper python setup this
+is pretty easy and we can again call that server fro, our Electron app with a
+REST API call.
+
+I did that for you, even tho it's pretty easy.  It's over at
+[local-sdxl-turbo](https://github.com/SurfaceData/local-sdxl-turbo).  Download
+it, install, and run.  Running is as simple as
+
+```sh
+python -m server --device mps
+```
+
+Then you too can add this tiny bit of Javascript to get generative images in
+your Electron App:
+
+```sh
+async function generateImage(event, prompt) {
+  // Later, this should actually call a node-llama-cpp model.  For now we call
+  // llama-cpp-python through the OpenAI api.
+  const result = await imageOpenai.images.generate({
+    prompt,
+    model: "sdxl-turbo",
+  });
+  return result.data[0].b64_json;
+}
+```
+
+And with your image prompting skills, you too can try to replicate high tech
+marketing theories as artistic masterpieces. 
+
+![](231206-image-generation.png "This is how you market your high tech local
+LLM app for market dominance.  The bowling pin strategy.  Never
+fails"){fig-align="center"}
+
+## Recap
+
+My little Local Llama Electron app is by no means meant to be a real usable
+product.  It's janky.  It's kinda ugly (although I do like the DaisyUI cupcake
+color palette).   It's also hard to setup and deploy.
+
+But it is a demonstration of what's possible these days with local models.
+With a bit more extra work you can have a fully packaged system.  To get there
+you just need to:
+
+1. Replicate some of the work done by `node-llama-cpp` to include support for
+   multi-modal modals.
+2. Do the whole `llama.cpp` thing but for SDXL-turbo.  I'm sure someone has
+   done it and I just don't know.  If so, then you just need the javascript
+   bindings.
+
+And then you have a pretty fancy pants multi-modal LLM app for anyone to use.
+
+I might get around to doing those extra steps and documenting them, but no
+promises.  It turns out even writing this blog post while in China is a
+*massive* pain.

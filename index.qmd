@@ -31,7 +31,7 @@ can show you around).
   * [ ] Why the rest of the project was still hard
 * [ ] Evaluate some interesting projects:
   * [ ] [ModelFusion](https://modelfusion.dev/guide/)
-  * [ ] [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+  * [x] [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
   * [ ] [xorbitsai/inference](https://github.com/xorbitsai/inference)
   * [ ] [Lilac](https://lilacml.com/)
 * [ ] Try out some more models:
