@@ -21,7 +21,7 @@ means, and how a disruptive technology flows through markets.  Does it still
 apply to today's digital SaaS products? I think so.  And even if it doesn't I'm
 going to fit a square into a circle and see what happens.
 
-![](231209-tech-tornado-better.png "I like my tornado's with a little bit of
+![](231209-tech-tornado-better-sm.png "I like my tornado's with a little bit of
 personality"){fig-align="center"}
 
 So, what is Tornado Theory, as I understand it? This is an older name for what
@@ -63,8 +63,8 @@ monkeys are everyone else that's busy trying to provide low cost clones of the
 top line product.  Its a little gross and brutal, but so are the market
 machines that produce unicorns.
 
-![](231209-tornado-players.png "The market isn't kind enough to let these three
-be friends, but we can pretend right?"){fig-align="center"}
+![](231209-tornado-players-sm.png "The market isn't kind enough to let these
+three be friends, but we can pretend right?"){fig-align="center"}
 
 Now, this theory worked well in the 90s and 2000s when products were generally
 hard physical things that required a purchase and support from slower
@@ -98,7 +98,7 @@ out to be not super discontinuous.  DeepL instead launched fast with
 transfomers to be the first on the market with a full transformer generative AI
 product.  That was the visionary stage, I think.
 
-![](231209-mt-visionary.png "Look at that happy little robot visionary. I
+![](231209-mt-visionary-sm.png "Look at that happy little robot visionary. I
 remember the days when the transformer team came to us and insisted we launch
 it asap.  Too bad we missed that boat"){fig-align="center"}
 
@@ -120,7 +120,7 @@ build thin wrappers that then sold a generative AI product to some niche
 audience, all while more and more customers consolidated around OpenAI's
 product and standards.
 
-![](231209-state-of-bowling-alley.png "And now the time for bowling is
+![](231209-state-of-bowling-alley-sm.png "And now the time for bowling is
 over"){fig-align="center"}
 
 Now we have a transformative technology, transformers, flowing through the
@@ -158,7 +158,7 @@ API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api),
 [Co:here's API](https://docs.cohere.com/), and especially not for any of
 Google's APIs.  So, gorilla is now identified.
 
-![](231209-openai-top-duck.png "That duck? That's OpenAI looking out across the
+![](231209-openai-top-duck-sm.png "That duck? That's OpenAI looking out across the
 market. I'm tired of the Gorilla analogy"){fig-align="center"}
 
 And who are the chimps? The other companies developing and furthering the
@@ -188,7 +188,7 @@ ship, they're not a gorilla, not a chimp, not even a monkey.  They're a dying
 gorilla.  It won't kill Google overall, but it puts them out of the game in
 this new market for sure.
 
-![](231209-google-sad-penguin.png "That penguin? It's Google. Penguins
+![](231209-google-sad-penguin-sm.png "That penguin? It's Google. Penguins
 obviously don't survive long in the desert."){fig-align="center"}
 
 Now what about my most controversial statement? That Open Source Models are
@@ -230,9 +230,9 @@ in majority markets with pragmatic buyers that want a clear singular standard
 they can rely on, this strategy often works really well and creates the winner.
 So assuming OpenAI doesn't lose the ball, they look to be the winner.
 
-![](231209-ai-assistant.png "In the future, we won't have to do any real work
-because our AI Assistants will take on human form and do the work for us.  Such
-a blessing of the market"){fig-align="center"}
+![](231209-ai-assistant-sm.png "In the future, we won't have to do any real
+work because our AI Assistants will take on human form and do the work for us.
+Such a blessing of the market"){fig-align="center"}
 
 What's after that? I suspect with AI assistants serving as the commodity whole
 product, once it gets 100% worked out and crystalized into a standard we'll see
