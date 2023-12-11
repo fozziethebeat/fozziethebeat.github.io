@@ -1,0 +1,245 @@
+---
+title: "The AI Tornado"
+description: "Let's apply a 1990's tech marketing theory to today's hot topic:
+  Generative AI Markets"
+author: "Keith Stevens"
+date: "2023-12-11"
+---
+
+## The High Tech Marketing Theory that works: the Tornado
+
+Today's hot disruptive technology has one name, Generative AI.  We know it's
+disrupting things and generating tons of investment and tons of money with lots
+of companies acting hastily.  But what should we expect of the market? What is
+an engineer to make of the upcoming future? I don't know but during the 90's a
+tech marketing master named Geoffrey Moore wrote two books, [Crossing the
+Chasm](https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986)
+and [Into the
+Tornado](https://www.amazon.com/Inside-Tornado-Strategies-Developing-Hypergrowth/dp/0060745819).
+Together I find them a perfect description of what tech "distruption" really
+means, and how a disruptive technology flows through markets.  Does it still
+apply to today's digital SaaS products? I think so.  And even if it doesn't I'm
+going to fit a square into a circle and see what happens.
+
+![](231209-tech-tornado-better.png "I like my tornado's with a little bit of
+personality"){fig-align="center"}
+
+So, what is Tornado Theory, as I understand it? This is an older name for what
+we now call high growth markets, aka the land of startups and aspiring
+unicorns.  In these scenarios, there's existing or old markets comfortable with
+some old timey slow and reliable solution.  Some new technology shows up and
+impresses the high tech audience (my crowd) until it gains the attention of
+some small set of visionary business leaders that see a bit into the future.
+Then most startups die as they fall into a chasm where they fail to market the
+product to the much larger and more pragmatic customers that their investors
+need.  The few startups utilizing the new tech that make it through go onto 
+strategic market land grabs until the large pool of pragmatic customers feel
+ready to buy.  Then suddenly *every*  pragmatic customer wants the product and
+they want it now, they want it fast, and they want it from the market leader.
+Those that win in the tornado come out unicorns.
+
+Successful companies need to deploy different leadership qualities to survive
+each stage.  At the visionary stage they need to get product innovation right.
+Just after the chasm, they need to keep developing the product, partner
+aggressively, and focus on the customer.  But as soon as the pragmatic
+customers decide to start buying in mass, successful companies should,
+according to Moore's theory, completely forget the customer and their many
+particular wants and desires and instead 100% focus on delivering the product
+as fast as possible.  Any lost sale due to lack of supply goes to some other
+competitor for the lifetime of the market.  Winners sell hard and fast with a
+much lower emphasis, even no emphasis, on hard product innovation.
+
+As this tornado is crushing older business models and leaving everyone
+wondering who will survive and who will be the winner, the market naturally
+sorts companies into three distinct groups: Gorillas, Chimps, and Monkeys.  Why
+these three groups? Because they give nice analogies to relative strength
+between each player.  Gorillas are, well, the winner of the tornado.  They set
+the standard, they define the product category, they take the largest market
+share and the largest portion of the profits.  The chimps are the competitors
+with equally good, or even sometimes better, technology but who failed to work
+the market right.  They survive by being the nicer company that still cares
+about the customer and does some key innovation the Gorilla doesn't do.  The
+monkeys are everyone else that's busy trying to provide low cost clones of the
+top line product.  Its a little gross and brutal, but so are the market
+machines that produce unicorns.
+
+![](231209-tornado-players.png "The market isn't kind enough to let these three
+be friends, but we can pretend right?"){fig-align="center"}
+
+Now, this theory worked well in the 90s and 2000s when products were generally
+hard physical things that required a purchase and support from slower
+distribution channels like retail stores.  These days tho high tech products go
+through the internet with either self-service SaaS or some convoluted
+enterprise sales flow.  Either way, things move faster.  I'm too much of an
+engineer to exactly know how this changes Moore's theory but I'm pretty sure it
+just means some parts of the cycle compress and overlap more than they used to.
+Either way, I'm pretty sure this Tornado is tearing through the tech world
+right now in the form of Generative AI.  So let's cut to the chase.
+
+## Aligning AI: with our tornado market theory
+
+Today's disruptive technology is most obviously generative AI, in the form of
+Large Language Models, Multimodal Modals, and Image/Video generation.  But
+what's not clear is where the Generative AI market is in terms of the standard
+[tech adoption life
+cycle](https://en.wikipedia.org/wiki/Technology_adoption_life_cycle).  Nor is
+it clear what the true "whole product" solution is.  Aside: the whole product
+is the minimal set of associated products or services needed to maximally
+leverage the disruptive technology.  Also, with the entire space of Generative
+AI, there's likely multiple actual markets.  So for simplicity, I want to focus
+on Large Language Models as the baseline disruptive technology.
+
+These started pretty early in machine translation where transformers were first
+applied.  Both my old team, [Google Translate](https://translate.google.com/),
+and our up and coming competitor, [DeepL](https://www.deepl.com/translator),
+demonstrated their visionary behavior.  Google Translate partially adopted
+transformers but also generally favored an alternative technology that turned
+out to be not super discontinuous.  DeepL instead launched fast with
+transfomers to be the first on the market with a full transformer generative AI
+product.  That was the visionary stage, I think.
+
+![](231209-mt-visionary.png "Look at that happy little robot visionary. I
+remember the days when the transformer team came to us and insisted we launch
+it asap.  Too bad we missed that boat"){fig-align="center"}
+
+Then the market wandered through a variety of other niche markets that were
+larger in size.  I wasn't totally paying attention at this time since I was
+still with Google Translate, but looking back I'd say companies like
+[Jasper](http://jasper.ai/) were a key niche market for transformers, now in
+the form of General Pretrained Transformers or GPT for short.  And
+[OpenAI](https://openai.com/) was the leading vendor for transformers.  Others
+were competing and trying things out, but they were building, serving, and
+hosting the whole core product pretty effectively.
+
+Then [ChatGPT](https://chat.openai.com/) came out and *absolutely* crushed the
+bowling alley by gaining 100 million users in light-speed.  That week made it
+absolutely clear that transformers had left the chasm hard.  They left the
+world of niche markets with zero looking back.  They had started a tornado.
+And *everyone* was buying.  A bajillion startups were using OpenAI's APIs to
+build thin wrappers that then sold a generative AI product to some niche
+audience, all while more and more customers consolidated around OpenAI's
+product and standards.
+
+![](231209-state-of-bowling-alley.png "And now the time for bowling is
+over"){fig-align="center"}
+
+Now we have a transformative technology, transformers, flowing through the
+market with clear players.  It's teetering now on main street.  What's not
+clear is what exactly is the whole product solution that wraps around
+transformers to make a truly commoditized product any customer can leverage
+with glee and satisfaction.  Nor is it clear who is going to make it through
+the tornado and end up on top.  But let's make some wild assertions.
+
+## Let's do some positioning Open AI and everyone else
+
+Moore sets out a few key criteria for placing each company into the Gorilla,
+Chimp, and Monkey bucket.  With Gorilla's there's only one.  They define the
+product and the standard that everyone competes with.  They get the best profit
+margin and as they sell, they get stronger.  The chimps are solid alternatives
+that just didn't quite get main street customer attention as fast.  Maybe they
+sold too slowly for "reasons".  Monkeys are all the companies that sell a
+product similar to the Gorilla but with key features missing and much lower
+cost, primarily because they're not setup to push the market forward.
+
+With that reminder, I'm going to throw down some hot takes.
+
+Right now, OpenAI is clearly the market leader.  They are the gorilla.  They
+almost committed suicide with the Board firing Sam Altman, but with them back
+they're likely stronger than ever.  Why are they the gorilla? Well first, Sam
+Altman is no dummy.  He's from Y-Combinator and knows how high tech market
+works and he likely wants to be the winner, even if he doesn't have an equity
+stake in the company.  More importantly tho, if you look at literally any other
+LLM product such as [LangChain](https://www.langchain.com/),
+[Pinecone](http://pinecone.io/), and *any* open source product, they integrate
+with the OpenAI API format.  Even brand new open source models find silly ways
+to fit into OpenAI's function calling format, however painful it is.  I haven't
+seen anyone do that for [Anthropic's
+API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api),
+[Co:here's API](https://docs.cohere.com/), and especially not for any of
+Google's APIs.  So, gorilla is now identified.
+
+![](231209-openai-top-duck.png "That duck? That's OpenAI looking out across the
+market. I'm tired of the Gorilla analogy"){fig-align="center"}
+
+And who are the chimps? The other companies developing and furthering the
+technology but not taking a market leadership position.  Clearly this is
+[Anthropic](https://www.anthropic.com/) and [Co:here](https://cohere.com/).
+Anthropic has been pushing forward hard with aligned AI and constitutional AI
+to carve out their premium positioning.  Cohere has been....I'm not quite sure
+what they've been doing but it looks like they're doing well.  Unless Sam
+Altman gets fired again, neither company will replace OpenAI but they'll keep
+going and provide solid meaningful alternatives. 
+
+But where does Google live? They invented transformers in the first place.
+They even have a fancy new model called
+[Gemini](https://deepmind.google/technologies/gemini/) that they're about to
+release.  But, they dropped the ball hard in a few ways.  Just days ago with
+Gemini they made what I believe is a hard fatal mistake.  They put out a [great
+video](https://www.youtube.com/watch?v=jV1vkHv4zq8) that advances customer
+perception of how they could use generative AI and then they made clear that
+they did *lots* of careful behind the scenes editing to make that happen and
+they didn't even release the top line model with the video.  This means they
+pushed the market demand forward and expanded the whole product and will be
+absolutely unable to sell the promised product.  They put a delicious lunch on
+the table and said to every single competitor "Here, eat my lunch.  I won't be
+doing so".  Whoever actually delivers the product described in the Gemini video
+will crush it financially, and it won't be Google.  Given Google's inability to
+ship, they're not a gorilla, not a chimp, not even a monkey.  They're a dying
+gorilla.  It won't kill Google overall, but it puts them out of the game in
+this new market for sure.
+
+![](231209-google-sad-penguin.png "That penguin? It's Google. Penguins
+obviously don't survive long in the desert."){fig-align="center"}
+
+Now what about my most controversial statement? That Open Source Models are
+monkeys? For the consumer market this is maybe not true.  Perhaps there's a key
+consumer market that needs and wants fully local and private models.  And
+perhaps there's enterprise customers that absolutely need 100% on premise
+solutions.  Those exist, but they're not the size of the rest of the market.
+Open source model developers and hosts will do well in those markets but they
+without a doubt won't be unseating OpenAI as a Gorilla.  For OpenAI's key
+market, they'll be a low cost and low latency clone.  Already [Together
+Compute](http://together.ai/), which I adore a lot, is selling a whole suite of
+open source models as a service and marketing it as both faster and cheaper
+than OpenAI's services.  They don't describe any key innovations that go beyond
+cost and speed.  That's clear monkey activity as per Moore.  Breaks my heart to
+say it, but if they act appropriately, they can still make a good deal of
+money, as long as they don't get aggressive and pretend to be a Gorilla in
+OpenAI's market.  Instead it's for them to develop a side market that OpenAI
+doesn't care about and try to position themselves as a market leader.
+
+## Handwaving towards the future
+
+Now, what is the future like? I suspect we're still figuring out the whole
+product solution.  I'm pretty sure the whole product includes at a minimum:
+
+* A Large Language Model, ala GPT-4
+* Function calling, as found in GPT-4
+* A semantic vector service like Pinecone
+* A retrieval augmented generation (RAG) setup like LangChain
+* Hosting for all this
+
+For the last year those were mostly sold separately sold separately with
+OpenAI, Pinecone, LangChain, and probably Azure or AWS being the key providers.
+But now with OpenAI's [Assistants
+API](https://platform.openai.com/docs/assistants/overview) (and the consumer
+facing GPTs) we can see OpenAI doing exactly what Moore would expect.  They are
+designing out their old partners and commodotized the whole product into a
+single bundle that OpenAI sells.  It may not be the best overall solution, but
+in majority markets with pragmatic buyers that want a clear singular standard
+they can rely on, this strategy often works really well and creates the winner.
+So assuming OpenAI doesn't lose the ball, they look to be the winner.
+
+![](231209-ai-assistant.png "In the future, we won't have to do any real work
+because our AI Assistants will take on human form and do the work for us.  Such
+a blessing of the market"){fig-align="center"}
+
+What's after that? I suspect with AI assistants serving as the commodity whole
+product, once it gets 100% worked out and crystalized into a standard we'll see
+OpenAI start to go back to customer first behaviors as they serve the main
+market with +1 niche solutions.  Already I expect that OpenAI itself wouldn't
+even be building out these niches but instead leverage a two sided market place
+(i.e. the GPTs store).  If they do that, then it really is game over for the
+market with OpenAI being the new Google in the Generative AI market.
+
+But, let's wait and see.

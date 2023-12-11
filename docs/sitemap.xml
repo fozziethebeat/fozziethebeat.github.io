@@ -2,22 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fozziethebeat.com/blog.html</loc>
-    <lastmod>2023-12-06T13:23:31.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fozziethebeat.com/index.html</loc>
-    <lastmod>2023-12-06T13:23:31.189Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fozziethebeat.com/posts/231206-local-llama-electron/index.html</loc>
-    <lastmod>2023-12-06T13:23:30.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fozziethebeat.com/posts/kt-villa-overview/index.html</loc>
-    <lastmod>2023-12-06T13:23:30.809Z</lastmod>
+    <lastmod>2023-12-11T01:34:41.966Z</lastmod>
   </url>
   <url>
     <loc>https://fozziethebeat.com/about.html</loc>
-    <lastmod>2023-12-06T13:23:31.417Z</lastmod>
+    <lastmod>2023-12-11T01:34:41.502Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fozziethebeat.com/posts/231209-the-ai-tornado/index.html</loc>
+    <lastmod>2023-12-11T01:34:40.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fozziethebeat.com/posts/231206-local-llama-electron/index.html</loc>
+    <lastmod>2023-12-11T01:34:40.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fozziethebeat.com/posts/kt-villa-overview/index.html</loc>
+    <lastmod>2023-12-11T01:34:40.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fozziethebeat.com/index.html</loc>
+    <lastmod>2023-12-11T01:35:11.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fozziethebeat.com/random.html</loc>
+    <lastmod>2023-12-11T01:34:41.700Z</lastmod>
   </url>
 </urlset>

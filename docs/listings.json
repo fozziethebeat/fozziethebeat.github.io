@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/231209-the-ai-tornado/index.html",
       "/posts/231206-local-llama-electron/index.html",
       "/posts/kt-villa-overview/index.html"
     ]
@@ -9,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/231209-the-ai-tornado/index.html",
       "/posts/231206-local-llama-electron/index.html",
       "/posts/kt-villa-overview/index.html"
     ]
