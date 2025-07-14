@@ -21,24 +21,6 @@ can show you around).
 ::: {#blog-highlights}
 :::
 
-
-## Upcoming Reviews
-
-* [ ] Making KT-Villa with FastChat, LLaVa & RedwoodJS:
-  * [x] A basic overview
-  * [ ] Gluing Stable Diffusion and Llava together
-  * [ ] Piping in Zephyr-7b
-  * [ ] Why the rest of the project was still hard
-* [ ] Evaluate some interesting projects:
-  * [ ] [ModelFusion](https://modelfusion.dev/guide/)
-  * [x] [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
-  * [ ] [xorbitsai/inference](https://github.com/xorbitsai/inference)
-  * [ ] [Lilac](https://lilacml.com/)
-* [ ] Try out some more models:
-  * [ ] [teknium/OpenHermes-2.5-Mistral-7B](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B)
-  * [ ] [teknium/Mistral-Trismegistus-7B](https://huggingface.co/teknium/Mistral-Trismegistus-7B)
-  * [ ] [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b)
-
 ## Selected Publications
 
 ---
